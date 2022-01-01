@@ -1,0 +1,42 @@
+html {
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color: burlywood;
+}
+
+body {
+    margin: 30px 30px 30px 30px;
+    padding: 0 20px 20px 20px;
+    background-color: beige;
+    border: 5px solid black;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0 25px 0;
+    text-shadow: 0 0 20px yellowgreen;
+}
+
+p, li {
+    font-size: 18;
+    line-height: 2.5;
+    letter-spacing: 1px;
+    padding: 0 20px 0 20px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+a:hover {
+    color: pink;
+}
+
+p:hover, h1:hover, li:hover {
+    color: darkblue;
+}
