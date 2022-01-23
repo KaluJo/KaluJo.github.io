@@ -2,13 +2,24 @@
 
 html, body, div, p {
 	margin: 0;
-	padding-left: max(0, env(safe-area-inset-left));
-    padding-right: max(0, env(safe-area-inset-right));
+	padding-left: 0;
+    padding-right: 0;
 	font-weight: inherit;
 	font-style: inherit;
-	font-size: 100%;
     color: white;
     font-family: 'Source Sans Pro', 'Trebuchet MS', sans-serif;
+}
+
+@media (max-width: 800px) {
+    html, body, div, p {
+        font-size: 200%;
+    }
+}
+
+@media (min-width: 800px) {
+    html, body, div, p {
+        font-size: 100%;
+    }
 }
 
 button,
