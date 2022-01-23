@@ -10,18 +10,6 @@ html, body, div, p {
     font-family: 'Source Sans Pro', 'Trebuchet MS', sans-serif;
 }
 
-@media (max-width: 800px) {
-    html, body, div, p {
-        font-size: 200%;
-    }
-}
-
-@media (min-width: 800px) {
-    html, body, div, p {
-        font-size: 100%;
-    }
-}
-
 button,
 input,
 select,
