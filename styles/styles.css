@@ -8,6 +8,7 @@ html, body, div, p {
 	font-style: inherit;
     color: white;
     font-family: 'Source Sans Pro', 'Trebuchet MS', sans-serif;
+    font-size: 100%;
 }
 
 button,
@@ -27,49 +28,102 @@ textarea {
 
 /* --- Navbar --- */
 
-nav {
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgba(174,218,245,1);
     /*background-color: rgb(219, 125, 45);*/
-    height: 2rem;
     padding: 1rem 1.5rem;
     border-bottom-color: white;
     border-bottom-style: solid;
     border-bottom-width: 0.3rem;
-}
-
-ol, ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.navbar {
-    display: flex;
-}
-
-.navbar a {
     color: white;
+}
+
+.navbar-home a {
+    text-decoration: none;
+    font-size: 2rem;
+    text-shadow: 0 0 10px rgb(80, 80, 80);
+    color: white;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links a {
     text-decoration: none;
     text-shadow: 0 0 10px rgb(80, 80, 80);
-}
-
-.push {
-    margin-left: auto;
-}
-
-.homebutton {
-    line-height: 1;
-    font-size: 2rem;
-}
-
-.pushed a {
-    line-height: 1.5;
+    color: white;
+    padding-left: 1rem;
     font-size: 1.5rem;
-    margin-left: 1.5rem;
+    display: block;
 }
 
 .navbar a:hover {
     text-shadow: 0 0 10px rgb(40, 40, 40);
+}
+
+/* --- Responsive Navbar --- */
+
+.toggle-button {
+    position: absolute;
+    top: 1.55rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(80, 80, 80);
+}
+
+.toggle-button:hover .bar {
+    box-shadow: 0 0 10px rgb(40, 40, 40);
+}
+
+@media (max-width: 600px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
 }
 
 /* --- Main Content --- */

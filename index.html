@@ -8,24 +8,30 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/styles.css">
+        <script src="scripts/script.js" defer></script>
     </head>
 
     <body>
         <div class="content">
-            <nav>
-                <ul class="navbar">
-                    <li class="homebutton"><a href="index.html" title="Link to the homepage">Kalu Jo</a></li>
-                    <li class="push pushed"><a href="about.html" title="About me">About</a></li>
-                    <li class="pushed"><a href="projects.html" title="Showcase of some of my projects">Projects</a></li>
-                    <li class="pushed"><a href="contact.html" title="Information to contact me">Contact</a></li>
-                </ul>
+            <nav class="navbar">
+                <div class="navbar-home"><a href="index.html" title="Link to the homepage">Kalu Jo</a></div>
+                <a href="#" class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+                <div class="navbar-links">
+                    <ul>
+                        <li><a href="about.html" title="About me">About</a></li>
+                        <li><a href="projects.html" title="Showcase of some of my projects">Projects</a></li>
+                        <li><a href="contact.html" title="Information to contact me">Contact</a></li>
+                    </ul>
+                </div>
             </nav>
             <div class="main">
                 <p>I’m Kalu Jo, an aspiring environmental engineer, programmer, and artist with goals to unleash the intersections between sustainability, tech, and creativity to help preserve the planet. Follow me on my journey to keep the planet a safer, cleaner, and more habitable place for all.</p>
             </div>
-            <footer>
-                <small id="copyright">&copy; Kalu Jo</small>
-            </footer>
+            <footer><small id="copyright">&copy; Kalu Jo</small></footer>
         </div>
     </body>
 </html>
