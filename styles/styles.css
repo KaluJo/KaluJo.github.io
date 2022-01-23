@@ -1,0 +1,118 @@
+/* --- Resets --- */
+
+html, body, div, p {
+	margin: 0;
+	padding: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+    color: white;
+    font-family: 'Source Sans Pro', 'Trebuchet MS', sans-serif;
+}
+
+button,
+input,
+select,
+textarea { /* Form Reset */
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+/* --- Navbar --- */
+
+nav {
+    background-color: rgba(174,218,245,1);
+    /*background-color: rgb(219, 125, 45);*/
+    height: 2rem;
+    padding: 1rem 1.5rem;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 0.3rem;
+}
+
+ol, ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgb(80, 80, 80);
+}
+
+.push {
+    margin-left: auto;
+}
+
+.homebutton {
+    line-height: 1;
+    font-size: 2rem;
+}
+
+.pushed a {
+    line-height: 1.5;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.navbar a:hover {
+    text-shadow: 0 0 10px rgb(40, 40, 40);
+}
+
+/* --- Main Content --- */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgba(122,176,213,1);
+    /*background-color: rgb(139,69,60,1);*/
+}
+
+.main {
+    background-image: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(120,176,215,1) 0%, rgba(174,218,245,1) 100%);
+    /*background-image: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(139,69,60,1) 0%, rgb(219, 125, 45) 100%);*/
+}
+
+.main p {
+    font-size: 1.5rem;
+    vertical-align: middle;
+    text-shadow: 0 0 10px rgb(80, 80, 80);
+    padding: 6rem 5rem 5rem 5rem;
+}
+
+
+/* --- Footer --- */
+
+footer {
+    flex: 1 50vmin;
+    align-self: stretch;
+    background-image: url('../images/bluesky_footer.png');
+    /*background-image: url('../images/sunset_footer.png');*/
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    align-items: flex-end;
+    
+}
+
+footer #copyright {
+    font-size: 1rem;
+    display: flex;
+    margin-top: 45vmin;
+    justify-content: center;
+    text-shadow: 0 0 10px black;
+}

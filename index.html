@@ -2,27 +2,31 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Test page :D</title>
-        <link href="styles/style.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+        <title>Homepage</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/styles.css">
     </head>
+
     <body>
-
-        <h1>Beautiful and Magical Image</h1>
-        <img src="images/magic.jpeg" alt="An image of a magical book.">
-        <p>Isn't it really amazing? Consider these reasons:</p>
-        
-        <ul>
-            <li>it's MAGIC</li>    
-            <li>it's a BOOK</li>
-            <li>it's LIFECHANGING</li>
-        </ul>
-
-        <p>It's quite common to criticize magic. After all, does it truly even exist? Probably. How do I know this? I just know deep down in my heart. If you're interested in learning more, please follow this <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">link</a>.</p>
-
-        <button>Using the magical power of the book, change your identity!</button>
-
-        <script src="scripts/main.js"></script>
-        
+        <div class="content">
+            <nav>
+                <ul class="navbar">
+                    <li class="homebutton"><a href="index.html" title="Link to the homepage">Kalu Jo</a></li>
+                    <li class="push pushed"><a href="about.html" title="About me">About</a></li>
+                    <li class="pushed"><a href="projects.html" title="Showcase of some of my projects">Projects</a></li>
+                    <li class="pushed"><a href="contact.html" title="Information to contact me">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="main">
+                <p>I’m Kalu Jo, an aspiring environmental engineer, programmer, and artist with goals to unleash the intersections between sustainability, tech, and creativity to help preserve the planet. Follow me on my journey to keep the planet a safer, cleaner, and more habitable place for all.</p>
+            </div>
+            <footer>
+                <div class="footer">
+                    <small id="copyright">&copy; Kalu Jo</small>
+                </div>
+            </footer>
+        </div>
     </body>
 </html>
