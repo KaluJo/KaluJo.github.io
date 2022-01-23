@@ -7,7 +7,7 @@ html, body, div, p {
 	font-weight: inherit;
 	font-style: inherit;
     color: white;
-    font-family: 'Source Sans Pro', 'Trebuchet MS', sans-serif;
+    font-family: 'Comic Sans MS', 'Source Sans Pro', 'Trebuchet MS', sans-serif;
     font-size: 100%;
 }
 
@@ -44,14 +44,14 @@ textarea {
 .navbar-home a {
     text-decoration: none;
     font-size: 2rem;
-    text-shadow: 0 0 10px rgb(80, 80, 80);
+    text-shadow: 0 0 10px rgb(60, 60, 60);
     color: white;
 }
 
 .navbar-links ul {
     display: flex;
     margin: 0;
-    padding: 0;
+    padding: 0.25rem 0 0 0;
 }
 
 .navbar-links li {
@@ -63,7 +63,7 @@ textarea {
     text-shadow: 0 0 10px rgb(80, 80, 80);
     color: white;
     padding-left: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     display: block;
 }
 
@@ -75,8 +75,8 @@ textarea {
 
 .toggle-button {
     position: absolute;
-    top: 1.55rem;
-    right: 1rem;
+    top: 1.65rem;
+    right: 1.5rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
