@@ -2,7 +2,8 @@
 
 html, body, div, p {
 	margin: 0;
-	padding: 0;
+	padding-left: max(0, env(safe-area-inset-left));
+    padding-right: max(0, env(safe-area-inset-right));
 	font-weight: inherit;
 	font-style: inherit;
 	font-size: 100%;
