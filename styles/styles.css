@@ -98,6 +98,7 @@ ol, ul {
 /* --- Footer --- */
 
 footer {
+    display: flex;
     flex: 1 50vmin;
     align-self: stretch;
     background-image: url('../images/bluesky_footer.png');
@@ -106,13 +107,12 @@ footer {
     background-repeat: repeat-x;
     background-position: bottom;
     align-items: flex-end;
-    
+    justify-content: center;
 }
 
 footer #copyright {
     font-size: 1rem;
-    display: flex;
-    margin-top: 45vmin;
-    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
     text-shadow: 0 0 10px black;
 }
