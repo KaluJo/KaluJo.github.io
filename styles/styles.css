@@ -7,7 +7,7 @@ html, body, div, p {
 	font-weight: inherit;
 	font-style: inherit;
     color: white;
-    font-family: 'Comic Sans MS', 'Source Sans Pro', 'Trebuchet MS', sans-serif;
+    font-family: 'Assistant', 'Trebuchet MS', sans-serif;
     font-size: 100%;
 }
 
@@ -32,13 +32,13 @@ textarea {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(174,218,245,1);
-    /*background-color: rgb(219, 125, 45);*/
     padding: 1rem 1.5rem;
     border-bottom-color: white;
     border-bottom-style: solid;
     border-bottom-width: 0.3rem;
     color: white;
+    background-color: rgba(174,218,245,1);
+    /*background-color: rgb(219, 125, 45);*/
 }
 
 .navbar-home a {
@@ -46,12 +46,13 @@ textarea {
     font-size: 2rem;
     text-shadow: 0 0 10px rgb(60, 60, 60);
     color: white;
+    padding: 0 0 0 0.25rem;
 }
 
 .navbar-links ul {
     display: flex;
     margin: 0;
-    padding: 0.25rem 0 0 0;
+    padding: 0 0.25rem 0 0;
 }
 
 .navbar-links li {
@@ -59,16 +60,16 @@ textarea {
 }
 
 .navbar-links a {
-    text-decoration: none;
-    text-shadow: 0 0 10px rgb(80, 80, 80);
-    color: white;
-    padding-left: 1rem;
-    font-size: 1.75rem;
     display: block;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgb(60, 60, 60);
+    color: white;
+    font-size: 1.75rem;
 }
 
 .navbar a:hover {
-    text-shadow: 0 0 10px rgb(40, 40, 40);
+    text-shadow: 0 0 10px rgb(20, 20, 20);
 }
 
 /* --- Responsive Navbar --- */
@@ -76,7 +77,7 @@ textarea {
 .toggle-button {
     position: absolute;
     top: 1.65rem;
-    right: 1.5rem;
+    right: 1.75rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -89,11 +90,11 @@ textarea {
     width: 100%;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgb(80, 80, 80);
+    box-shadow: 0 0 10px rgb(60, 60, 60);
 }
 
 .toggle-button:hover .bar {
-    box-shadow: 0 0 10px rgb(40, 40, 40);
+    box-shadow: 0 0 10px rgb(20, 20, 20);
 }
 
 @media (max-width: 600px) {
@@ -123,7 +124,6 @@ textarea {
     .navbar-links.active {
         display: flex;
     }
-
 }
 
 /* --- Main Content --- */
@@ -139,15 +139,44 @@ textarea {
 .main {
     background-image: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(120,176,215,1) 0%, rgba(174,218,245,1) 100%);
     /*background-image: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(139,69,60,1) 0%, rgb(219, 125, 45) 100%);*/
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.main h1 {
+    font-size: 1.75rem;
+    vertical-align: middle;
+    text-shadow: 0 0 10px rgb(80, 80, 80);
+    padding: 1rem 3rem;
 }
 
 .main p {
     font-size: 1.5rem;
     vertical-align: middle;
     text-shadow: 0 0 10px rgb(80, 80, 80);
-    padding: 6rem 5rem 5rem 5rem;
+    padding: 0.5rem 5rem;
 }
 
+.main a {
+    color: white;
+}
+
+.main a:hover {
+    color: white;
+    text-shadow: 0 0 10px rgb(20, 20, 20);
+}
+
+.main li {
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 0.5rem 2.5rem;
+    text-shadow: 0 0 5px rgb(80, 80, 80);
+}
+
+.main #main-text {
+    padding-top: 5rem;
+    text-shadow: 0 0 10px rgb(60, 60, 60);
+}
 
 /* --- Footer --- */
 
