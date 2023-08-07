@@ -2,8 +2,6 @@ import styled from 'styled-components';
 import footerImage2 from '../images/babyblu.png';
 import footerImage from '../images/babybluflipped.png';
 
-import ocean from '../images/Ocean.png';
-
 /* --- Resets --- */
 export const Base = styled.div`
   position: absolute;
