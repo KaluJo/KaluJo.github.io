@@ -27,23 +27,9 @@ const HomePage = () => {
 
     const [touchStart, setTouchStart] = useState(0);
 
-    const handleTouchStart = (e) => {
-        setTouchStart(e.touches[0].clientY);
-    };
-
-    const handleTouchMove = (e) => {
-        const touchEnd = e.changedTouches[0].clientY;
-        const scrollDirection = touchEnd - touchStart;
-        updateScrolling(-scrollDirection);
-    };
-
     const handleWheel = (e) => {
         const scrollDirection = e.deltaY;
-        updateScrolling(scrollDirection);
-    };
-
-    const updateScrolling = (scrollDirection) => {
-        // Modify percentageScrolled based on the scroll direction
+    
         let newPercentage = percentageScrolled;
         if (scrollDirection > 0) {
             newPercentage += 0.01; // Scroll down
@@ -52,29 +38,65 @@ const HomePage = () => {
         }
         newPercentage = Math.max(0, Math.min(1, newPercentage));
         setPercentageScrolled(newPercentage);
-
-        let r = 67 + (10 - 67) * newPercentage * 1;
-        let g = 174 + (23 - 174) * newPercentage * 1;
-        let b = 218 + (52 - 218) * newPercentage * 1;
-        let brightness = 1 - newPercentage * 0.1; // Adjust the multiplier for the desired effect
-
+    
+        updateColor(newPercentage);
+    };
+    
+    const handleScroll = () => {
+        const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const scrollTop = window.scrollY;
+    
+        // Calculate the percentage scrolled
+        const newPercentage = scrollTop / scrollHeight;
+    
+        updateColor(newPercentage);
+    };
+    
+    const updateColor = (percentage) => {
+        let r = 67 + (10 - 67) * percentage * 1;
+        let g = 174 + (23 - 174) * percentage * 1;
+        let b = 218 + (52 - 218) * percentage * 1;
+        let brightness = 1 - percentage * 0.1; // Adjust the multiplier for the desired effect
+    
         setBgColor({
             color: `rgb(${Math.round(r)}, ${Math.round(g)}, ${Math.round(b)})`,
             brightness: brightness
         });
     };
-
-    useEffect(() => {
+    
+    const handleTouchStart = (e) => {
+        setTouchStart(e.touches[0].clientY);
+      };
+      
+      const handleTouchMove = (e) => {
+        const touchMove = e.touches[0].clientY;
+        const difference = touchStart - touchMove;
+        
+        // You can adjust this factor for sensitivity
+        const factor = 0.0002;
+      
+        // Update percentageScrolled based on the swipe direction
+        let newPercentage = percentageScrolled + difference * factor;
+        newPercentage = Math.max(0, Math.min(1, newPercentage));
+        setPercentageScrolled(newPercentage);
+        
+        updateColor(newPercentage);
+      };
+      
+      useEffect(() => {
+        // For desktop
         window.addEventListener('wheel', handleWheel);
+        
+        // For mobile devices
         window.addEventListener('touchstart', handleTouchStart);
         window.addEventListener('touchmove', handleTouchMove);
-
+      
         return () => {
-            window.removeEventListener('wheel', handleWheel);
-            window.removeEventListener('touchstart', handleTouchStart);
-            window.removeEventListener('touchmove', handleTouchMove);
+          window.removeEventListener('wheel', handleWheel);
+          window.removeEventListener('touchstart', handleTouchStart);
+          window.removeEventListener('touchmove', handleTouchMove);
         };
-    }, [percentageScrolled]);
+      }, [percentageScrolled, touchStart]);
 
     return (
         <div>
@@ -86,7 +108,7 @@ const HomePage = () => {
                             <NavbarButtons>
                                 <NavbarHome>
                                     <Link to="/" title="Link to the homepage">
-                                        Bhada
+                                        Home
                                     </Link>
                                 </NavbarHome>
                                 <NavbarLinks>

@@ -67,7 +67,7 @@ const Contact = () => {
                             <NavbarButtons>
                                 <NavbarHome>
                                     <Link to="/" title="Link to the homepage">
-                                        Bhada Yun
+                                        Home
                                     </Link>
                                 </NavbarHome>
                                 <NavbarLinks>
