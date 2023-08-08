@@ -77,13 +77,13 @@ a {
     text-decoration: none;
     font-weight: 500;
     font-size: 1.7rem;
-    text-shadow: 0 0 10px rgb(80, 80, 80);
+    text-shadow: 0 0 6px rgb(80, 80, 80);
     color: white;
     padding: 0 0 0 0.25rem;
   }
 
   a:hover {
-    text-shadow: 0 0 10px rgb(40, 40, 40);
+    text-shadow: 0 0 6px rgb(40, 40, 40);
   }
 `;
 
@@ -104,13 +104,13 @@ export const NavbarLinks = styled.div`
     display: block;
     margin-left: 1.5rem;
     text-decoration: none;
-    text-shadow: 0 0 10px rgb(80, 80, 80);
+    text-shadow: 0 0 6px rgb(80, 80, 80);
     color: white;
     font-size: 1.7rem;
   }
 
   a:hover {
-    text-shadow: 0 0 10px rgb(40, 40, 40);
+    text-shadow: 0 0 6px rgb(40, 40, 40);
   }
 `;
 
@@ -174,7 +174,7 @@ export const MainLink = styled.a`
 
   &:hover {
     color: white;
-    /* text-shadow: 0 0 10px rgb(20, 20, 20); */
+    text-shadow: 0 0 6px rgb(20, 20, 20);
   }
 `;
 
@@ -195,7 +195,7 @@ export const MainContent = styled.div`
 export const MainText = styled.p`
   font-size: 1.5rem;
   vertical-align: middle;
-  text-shadow: 0 0 8px rgb(100, 100, 100);
+  text-shadow: 0 0 6px rgb(100, 100, 100);
   padding-top: 2rem;
   /* padding-bottom: 5rem; */
 
@@ -233,9 +233,9 @@ export const FooterBackground = styled.div`
 `;
 
 export const Copyright = styled.div`
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-align: center;
   padding-bottom: 1rem;
-  text-shadow: 0 0 10px rgb(40, 40, 40);
+  text-shadow: 0 0 6px rgb(40, 40, 40);
   z-index: 10;
 `;
