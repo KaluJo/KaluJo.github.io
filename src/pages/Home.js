@@ -32,7 +32,7 @@ const HomePage = () => {
     
         let newPercentage = percentageScrolled;
         if (scrollDirection > 0) {
-            newPercentage += 0.01; // Scroll down
+            newPercentage += 0.05; // Scroll down
         } else if (scrollDirection < 0) {
             newPercentage -= 0.05; // Scroll up
         }
@@ -51,12 +51,12 @@ const HomePage = () => {
     
         updateColor(newPercentage);
     };
-    
+
     const updateColor = (percentage) => {
         let r = 67 + (10 - 67) * percentage * 1;
         let g = 174 + (23 - 174) * percentage * 1;
         let b = 218 + (52 - 218) * percentage * 1;
-        let brightness = 1 - percentage * 0.1; // Adjust the multiplier for the desired effect
+        let brightness = 1 - percentage * 0.25; // Adjust the multiplier for the desired effect
     
         setBgColor({
             color: `rgb(${Math.round(r)}, ${Math.round(g)}, ${Math.round(b)})`,
@@ -73,7 +73,7 @@ const HomePage = () => {
         const difference = touchStart - touchMove;
         
         // You can adjust this factor for sensitivity
-        const factor = 0.0002;
+        const factor = 0.001;
       
         // Update percentageScrolled based on the swipe direction
         let newPercentage = percentageScrolled + difference * factor;
@@ -143,7 +143,7 @@ const HomePage = () => {
                                 My latest project is Bap, a food diary & social app designed to unite food enthusiasts, explore diverse culinary cultures, and inspire shared experiences and connections across the globe. It's in its early stages still, but I'm excited by the potential it holds to reshape our engagement with food, technology, and community on a global scale.
                             </MainText>
                             <MainText>
-                                This is where you can find my creative dumps. I post art, thoughts, and what not, I hope you find something interesting!
+                                This is where you can find my creative dumps. I post art, thoughts, and whatnot, I hope you find something interesting!
                             </MainText>
                         </Main>
                     </MainContent>

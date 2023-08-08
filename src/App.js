@@ -1,8 +1,9 @@
 import React from 'react';
 import Navigator from './navigator/Navigator';
-import '@fontsource/dm-sans';
-import '@fontsource/dm-sans/500.css'; // for font-weight: 500
-import '@fontsource/dm-sans/700.css'; // for font-weight: 700
+import '@fontsource-variable/outfit';
+import '@fontsource-variable/domine';
+import '@fontsource/noto-sans';
+
 
 const App = () => {
   return <Navigator />;

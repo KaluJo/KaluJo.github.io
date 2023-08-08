@@ -11,14 +11,13 @@ export const Base = styled.div`
   right: 0;
   overflow: auto;
 
-  html, body, div, p {
+  html, body, div {
     margin: 0;
     padding-left: 0;
     padding-right: 0;
     color: white;
-    font-family: 'DM Sans', 'Trebuchet MS', sans-serif;
-    font-weight: 500;
-    letter-spacing: -0.02rem; 
+    font-family: 'Outfit Variable', sans-serif;
+    font-weight: 400;
   }
 
   button, input, select, textarea {
@@ -76,14 +75,15 @@ export const NavbarHome = styled.div`
 
 a {
     text-decoration: none;
+    font-weight: 500;
     font-size: 1.7rem;
-    text-shadow: 0 0 10px rgb(60, 60, 60);
+    text-shadow: 0 0 10px rgb(80, 80, 80);
     color: white;
     padding: 0 0 0 0.25rem;
   }
 
   a:hover {
-    text-shadow: 0 0 10px rgb(20, 20, 20);
+    text-shadow: 0 0 10px rgb(40, 40, 40);
   }
 `;
 
@@ -100,16 +100,17 @@ export const NavbarLinks = styled.div`
   }
 
   a {
+    font-weight: 500;
     display: block;
     margin-left: 1.5rem;
     text-decoration: none;
-    text-shadow: 0 0 10px rgb(60, 60, 60);
+    text-shadow: 0 0 10px rgb(80, 80, 80);
     color: white;
     font-size: 1.7rem;
   }
 
   a:hover {
-    text-shadow: 0 0 10px rgb(20, 20, 20);
+    text-shadow: 0 0 10px rgb(40, 40, 40);
   }
 `;
 
@@ -132,7 +133,7 @@ export const ToggleButton = styled.div`
   }
 
   &:hover .bar {
-    box-shadow: 0 0 10px rgb(20, 20, 20);
+    /* box-shadow: 0 0 10px rgb(20, 20, 20); */
   }
 
   @media (max-width: 600px) {
@@ -149,7 +150,7 @@ export const Content = styled.div`
 
 export const Main = styled.main`
   padding-top: 1rem;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
   padding-left: 5vw;
   padding-right: 5vw;
 `;
@@ -157,14 +158,14 @@ export const Main = styled.main`
 export const MainHeading = styled.h1`
   font-size: 1.6rem;
   vertical-align: middle;
-  text-shadow: 0 0 10px rgb(80, 80, 80);
+  /* text-shadow: 0 0 10px rgb(80, 80, 80); */
   padding: 1rem 3rem;
 `;
 
 export const MainParagraph = styled.p`
   font-size: 1.5rem;
   vertical-align: middle;
-  text-shadow: 0 0 10px rgb(80, 80, 80);
+  /* text-shadow: 0 0 10px rgb(80, 80, 80); */
   padding: 0.5rem 5rem;
 `;
 
@@ -173,7 +174,7 @@ export const MainLink = styled.a`
 
   &:hover {
     color: white;
-    text-shadow: 0 0 10px rgb(20, 20, 20);
+    /* text-shadow: 0 0 10px rgb(20, 20, 20); */
   }
 `;
 
@@ -181,7 +182,7 @@ export const MainListItem = styled.li`
   list-style: none;
   font-size: 1.5rem;
   padding: 0.5rem 2.5rem;
-  text-shadow: 0 0 5px rgb(80, 80, 80);
+  /* text-shadow: 0 0 5px rgb(80, 80, 80); */
 `;
 
 export const MainContent = styled.div`
@@ -194,9 +195,9 @@ export const MainContent = styled.div`
 export const MainText = styled.p`
   font-size: 1.5rem;
   vertical-align: middle;
-  text-shadow: 0 0 10px rgb(80, 80, 80);
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  text-shadow: 0 0 8px rgb(100, 100, 100);
+  padding-top: 2rem;
+  /* padding-bottom: 5rem; */
 
   a {
     color: white
@@ -214,6 +215,7 @@ export const Footer = styled.footer`
   background-position: bottom;
   align-items: flex-end;
   justify-content: center;
+  padding-top: 5rem;
 `;
 
 
@@ -234,6 +236,6 @@ export const Copyright = styled.div`
   font-size: 1rem;
   text-align: center;
   padding-bottom: 1rem;
-  text-shadow: 0 0 5px black;
+  text-shadow: 0 0 10px rgb(40, 40, 40);
   z-index: 10;
 `;
