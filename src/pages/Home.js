@@ -131,7 +131,7 @@ const HomePage = () => {
                                 Currently a Junior at UC Berkeley majoring in Electrical Engineering & Computer Science and minoring in Linguistics.
                             </MainText>
                             <MainText>
-                                My latest project is Bap, a food diary & social app designed to unite food enthusiasts, explore diverse culinary cultures, and inspire shared experiences and connections across the globe. It's in its early stages still, but I'm excited by the potential it holds to reshape our engagement with food, technology, and community on a global scale.
+                                My latest project is Bap, a social food diary designed to unite food enthusiasts, explore diverse culinary cultures, and inspire shared experiences and connections across the globe. It's in its early stages still, but I'm excited by the potential it holds to reshape our engagement with food, technology, and community. You can check it out <a href="https://apps.apple.com/us/app/bap-social-food-diary/id6450421562">here</a>
                             </MainText>
                             <MainText>
                                 This is where you can find my creative dumps. I post art, thoughts, and whatnot, I hope you find something interesting!
