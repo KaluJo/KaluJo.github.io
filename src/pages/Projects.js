@@ -130,10 +130,13 @@ const Projects = () => {
                         </Navbar>
                         <Main>
                             <MainText>
-                                Bap: Food Diary & Social App
+                                Bap: Social Food Diary
                             </MainText>
                             <MainText>
                                 Timeless Treasures
+                            </MainText>
+                            <MainText>
+                                Retreev
                             </MainText>
                             <MainText>
                                 Conscripts
@@ -143,6 +146,9 @@ const Projects = () => {
                             </MainText>
                             <MainText>
                                 Conlangs (coming soon)
+                            </MainText>
+                            <MainText>
+                                + school projects
                             </MainText>
                         </Main>
                     </MainContent>
