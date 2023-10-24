@@ -3,30 +3,26 @@ import footerImage2 from '../images/babyblu.png';
 import footerImage from '../images/babybluflipped.png';
 
 export const SpotlightContent = styled.div`
-  display: flex;
-  flex-direction: column;
-  scroll-snap-type: y mandatory;
-  scroll-snap-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 
-  overflow-y: scroll;
+    ::-webkit-scrollbar {
+        display: none;
+    }
 
-  height: 100vh;
+    scrollbar-width: none;
 
-  ::-webkit-scrollbar {
-    display: none;
-  }
+    -ms-overflow-style: none;
 
-  scrollbar-width: none;
-
-  -ms-overflow-style: none;
+    @media (min-width: 769px) {
+        scroll-snap-type: y mandatory;
+        scroll-snap-align: center;
+        overflow-y: scroll;
+    }
 `;
 
 export const SpotlightContainer = styled.div`
-    /* border: 2px solid #FFFFFF; */
-
-    scroll-snap-align: center;
-    scroll-snap-stop: normal;
-
     min-height: 100vh;
 
     border-radius: 8px;
@@ -38,10 +34,18 @@ export const SpotlightContainer = styled.div`
     @media (max-width: 768px) {
         padding: 10px;
     }
+
+    @media (min-width: 769px) {
+        scroll-snap-align: center;
+        scroll-snap-stop: normal;
+    }
 `;
 
 export const ProjectName = styled.a`
-    scroll-snap-stop: always;
+    @media (min-width: 769px) {
+        scroll-snap-stop: always;
+    }
+        
     font-size: 1.5rem;
     vertical-align: middle;
     text-shadow: 0 0 6px rgb(100, 100, 100);
