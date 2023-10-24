@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.0ff1bddd.css",
-    "main.js": "/static/js/main.923bd8bb.js",
+    "main.js": "/static/js/main.12ca4c5f.js",
     "static/js/787.e786cf46.chunk.js": "/static/js/787.e786cf46.chunk.js",
+    "static/media/bapimage.png": "/static/media/bapimage.0cc73b9d5258a3a5723a.png",
     "static/media/babybluflipped.png": "/static/media/babybluflipped.2c1f5b203116bb0989ef.png",
     "static/media/babyblu.png": "/static/media/babyblu.fa24a71585eb69cfb8b1.png",
     "static/media/noto-sans-devanagari-400-normal.woff": "/static/media/noto-sans-devanagari-400-normal.9ecc9ba0fbe6be5443a7.woff",
@@ -12,6 +13,7 @@
     "static/media/outfit-latin-wght-normal.woff2": "/static/media/outfit-latin-wght-normal.6c5d44285fbcc597b67a.woff2",
     "static/media/domine-latin-wght-normal.woff2": "/static/media/domine-latin-wght-normal.22c7fa007039495de02b.woff2",
     "static/media/noto-sans-cyrillic-ext-400-normal.woff": "/static/media/noto-sans-cyrillic-ext-400-normal.62f0cc487f1c4f70dd2a.woff",
+    "static/media/appstorebadge.png": "/static/media/appstorebadge.773ae3df86acaac4e459.png",
     "static/media/noto-sans-cyrillic-ext-400-normal.woff2": "/static/media/noto-sans-cyrillic-ext-400-normal.ee3764412d1a1ee16a4e.woff2",
     "static/media/noto-sans-latin-400-normal.woff": "/static/media/noto-sans-latin-400-normal.fda5abef7deccaf37bf2.woff",
     "static/media/outfit-latin-ext-wght-normal.woff2": "/static/media/outfit-latin-ext-wght-normal.a7f816e05f1202711a29.woff2",
@@ -27,11 +29,11 @@
     "static/media/noto-sans-greek-ext-400-normal.woff2": "/static/media/noto-sans-greek-ext-400-normal.a53d3a503b7febd2de61.woff2",
     "index.html": "/index.html",
     "main.0ff1bddd.css.map": "/static/css/main.0ff1bddd.css.map",
-    "main.923bd8bb.js.map": "/static/js/main.923bd8bb.js.map",
+    "main.12ca4c5f.js.map": "/static/js/main.12ca4c5f.js.map",
     "787.e786cf46.chunk.js.map": "/static/js/787.e786cf46.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ff1bddd.css",
-    "static/js/main.923bd8bb.js"
+    "static/js/main.12ca4c5f.js"
   ]
 }
