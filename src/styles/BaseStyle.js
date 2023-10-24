@@ -11,6 +11,14 @@ export const Base = styled.div`
   right: 0;
   overflow: auto;
 
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  scrollbar-width: none;
+
+  -ms-overflow-style: none;
+  
   html, body, div {
     margin: 0;
     padding-left: 0;
@@ -44,14 +52,14 @@ export const Navbar = styled.div`
   background-repeat: repeat-z;
   background-position: bottom;
   justify-content: center;
-  position: relative; // This ensures that the children can be positioned relative to this container
+  position: relative; 
 `;
 
 export const NavbarBackground = styled.div`
-  position: absolute; // This positions it relative to the Navbar container
+  position: absolute; 
   width: 100%;
   height: 50vmin;
-  z-index: 1; // Lower z-index so it's behind the buttons
+  z-index: 1;
   background-image: url(${footerImage});
   filter: brightness(${({ bgColor }) => bgColor.brightness});
   background-size: contain;
@@ -61,15 +69,15 @@ export const NavbarBackground = styled.div`
 `;
 
 export const NavbarButtons = styled.div`
- position: absolute; // This will keep it fixed at the top of the viewport
+ position: absolute; 
   top: 3rem;
-  left: 0; // Added to make sure it's centered
-  right: 0; // Added to make sure it's centered
+  left: 0; 
+  right: 0; 
   flex-direction: row;
   align-items: flex-end;
-  justify-content: center; // This centers the buttons horizontally
+  justify-content: center; 
   display: flex;
-  z-index: 10; // Higher z-index to keep it on top
+  z-index: 10;
 `;
 export const NavbarHome = styled.div`
 
@@ -145,12 +153,15 @@ export const ToggleButton = styled.div`
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+
+  scroll-snap-type: y proximity;
+  overflow-y: scroll;
 `;
 
 export const Main = styled.main`
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 5rem;
   padding-left: 5vw;
   padding-right: 5vw;
 `;
@@ -188,7 +199,9 @@ export const MainListItem = styled.li`
 export const MainContent = styled.div`
   display: flex;
   flex-direction: column;
+  margin-bottom: 100px;
   /* background-color: rgb(67, 174, 218); */
+  
 `;
 
 // MainText
@@ -207,8 +220,12 @@ export const MainText = styled.p`
 /* --- Footer --- */
 
 export const Footer = styled.footer`
+  scroll-snap-align: center;
+  scroll-snap-stop: normal;
+    
   display: flex;
   flex: 1 50vmin;
+  height: 100vh;
   align-self: stretch;
   background-size: contain;
   background-repeat: repeat-x;
@@ -216,14 +233,15 @@ export const Footer = styled.footer`
   align-items: flex-end;
   justify-content: center;
   padding-top: 5rem;
+
+  margin-top: 50vmin;
 `;
 
 
 export const FooterBackground = styled.div`
-  position: absolute; // This positions it relative to the Navbar container
   width: 100%;
   height: 50vmin;
-  z-index: 1; // Lower z-index so it's behind the buttons
+  z-index: 1;
   background-image: url(${footerImage2});
   filter: brightness(${({ bgColor }) => bgColor.brightness});
   background-size: contain;
@@ -233,9 +251,19 @@ export const FooterBackground = styled.div`
 `;
 
 export const Copyright = styled.div`
-  font-size: 1.1rem;
+  justify-self: flex-end;
+  
+  bottom: 30px;
+
+  position: relative;
+  
+  font-size: 1rem;
   text-align: center;
-  padding-bottom: 1rem;
+  padding-bottom: -10rem;
+  margin-bottom: -10rem;
+
+  height: 0px;
+
   text-shadow: 0 0 6px rgb(40, 40, 40);
   z-index: 10;
 `;

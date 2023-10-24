@@ -1,12 +1,12 @@
 import React from 'react';
-import Navigator from './navigator/Navigator';
 import '@fontsource-variable/outfit';
 import '@fontsource-variable/domine';
 import '@fontsource/noto-sans';
+import HomePage from './pages/Home';
 
 
 const App = () => {
-  return <Navigator />;
+  return <HomePage />;
 };
 
 export default App;
