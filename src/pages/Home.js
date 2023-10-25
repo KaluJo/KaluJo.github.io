@@ -107,7 +107,7 @@ const HomePage = () => {
                     <MainText>
                         My research interests lie at the intersection of Human-Computer Interaction (HCI), Artificial Intelligence (AI), Natural Language Processing (NLP), and pedagogy. I firmly believe in the power of communication and am convinced that with context, compassion, and courage, we can come to understand anyone, and any "other".</MainText>
                     <MainText>
-                        Currently a Junior at UC Berkeley majoring in Electrical Engineering & Computer Science and minoring in Linguistics.
+                        Currently a Junior at UC Berkeley pursuing a double major in Computer Science & Linguistics.
                     </MainText>
                     <MainText>
                         I am currently working on an language learning app called Retreev. Based around new research about language acquisition and creative uses of LLMs, I want to challenge myself into creating something that can help people learn languages more efficiently and effectively.
@@ -152,7 +152,7 @@ const HomePage = () => {
 
                     <ProjectSpotlight
                         name={"My Language Learning Journey"}
-                        description={"I've always been fascinated by languages. Learning a language is like discovering a new world, and I like exploring new worlds. Below is my progress:"}
+                        description={"I've always been fascinated by languages. Learning a language is like discovering a new world, and I like exploring new worlds."}
                         languages={
                             ["English (Native): Primary working & social language. I'd like to learn an Aussie accent one day.",
                                 "한국어 (Native): Primary family language. Consuming Korean media keeps me fluent. Let me know if you want to have a full conversation in Konglish.",
