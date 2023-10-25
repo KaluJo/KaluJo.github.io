@@ -18,7 +18,7 @@ import {
 } from '../styles/BaseStyle';
 
 import ProjectSpotlight from '../components/ProjectSpotlight';
-import { SpotlightContent } from '../styles/SpotlightStyle';
+import { SpotlightContent, SpotlightDescription } from '../styles/SpotlightStyle';
 
 const HomePage = () => {
     const [bgColor, setBgColor] = useState({
@@ -148,6 +148,20 @@ const HomePage = () => {
                         description={"To help me learn German from scratch using just sentences and pattern recognition, I created Dootch. I am actively memorizing 3-5 sentences daily using this app. I hope to expand this to other languages in the future."}
                         techStack={"React (TypeScript), MongoDB, DeepL API, OpenAI GPT-4, Mantine & Chakra.UI"}
                         videoLink={"https://youtu.be/X7T84kOzuBA"}
+                    />
+
+                    <ProjectSpotlight
+                        name={"My Language Learning Journey"}
+                        description={"I've always been fascinated by languages. Learning a language is like discovering a new world, and I like exploring new worlds. Below is my progress:"}
+                        languages={
+                            ["English (Native): Primary working & social language. I'd like to learn an Aussie accent one day.",
+                                "한국어 (Native): Primary family language. Consuming Korean media keeps me fluent. Let me know if you want to have a full conversation in Konglish.",
+                                "Français (Intermediate): A lot of my current media consumption is French so it's gradually improving. I can read basic novels but will have trouble if you try to start a conversation but I'll appreciate any practice.",
+                                "中文/普通话 (Unsure): I was pretty good in high school, but haven't used it much since. Given little speaking practice, I have trouble remembering tones for proper speaking, but can read and understand various contexts. I definitely will be picking this back up in the future.",
+                                "日本語 (Beginntermediate): Actively learning it right now. I treat learning Kanji like catching Pokémon. Gotta catch 'em all!",
+                                "Deutsch (Beginner): I'm trying out a new learning tactic with this one. We'll see how it goes! Viel Glück.",
+                                "What should I add next?"
+                            ]}
                     />
 
                     <Footer>

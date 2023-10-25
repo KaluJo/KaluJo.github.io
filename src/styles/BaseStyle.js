@@ -207,7 +207,7 @@ export const MainContent = styled.div`
 
 // MainText
 export const MainText = styled.p`
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     vertical-align: middle;
     text-shadow: 0 0 6px rgb(100, 100, 100);
     padding-top: 2rem;

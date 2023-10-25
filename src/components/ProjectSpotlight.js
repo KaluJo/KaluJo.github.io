@@ -10,7 +10,7 @@ import {
     SpotlightStack
 } from '../styles/SpotlightStyle';
 
-const ProjectSpotlight = React.forwardRef(({ name, link, description, techStack, image1, image2, image3, videoLink }, ref) => {
+const ProjectSpotlight = React.forwardRef(({ name, link, description, techStack, image1, image2, image3, videoLink, languages }, ref) => {
     return (
         <SpotlightContainer>
             <ProjectName href={link} target="_blank" rel="noopener noreferrer">{name}</ProjectName>
@@ -25,12 +25,14 @@ const ProjectSpotlight = React.forwardRef(({ name, link, description, techStack,
                     style={{ marginBottom: '1.2rem' }}
                 />
             )}
-            <SpotlightDescription>{description}</SpotlightDescription>
-            <SpotlightStack>Core Stack: {techStack}</SpotlightStack>
 
-            { (name === "Bap: Food & Restaurant Journal") ? <a href="https://apps.apple.com/us/app/bap-food-restaurant-journal/id6450421562" target="_blank" rel="noopener noreferrer">
+            {description && <SpotlightDescription>{description}</SpotlightDescription>}
+            {techStack && <SpotlightStack>Core Stack: {techStack}</SpotlightStack>}
+            {languages && languages.map(language => (<SpotlightStack>{language}</SpotlightStack>))}
+
+            {(name === "Bap: Food & Restaurant Journal") ? <a href="https://apps.apple.com/us/app/bap-food-restaurant-journal/id6450421562" target="_blank" rel="noopener noreferrer">
                 <img src={require(`../images/appstorebadge.png`)} alt="Download on the App Store" style={{ marginTop: '0.75rem', width: 120 }} />
-            </a> : null }
+            </a> : null}
         </SpotlightContainer>
     );
 });
