@@ -122,7 +122,7 @@ const HomePage = () => {
                     <ProjectSpotlight
                         name={"Bap: Food & Restaurant Journal"}
                         link={"https://apps.apple.com/us/app/bap-food-restaurant-journal/id6450421562"}
-                        description={"A full-stack solo project, I created a modern food journaling app. It's designed to unite foodies, explore diverse culinary cultures, and inspire shared experiences and connections across the globe."}
+                        description={"A full-stack solo project, I created a modern food journaling app. It's designed to unite foodies, explore diverse culinary cultures, and inspire shared experiences and connections across the globe. Oh, and to remember what you had for dinner last night."}
                         techStack={"React Native, Figma, Firebase, Styled Components, OpenAI API, Google Places API, Google Cloud Functions, RevenueCat"}
                         image1={"bapimage"}
                     />
@@ -131,7 +131,7 @@ const HomePage = () => {
                         name={"Timeless Treasures"}
                         link={"https://timelesstreasures.app/"}
                         description={"As part of UC Berkeley's User Interface Design & Development class, my team and I designed a web app. It's prioritized for senior citizens who wish to share their life stories with their loved ones. A lot of effort went into designing an accessible and approachable user interface with chatbot integration and streamlined design."}
-                        techStack={"React, Figma, Firebase, Styled Components, Chakra UI, Kommunicate, Contextual Inquiry :)"}
+                        techStack={"React, Figma, Firebase, Styled Components, Chakra UI, Kommunicate, Contextual Inquiry"}
                         videoLink={"https://www.youtube.com/watch?v=qG-d7VOkXz8"}
                     />
 
@@ -139,14 +139,14 @@ const HomePage = () => {
                     <ProjectSpotlight
                         name={"하ハ哈ha"}
                         description={"Combining my knowledge of Korean & English, and some Mandarin, I created 하ハ哈ha. It's designed for efficient Japanese grammar learning through Korean, meaning comprehension via English, and Kanji recognition using Chinese."}
-                        techStack={"React (TypeScript), MongoDB, DeepL API, OpenAI GPT-4 & Whisper API, Mantine & Chakra.UI"}
+                        techStack={"React (TypeScript), Node.js, MongoDB, DeepL API, GPT-4 API & Whisper API, Mantine"}
                         videoLink={"https://youtu.be/rWaQ0NSSshc"}
                     />
 
                     <ProjectSpotlight
                         name={"Dootch"}
-                        description={"To help me learn German from scratch using just sentences and pattern recognition, I created Dootch. I am actively memorizing 3-5 sentences daily using this app. I hope to expand this to other languages in the future."}
-                        techStack={"React (TypeScript), MongoDB, DeepL API, OpenAI GPT-4, Mantine & Chakra.UI"}
+                        description={"To help me learn German using just sentences and pattern recognition, I created Dootch. I am actively memorizing 3-5 sentences daily using this app, constantly adding new features to suit my needs."}
+                        techStack={"React (TypeScript), Node.js, MongoDB, DeepL API, GPT-4 API, Mantine"}
                         videoLink={"https://youtu.be/X7T84kOzuBA"}
                     />
 

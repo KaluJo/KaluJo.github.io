@@ -5,7 +5,8 @@ import footerImage from '../images/babybluflipped.png';
 export const SpotlightContent = styled.div`
     display: flex;
     flex-direction: column;
-    height: 100vh;
+
+    min-height: 100vh;
 
     ::-webkit-scrollbar {
         display: none;
@@ -19,6 +20,7 @@ export const SpotlightContent = styled.div`
         scroll-snap-type: y mandatory;
         scroll-snap-align: center;
         overflow-y: scroll;
+        height: 100vh;
     }
 `;
 
@@ -70,7 +72,7 @@ export const SpotlightDescription = styled.p`
     font-size: 1.2rem;
     vertical-align: middle;
     font-weight: 400;
-    text-shadow: 0 0 6px rgb(100, 100, 100);
+    text-shadow: 0 0 4px rgb(100, 100, 100);
     a {
         color: white
     }
@@ -83,7 +85,7 @@ export const SpotlightStack = styled.p`
     font-size: 1.1rem;
     vertical-align: middle;
     font-weight: 400;
-    text-shadow: 0 0 6px rgb(100, 100, 100);
+    text-shadow: 0 0 4px rgb(100, 100, 100);
     a {
         color: white
     }
