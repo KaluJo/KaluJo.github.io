@@ -5,7 +5,7 @@ import footerImage from '../images/babybluflipped.png';
 export const SpotlightContent = styled.div`
     display: flex;
     flex-direction: column;
-
+    
     min-height: 100vh;
 
     ::-webkit-scrollbar {
@@ -21,6 +21,10 @@ export const SpotlightContent = styled.div`
         scroll-snap-align: center;
         overflow-y: scroll;
         height: 100vh;
+    }
+
+    @media (max-width: 768px) {
+        flex: 1;
     }
 `;
 

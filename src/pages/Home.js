@@ -15,6 +15,7 @@ import {
     NavbarBackground,
     NavbarButtons,
     FooterBackground,
+    NavbarContent,
 } from '../styles/BaseStyle';
 
 import ProjectSpotlight from '../components/ProjectSpotlight';
@@ -119,9 +120,11 @@ const HomePage = () => {
                 <SpotlightContent>
 
                     <MainContent>
-                        <Navbar>
-                            <NavbarBackground bgColor={bgColor} />
-                        </Navbar>
+                        <NavbarContent>
+                            <Navbar>
+                                <NavbarBackground bgColor={bgColor} />
+                            </Navbar>
+                        </NavbarContent>
 
                         <Main>
                             <MainText>

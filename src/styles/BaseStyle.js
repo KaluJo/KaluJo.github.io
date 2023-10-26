@@ -43,6 +43,10 @@ export const Base = styled.div`
 
 /* --- Navbar --- */
 
+export const NavbarContent = styled.div`
+    height: 100vh;
+`;
+
 export const Navbar = styled.div`
     display: flex;
     flex-direction: column;
@@ -181,16 +185,12 @@ export const MainContent = styled.div`
     }
 `;
 
-export const Main = styled.main`
-    padding-top: 1rem;
-    padding-bottom: 5rem;
-    padding-left: 5vw;
-    padding-right: 5vw;
+export const Main = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-    @media (min-width: 769px) {
-        margin-top: 50vh;
-        padding-bottom: 2.5rem;
-    }
+    min-height: 100vh;
 `;
 
 export const MainHeading = styled.h1`
@@ -228,7 +228,10 @@ export const MainText = styled.p`
     font-size: 1.4rem;
     vertical-align: middle;
     text-shadow: 0 0 6px rgb(100, 100, 100);
-    padding-top: 2rem;
+
+    margin-left: 5vw;
+    margin-right: 5vw;
+
     /* padding-bottom: 5rem; */
 
     a {
