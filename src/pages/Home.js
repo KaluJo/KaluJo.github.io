@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 
 import {
     Base,
@@ -19,6 +19,15 @@ import {
 
 import ProjectSpotlight from '../components/ProjectSpotlight';
 import { SpotlightContent, SpotlightDescription } from '../styles/SpotlightStyle';
+
+const colors = [
+    { name: "cerulean", id: "#00b3f4" },
+    { name: "vermillion", id: "#E34234" },
+    { name: "chartreuse", id: "#7FFF00" },
+    { name: "forest green", id: "#228B22" },
+    { name: "magenta", id: "#FF00FF" },
+    { name: "periwinkle", id: "#CCCCFF" }
+];
 
 const HomePage = () => {
     const [bgColor, setBgColor] = useState({
@@ -90,34 +99,50 @@ const HomePage = () => {
         };
     }, [percentageScrolled, touchStart]);
 
+    const [favoriteColor, setFavoriteColor] = useState(colors[0]);
+    const [hoverColor, setHoverColor] = useState(false);
+
+    useEffect(() => {
+        const changeColor = () => {
+            const randomIndex = Math.floor(Math.random() * colors.length);
+            setFavoriteColor(colors[randomIndex]);
+        };
+
+        const intervalId = setInterval(changeColor, 10000);
+
+        return () => clearInterval(intervalId);
+    }, []);
+
     return (
         <Base style={{ backgroundColor: bgColor.color }}>
             <Content bgColor={bgColor.color}>
-                <Navbar>
-                    <NavbarBackground bgColor={bgColor} />
-                </Navbar>
-
-                <Main>
-                    <MainText>
-                        Hi, I'm Bhada Yun, welcome to my site.
-                    </MainText>
-                    <MainText>
-                        My favorite phoneme is the voiced postalveolar fricative /ʒ/, favorite pokemon is Honchcrow, and my favorite fruit is probably mango (my condolences if you are allergic).
-                    </MainText>
-                    <MainText>
-                        My research interests lie at the intersection of Human-Computer Interaction (HCI), Artificial Intelligence (AI), Natural Language Processing (NLP), and pedagogy. I firmly believe in the power of communication and am convinced that with context, compassion, and courage, we can come to understand anyone, and any "other".</MainText>
-                    <MainText>
-                        Currently a Junior at UC Berkeley pursuing a double major in Computer Science & Linguistics.
-                    </MainText>
-                    <MainText>
-                        I am currently working on an language learning app called Retreev. Based around new research about language acquisition and creative uses of LLMs, I want to challenge myself into creating something that can help people learn languages more efficiently and effectively.
-                    </MainText>
-                    <MainText>
-                        This is where you can find my creative dumps. I post art, thoughts, and whatnot, I hope you find something interesting!
-                    </MainText>
-                </Main>
-
                 <SpotlightContent>
+
+                    <MainContent>
+                        <Navbar>
+                            <NavbarBackground bgColor={bgColor} />
+                        </Navbar>
+
+                        <Main>
+                            <MainText>
+                                Hi, I'm Bhada Yun, welcome to my site.
+                            </MainText>
+                            <MainText>
+                                My favorite phoneme is the voiced postalveolar fricative /ʒ/, favorite color is <span style={{ color: hoverColor ? favoriteColor.id : 'inherit' }} onMouseEnter={() => setHoverColor(true)} onMouseLeave={() => setHoverColor(false)}>{favoriteColor.name}</span>, and my favorite fruit is probably mango (my condolences if you are allergic).
+                            </MainText>
+                            <MainText>
+                                My research interests lie at the intersection of Human-Computer Interaction (HCI), Artificial Intelligence (AI), Natural Language Processing (NLP), and pedagogy. I firmly believe in the power of communication and am convinced that with context, compassion, and courage, we can come to understand anyone, and any "other".</MainText>
+                            <MainText>
+                                Currently a Junior at UC Berkeley pursuing a double major in Computer Science & Linguistics.
+                            </MainText>
+                            <MainText>
+                                I am currently working on an language learning app called Retreev. Based around new research about language acquisition and creative uses of LLMs, I want to challenge myself into creating something that can help people learn languages more efficiently and effectively.
+                            </MainText>
+                            <MainText>
+                                This is where you can find my creative dumps. I post art, thoughts, and whatnot, I hope you find something interesting!
+                            </MainText>
+                        </Main>
+                    </MainContent>
 
                     <ProjectSpotlight
                         name={"Bap: Food & Restaurant Journal"}
@@ -174,7 +199,7 @@ const HomePage = () => {
                 </SpotlightContent>
 
             </Content>
-        </Base>
+        </Base >
     );
 };
 
