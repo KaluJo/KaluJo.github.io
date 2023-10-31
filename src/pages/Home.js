@@ -207,7 +207,7 @@ const HomePage = () => {
                         description={"I love South Indian food so much, I swear I'm just trying to innovate"}
                         languages={
                             ["Telling him that I used to eat paratha for breakfast like pancakes with maple syrup",
-                            "Mentioning that *insert local South Indian restaurant* should sell chocolate dosa",
+                                "Mentioning that *insert local South Indian restaurant* should sell chocolate dosa",
                                 'Suggesting sweet Medu Vada made with the ingredients in gulab jamun',
                                 'Referring to Gulab Jamun as "Indian Donut Holes"',
                                 'Suggesting Gulab Jamun donuts: Jamunuts',
@@ -219,6 +219,32 @@ const HomePage = () => {
                                 '"Holy shit it burns"',
                                 '#sambar4life',
                                 '"Vanakkam!"'
+                            ]}
+                    />
+
+                    <ProjectSpotlight
+                        name={"1-Sentence Summary Of Every Class I Took"}
+                        description={"All my respect goes to the professors and TAs who try to run these classes despite the insane class sizes"}
+                        languages={
+                            ["CHEM 1A (General Chemistry): \“Everything is chaos, especially this class\”",
+                                "COMLIT R1A (On Literature and Environmental Change): \“Everything is temporary except for the things we choose to pass on\”",
+                                "CS 61A (Structure and Interpretation of Computer Programs): \“Learn everything the hard way so everything else is easy\”",
+                                "INDENG 198 (Blockchain Decal): \“LMFAO\”",
+                                "MATH 53 (Multivariable Calculus): \“Math, but with abstract interpretations of bowls\”",
+                                "CIVENG 93 (Engineering Data Analysis): \“Refer to the formula sheet\”",
+                                "CS 61B (Data Structures): \“When in doubt, choose whatever has the word 'hash' in it\”",
+                                "CS 61C (Machine Structures): \“Think in Irish\”",
+                                "CS 70 (Discrete Mathematics and Probability Theory): \“Everything is so obvious\”",
+                                "EECS 16A (Designing Information Devices and Systems I): \“Ohm-ygod\”",
+                                "FRENCH 1 (Elementary French): \“Bof, chais pas\”",
+                                "LING 100 (Introduction to Linguistic Science): \“You have something to learn from every language\”",
+                                "CS 160 (User Interface Design and Development): \“If you don\'t care about this class as a developer, I truly worry for your customers\”",
+                                "CS 189 (Introduction to Machine Learning): \“Everything is probabilities\”",
+                                "JAPAN 1A (Elementary Japanese): \“こちらこそどうぞよろしくお願いします。\”",
+                                "NWMEDIA 151AC (Transforming Tech: Issues and Interventions in STEM and Silicon Valley): \“values != intentions != actions\”",
+                                "CS 188 (Introduction to Artificial Intelligence): \“What can I do with these probabilities?\”",
+                                "CS 194-196 (Responsible GenAI and Decentralized Intelligence): \“Let\'s make probabilities relatable\”",
+                                "LING C142 (Language & Thought): \“What came first, the language or the thought?\”"
                             ]}
                     />
 
