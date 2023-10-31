@@ -139,13 +139,21 @@ const HomePage = () => {
                                 Currently a Junior at UC Berkeley pursuing a double major in Computer Science & Linguistics.
                             </MainText>
                             <MainText>
-                                I am currently working on an language learning app called Retreev. Based around new research about language acquisition and creative uses of LLMs, I want to challenge myself into creating something that can help people learn languages more efficiently and effectively.
+                                I am currently working on an language learning project called Retreev. Based around new research about language acquisition and creative uses of LLMs, I want to challenge myself into creating something that can help people learn languages more efficiently and effectively.
                             </MainText>
                             <MainText>
                                 This is where you can find my creative dumps. I post art, thoughts, and whatnot, I hope you find something interesting!
                             </MainText>
                         </Main>
                     </MainContent>
+
+                    <ProjectSpotlight
+                        name={"Ivee.ai"}
+                        link={"https://devpost.com/software/ivee"}
+                        description={"Won my first hackathon at CalHacks 10.0 with Ivee.ai. A full-stack team effort with Sania, Lema, and Tianyun, we tackled the challenge of making AI approachable & accessible by creating a voice assistant that helps any person, regardless of technical background, to speak their life stories into a lasting leaves of memories on a tree."}
+                        techStack={"React Native, Figma, Firebase, Styled Components, OpenAI API, Intel Developer Cloud, Hume.ai, Milvus Vector Database, Flask, Deepgram, ElevenLabs, Expo, Dall-E, Hugging Face"}
+                        image1={"iveeimage"}
+                    />
 
                     <ProjectSpotlight
                         name={"Bap: Food & Restaurant Journal"}
@@ -189,6 +197,23 @@ const HomePage = () => {
                                 "日本語 (Beginntermediate): Actively learning it right now. I treat learning Kanji like catching Pokémon. Gotta catch 'em all!",
                                 "Deutsch (Beginner): I'm trying out a new learning tactic with this one. We'll see how it goes! Viel Glück.",
                                 "What should I add next?"
+                            ]}
+                    />
+
+                    <ProjectSpotlight
+                        name={"Keeping track of the times I've offended my Tamil friend"}
+                        description={"I love South Indian food so much, I swear I'm just trying to innovate"}
+                        languages={
+                            ["Telling him that I used to eat paratha for breakfast like pancakes with maple syrup",
+                            "Mentioning that *insert local South Indian restaurant* should sell chocolate dosa",
+                                'Suggesting sweet Medu Vada made with the ingredients in gulab jamun',
+                                'Referring to Gulab Jamun as "Indian Donut Holes"',
+                                'Suggesting Gulab Jamun donuts: Jamunuts',
+                                'Referring to Medu Vada as "Indian Donuts"',
+                                'Referring to Medu Vada as "Indian Bagels"',
+                                'Referring to Medu Vada as "Medu Bhada"',
+                                'Saying, quote, "Idli is great"',
+                                '"Vanakkam!!!!!!!"'
                             ]}
                     />
 
