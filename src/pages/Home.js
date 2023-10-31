@@ -215,6 +215,8 @@ const HomePage = () => {
                                 'Referring to Medu Vada as "Indian Bagels"',
                                 'Referring to Medu Vada as "Medu Bhada"',
                                 'Saying, quote, "Idli is great"',
+                                '"It\'s not even that spicy"',
+                                '"Holy shit it burns"',
                                 '#sambar4life',
                                 '"Vanakkam!"'
                             ]}

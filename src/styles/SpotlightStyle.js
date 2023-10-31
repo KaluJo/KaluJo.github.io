@@ -52,6 +52,7 @@ export const ProjectName = styled.a`
         scroll-snap-stop: always;
     }
         
+    text-align: center;
     font-size: 1.5rem;
     vertical-align: middle;
     text-shadow: 0 0 6px rgb(100, 100, 100);
