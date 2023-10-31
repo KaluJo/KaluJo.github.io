@@ -233,6 +233,7 @@ const HomePage = () => {
                                 "MATH 53 (Multivariable Calculus): \“Math, but with abstract interpretations of bowls\”",
                                 "CIVENG 93 (Engineering Data Analysis): \“Refer to the formula sheet\”",
                                 "CS 61B (Data Structures): \“When in doubt, choose whatever has the word 'hash' in it\”",
+                                "MATH 54 (Linear Algebra & Differential Equations): \“We live in a matrix, literally\”",
                                 "CS 61C (Machine Structures): \“Think in Irish\”",
                                 "CS 70 (Discrete Mathematics and Probability Theory): \“Everything is so obvious\”",
                                 "EECS 16A (Designing Information Devices and Systems I): \“Ohm-ygod\”",
