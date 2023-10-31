@@ -139,7 +139,7 @@ const HomePage = () => {
                                 Currently a Junior at UC Berkeley pursuing a double major in Computer Science & Linguistics.
                             </MainText>
                             <MainText>
-                                I am currently working on an language learning project called Retreev. Based around new research about language acquisition and creative uses of LLMs, I want to challenge myself into creating something that can help people learn languages more efficiently and effectively.
+                                I am currently working on a language learning project called Retreev. Based around new research about language acquisition and creative uses of LLMs, I want to challenge myself into creating something that can help people learn languages more efficiently and effectively.
                             </MainText>
                             <MainText>
                                 This is where you can find my creative dumps. I post art, thoughts, and whatnot, I hope you find something interesting!
@@ -174,6 +174,7 @@ const HomePage = () => {
 
                     <ProjectSpotlight
                         name={"하ハ哈ha"}
+                        link={"https://github.com/KaluJo/gagagaga"}
                         description={"Combining my knowledge of Korean & English, and some Mandarin, I created 하ハ哈ha. It's designed for efficient Japanese grammar learning through Korean, meaning comprehension via English, and Kanji recognition using Chinese."}
                         techStack={"React (TypeScript), Node.js, MongoDB, DeepL API, GPT-4 API & Whisper API, Mantine"}
                         videoLink={"https://youtu.be/rWaQ0NSSshc"}
@@ -181,6 +182,7 @@ const HomePage = () => {
 
                     <ProjectSpotlight
                         name={"Dootch"}
+                        link={"https://github.com/KaluJo/gagagaga"}
                         description={"To help me learn German using just sentences and pattern recognition, I created Dootch. I am actively memorizing 3-5 sentences daily using this app, constantly adding new features to suit my needs."}
                         techStack={"React (TypeScript), Node.js, MongoDB, DeepL API, GPT-4 API, Mantine"}
                         videoLink={"https://youtu.be/X7T84kOzuBA"}
@@ -201,7 +203,7 @@ const HomePage = () => {
                     />
 
                     <ProjectSpotlight
-                        name={"Keeping track of the times I've offended my Tamil friend"}
+                        name={"Keeping track of the times I've annoyed my Tamil friend"}
                         description={"I love South Indian food so much, I swear I'm just trying to innovate"}
                         languages={
                             ["Telling him that I used to eat paratha for breakfast like pancakes with maple syrup",
@@ -213,7 +215,8 @@ const HomePage = () => {
                                 'Referring to Medu Vada as "Indian Bagels"',
                                 'Referring to Medu Vada as "Medu Bhada"',
                                 'Saying, quote, "Idli is great"',
-                                '"Vanakkam!!!!!!!"'
+                                '#sambar4life',
+                                '"Vanakkam!"'
                             ]}
                     />
 
