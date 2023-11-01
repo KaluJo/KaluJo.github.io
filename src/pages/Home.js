@@ -216,7 +216,7 @@ const HomePage = () => {
                                 'Referring to Medu Vada as "Medu Bhada"',
                                 'Saying, quote, "Idli is great"',
                                 '"It\'s not even that spicy"',
-                                '"Holy shit it burns"',
+                                '"Holy sh*t it burns"',
                                 '#sambar4life',
                                 '"Vanakkam!"'
                             ]}
@@ -240,7 +240,7 @@ const HomePage = () => {
                                 "FRENCH 1 (Elementary French): \“Bof, chais pas\”",
                                 "LING 100 (Introduction to Linguistic Science): \“You have something to learn from every language\”",
                                 "CS 160 (User Interface Design and Development): \“If you don\'t care about this class as a developer, I truly worry for your customers\”",
-                                "CS 189 (Introduction to Machine Learning): \“Everything is probabilities\”",
+                                "CS 189 (Introduction to Machine Learning): \“Pt 1: Is it left or is it right? Pt 2. Everything is probabilities\”",
                                 "JAPAN 1A (Elementary Japanese): \“こちらこそどうぞよろしくお願いします。\”",
                                 "NWMEDIA 151AC (Transforming Tech: Issues and Interventions in STEM and Silicon Valley): \“values != intentions != actions\”",
                                 "CS 188 (Introduction to Artificial Intelligence): \“What can I do with these probabilities?\”",
