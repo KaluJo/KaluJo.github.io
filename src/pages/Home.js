@@ -176,7 +176,7 @@ const HomePage = () => {
                         name={"하ハ哈ha"}
                         link={"https://github.com/KaluJo/gagagaga"}
                         description={"Combining my knowledge of Korean & English, and some Mandarin, I created 하ハ哈ha. It's designed for efficient Japanese grammar learning through Korean, meaning comprehension via English, and Kanji recognition using Chinese."}
-                        techStack={"React (TypeScript), Node.js, MongoDB, DeepL API, GPT-4 API & Whisper API, Mantine"}
+                        techStack={"React (TypeScript), Node.js, Netlify, MongoDB, DeepL API, GPT-4 API & Whisper API, Chakra"}
                         videoLink={"https://youtu.be/rWaQ0NSSshc"}
                     />
 
@@ -184,7 +184,7 @@ const HomePage = () => {
                         name={"Dootch"}
                         link={"https://github.com/KaluJo/gagagaga"}
                         description={"To help me learn German using just sentences and pattern recognition, I created Dootch. I am actively memorizing 3-5 sentences daily using this app, constantly adding new features to suit my needs."}
-                        techStack={"React (TypeScript), Node.js, MongoDB, DeepL API, GPT-4 API, Mantine"}
+                        techStack={"React (TypeScript), Node.js, Netlify, MongoDB, DeepL API, GPT-4 API, Chakra"}
                         videoLink={"https://youtu.be/X7T84kOzuBA"}
                     />
 
@@ -229,7 +229,7 @@ const HomePage = () => {
                             ["CHEM 1A (General Chemistry): \“Everything is chaos, especially this class\”",
                                 "COMLIT R1A (On Literature and Environmental Change): \“Everything is temporary except for the things we choose to pass on\”",
                                 "CS 61A (Structure and Interpretation of Computer Programs): \“Learn everything the hard way so everything else is easy\”",
-                                "INDENG 198 (Blockchain Decal): \“LMFAO\”",
+                                "INDENG 198 (Blockchain Decal): \“📉\”",
                                 "MATH 53 (Multivariable Calculus): \“Math, but with abstract interpretations of bowls\”",
                                 "CIVENG 93 (Engineering Data Analysis): \“Refer to the formula sheet\”",
                                 "CS 61B (Data Structures): \“When in doubt, choose whatever has the word 'hash' in it\”",
