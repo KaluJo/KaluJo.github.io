@@ -189,6 +189,14 @@ const HomePage = () => {
                     />
 
                     <ProjectSpotlight
+                        name={"Spreche"}
+                        link={"https://github.com/KaluJo/spreche"}
+                        description={"Mini open-source project, I made this to remind myself to practice sentences in German, but any language will do!"}
+                        techStack={"React Native (TypeScript), ElevenLabs Multilingual v2, Styled Components"}
+                        videoLink={"https://www.youtube.com/shorts/nQydlU06QN4"}
+                    />
+
+                    <ProjectSpotlight
                         name={"My Language Learning Journey"}
                         description={"I've always been fascinated by languages. Learning a language is like discovering a new world, and I like exploring new worlds."}
                         languages={
