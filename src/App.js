@@ -2,11 +2,22 @@ import React from 'react';
 import '@fontsource-variable/outfit';
 import '@fontsource-variable/domine';
 import '@fontsource/noto-sans';
-import HomePage from './pages/Home';
 
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+import Home from './pages/Home';
+import Music from './pages/Music';
 
 const App = () => {
-  return <HomePage />;
+
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/music" element={<Music />} />
+      </Routes>
+    </Router>
+  );
 };
 
 export default App;

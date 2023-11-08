@@ -16,10 +16,12 @@ import {
     NavbarButtons,
     FooterBackground,
     NavbarContent,
+    DoNotClickThisButton,
 } from '../styles/BaseStyle';
 
 import ProjectSpotlight from '../components/ProjectSpotlight';
 import { SpotlightContent, SpotlightDescription } from '../styles/SpotlightStyle';
+import { useNavigate } from 'react-router-dom';
 
 const colors = [
     { name: "cerulean", id: "#00b3f4" },
@@ -39,6 +41,8 @@ const HomePage = () => {
     const [percentageScrolled, setPercentageScrolled] = useState(0);
 
     const [touchStart, setTouchStart] = useState(0);
+
+    const navigate = useNavigate();
 
     const handleWheel = (e) => {
         const scrollDirection = e.deltaY;
@@ -134,7 +138,7 @@ const HomePage = () => {
                                 My favorite phoneme is the voiced postalveolar fricative /ʒ/, favorite color is <span style={{ color: hoverColor ? favoriteColor.id : 'inherit' }} onMouseEnter={() => setHoverColor(true)} onMouseLeave={() => setHoverColor(false)}>{favoriteColor.name}</span>, and my favorite fruit is probably mango (my condolences if you are allergic).
                             </MainText>
                             <MainText>
-                                My research interests lie at the intersection of Human-Computer Interaction (HCI), Artificial Intelligence (AI), Natural Language Processing (NLP), and pedagogy. I firmly believe in the power of communication and am convinced that with context, compassion, and courage, we can come to understand anyone, and any "other".</MainText>
+                                My research interests lie at the intersection of Human-Computer Interaction (HCI), Artificial Intelligence (AI), and andragogy. I firmly believe in the power of communication and am convinced that given context, compassion, and courage, we can come to understand anyone, and any "other".</MainText>
                             <MainText>
                                 Currently a Junior at UC Berkeley pursuing a double major in Computer Science & Linguistics.
                             </MainText>
@@ -264,6 +268,12 @@ const HomePage = () => {
                     <Copyright>
                         &copy; ∞ Bhada Yun
                     </Copyright>
+
+                    <DoNotClickThisButton onClick={() => navigate("/music")}>
+                        <p style={{ color: 'rgb(98, 124, 141)' }}>
+                            music (do not click)
+                        </p>
+                    </DoNotClickThisButton>
                 </SpotlightContent>
 
             </Content>

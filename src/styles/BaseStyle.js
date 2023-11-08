@@ -291,3 +291,19 @@ export const Copyright = styled.div`
     text-shadow: 0 0 6px rgb(40, 40, 40);
     z-index: 10;
 `;
+
+export const DoNotClickThisButton = styled.div`
+    justify-self: flex-end;
+    
+    bottom: 30px;
+
+    position: relative;
+    
+    font-size: 10px;
+    text-align: right;
+    padding-bottom: -10rem;
+    margin-bottom: -10rem;
+
+    height: 0px;
+    z-index: 10;
+`;
