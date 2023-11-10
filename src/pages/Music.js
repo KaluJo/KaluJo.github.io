@@ -23,6 +23,7 @@ import { SpotlightContent, SpotlightDescription } from '../styles/SpotlightStyle
 import { musicData } from '../components/MusicData';
 import PlaylistSpotlight from '../components/PlaylistSpotlight';
 import { MusicSpotlightContent } from '../styles/MusicStyle';
+import { useNavigate } from 'react-router-dom';
 
 const colors = [
     { name: "cerulean", id: "#00b3f4" },
@@ -42,6 +43,8 @@ const HomePage = () => {
     const [percentageScrolled, setPercentageScrolled] = useState(0);
 
     const [touchStart, setTouchStart] = useState(0);
+
+    const navigate = useNavigate();
 
     const handleWheel = (e) => {
         const scrollDirection = e.deltaY;
@@ -112,7 +115,7 @@ const HomePage = () => {
                 <MusicSpotlightContent>
 
                     <MainContent>
-                        <NavbarContent>
+                        <NavbarContent onClick={() => navigate("/")}>
                             <Navbar>
                                 <NavbarBackground bgColor={bgColor} />
                             </Navbar>
@@ -150,7 +153,7 @@ const HomePage = () => {
                     />
                     ))}
 
-                    <Footer>
+                    <Footer onClick={() => navigate("/")}>
                         <FooterBackground bgColor={bgColor} />
                     </Footer>
 

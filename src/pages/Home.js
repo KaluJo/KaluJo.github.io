@@ -261,7 +261,7 @@ const HomePage = () => {
                             ]}
                     />
 
-                    <Footer>
+                    <Footer onClick={() => navigate("/music")}>
                         <FooterBackground bgColor={bgColor} />
                     </Footer>
 
@@ -269,11 +269,11 @@ const HomePage = () => {
                         &copy; ∞ Bhada Yun
                     </Copyright>
 
-                    <DoNotClickThisButton onClick={() => navigate("/music")}>
+                    {/* <DoNotClickThisButton onClick={() => navigate("/music")}>
                         <p style={{ color: 'rgb(98, 124, 141)' }}>
                             music (do not click)
                         </p>
-                    </DoNotClickThisButton>
+                    </DoNotClickThisButton> */}
                 </SpotlightContent>
 
             </Content>
