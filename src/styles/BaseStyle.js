@@ -70,6 +70,7 @@ export const NavbarBackground = styled.div`
     background-repeat: repeat-z;
     background-position: bottom;
     justify-content: center;
+    cursor: pointer;
 `;
 
 export const NavbarButtons = styled.div`
@@ -272,6 +273,7 @@ export const FooterBackground = styled.div`
     background-repeat: repeat-z;
     background-position: bottom;
     justify-content: center;
+    cursor: pointer;
 `;
 
 export const Copyright = styled.div`

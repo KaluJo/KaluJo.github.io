@@ -8,6 +8,7 @@ const TrackDetail = ({ track, onPlay, isPlaying, isMobile }) => {
     const [isHovered, setIsHovered] = useState(false);
     const OverlayIcon = isPlaying ? FaPause : FaPlay;
 
+    
     const handleTouch = () => {
         if (track.song_clip) {
             setIsTouched(!isTouched);
@@ -63,6 +64,7 @@ const PlaylistSpotlight = ({ playlistData, currentClip, setCurrentClip, isPlayin
         } else {
             currentClip.pause();
             const newClip = new Audio(clipUrl);
+            newClip.volume = 0.5;
             setCurrentClip(newClip);
             newClip.play();
             setIsPlaying(true);

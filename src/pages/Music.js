@@ -109,6 +109,8 @@ const HomePage = () => {
     const [currentClip, setCurrentClip] = useState(new Audio());
     const [isPlaying, setIsPlaying] = useState(false);
 
+    currentClip.volume = 0.5;
+
     return (
         <Base style={{ backgroundColor: bgColor.color }}>
             <Content bgColor={bgColor.color}>
