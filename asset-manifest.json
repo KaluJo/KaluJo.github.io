@@ -1,9 +1,35 @@
 {
   "files": {
     "main.css": "/static/css/main.0ff1bddd.css",
-    "main.js": "/static/js/main.09afe958.js",
+    "main.js": "/static/js/main.73dadbdf.js",
     "static/js/787.e786cf46.chunk.js": "/static/js/787.e786cf46.chunk.js",
+    "static/media/moonstoneearrings.png": "/static/media/moonstoneearrings.4966ca2e7d822982f6db.png",
+    "static/media/garden.png": "/static/media/garden.5f651df3842ee11729ac.png",
+    "static/media/opalbracelet.png": "/static/media/opalbracelet.848687be3952901068dc.png",
+    "static/media/cheese3.png": "/static/media/cheese3.18c52f0084ebab9e9d50.png",
+    "static/media/paintings4.png": "/static/media/paintings4.face7d3e1b52c11c9d63.png",
     "static/media/bapimage.png": "/static/media/bapimage.0cc73b9d5258a3a5723a.png",
+    "static/media/paintings1.png": "/static/media/paintings1.fbf75a17f7dcd58931de.png",
+    "static/media/susuwatari1.png": "/static/media/susuwatari1.76d91229a73ff2a59a22.png",
+    "static/media/paintings2.png": "/static/media/paintings2.2505c23de771914346ad.png",
+    "static/media/bracelets2.png": "/static/media/bracelets2.73cf05e1c8ac8d796621.png",
+    "static/media/susuwatari2.png": "/static/media/susuwatari2.d6a4c96e81e57f853a51.png",
+    "static/media/bracelets4.png": "/static/media/bracelets4.8f5e03cba720631af5d2.png",
+    "static/media/bracelets3.png": "/static/media/bracelets3.83aea9a93ba9fba96713.png",
+    "static/media/bracelets1.png": "/static/media/bracelets1.2af1078852272cc52b07.png",
+    "static/media/porcelain2.png": "/static/media/porcelain2.a2cb4cd90195e63d4cf4.png",
+    "static/media/paintings3.png": "/static/media/paintings3.9ba3cb3c72fb88893884.png",
+    "static/media/porcelain1.png": "/static/media/porcelain1.840f6a82b6672e27888e.png",
+    "static/media/pain.png": "/static/media/pain.bdabeda6819189dc6968.png",
+    "static/media/cheese2.png": "/static/media/cheese2.5d0d428cce96066865ef.png",
+    "static/media/thebear.png": "/static/media/thebear.88c2e3c24e4650f84857.png",
+    "static/media/cheese1.png": "/static/media/cheese1.c47e664806415d20c3b7.png",
+    "static/media/plantsprint.png": "/static/media/plantsprint.ef673e8b7559d577d374.png",
+    "static/media/sourdough.png": "/static/media/sourdough.aed6c71c522c8b8854be.png",
+    "static/media/planter1.png": "/static/media/planter1.eba9f81278385505b11b.png",
+    "static/media/brie.png": "/static/media/brie.6f5d4acf9a775cddca6e.png",
+    "static/media/planter2.png": "/static/media/planter2.24a2351ffe03ba94abe8.png",
+    "static/media/conchas.png": "/static/media/conchas.29ca9a9c7618c02e6fb9.png",
     "static/media/iveeimage.png": "/static/media/iveeimage.baa98e076d74ab010575.png",
     "static/media/babybluflipped.png": "/static/media/babybluflipped.2c1f5b203116bb0989ef.png",
     "static/media/babyblu.png": "/static/media/babyblu.fa24a71585eb69cfb8b1.png",
@@ -30,11 +56,11 @@
     "static/media/noto-sans-greek-ext-400-normal.woff2": "/static/media/noto-sans-greek-ext-400-normal.a53d3a503b7febd2de61.woff2",
     "index.html": "/index.html",
     "main.0ff1bddd.css.map": "/static/css/main.0ff1bddd.css.map",
-    "main.09afe958.js.map": "/static/js/main.09afe958.js.map",
+    "main.73dadbdf.js.map": "/static/js/main.73dadbdf.js.map",
     "787.e786cf46.chunk.js.map": "/static/js/787.e786cf46.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ff1bddd.css",
-    "static/js/main.09afe958.js"
+    "static/js/main.73dadbdf.js"
   ]
 }
