@@ -16,6 +16,7 @@ import {
     NavbarButtons,
     FooterBackground,
     NavbarContent,
+    MainLink,
 } from '../styles/BaseStyle';
 
 import ProjectSpotlight from '../components/ProjectSpotlight';
@@ -34,7 +35,7 @@ const colors = [
     { name: "periwinkle", id: "#CCCCFF" }
 ];
 
-const HomePage = () => {
+const Music = () => {
     const [bgColor, setBgColor] = useState({
         color: 'rgb(67, 174, 218)',
         brightness: 1
@@ -117,7 +118,7 @@ const HomePage = () => {
                 <MusicSpotlightContent>
 
                     <MainContent>
-                        <NavbarContent onClick={() => navigate("/")}>
+                        <NavbarContent>
                             <Navbar>
                                 <NavbarBackground bgColor={bgColor} />
                             </Navbar>
@@ -145,15 +146,32 @@ const HomePage = () => {
                         </Main>
                     </MainContent>
 
-                    { musicData.map((playlist, index) => (
-                    <PlaylistSpotlight
-                        playlistData={playlist}
-                        currentClip={currentClip}
-                        setCurrentClip={setCurrentClip}
-                        isPlaying={isPlaying}
-                        setIsPlaying={setIsPlaying}
-                    />
+                    {musicData.map((playlist, index) => (
+                        <PlaylistSpotlight
+                            playlistData={playlist}
+                            currentClip={currentClip}
+                            setCurrentClip={setCurrentClip}
+                            isPlaying={isPlaying}
+                            setIsPlaying={setIsPlaying}
+                        />
                     ))}
+
+                    <MainContent>
+                        <Main>
+                            <MainLink onClick={() => navigate("/art")}>
+                                Click to see my art
+                            </MainLink>
+                            <MainLink onClick={() => navigate("/coding")}>
+                                Click to see my coding projects
+                            </MainLink>
+                            <MainLink onClick={() => navigate("/music")}>
+                                Click to see my playlists
+                            </MainLink>
+                            <MainLink onClick={() => navigate("/random")}>
+                                Click to see literally anything else
+                            </MainLink>
+                        </Main>
+                    </MainContent>
 
                     <Footer onClick={() => navigate("/")}>
                         <FooterBackground bgColor={bgColor} />
@@ -169,5 +187,5 @@ const HomePage = () => {
     );
 };
 
-export default HomePage;
+export default Music;
 

@@ -10,13 +10,15 @@ import {
     SpotlightStack
 } from '../styles/SpotlightStyle';
 
-const ProjectSpotlight = React.forwardRef(({ name, link, description, techStack, image1, image2, image3, videoLink, languages }, ref) => {
+const ProjectSpotlight = React.forwardRef(({ name, link, description, techStack, image1, image2, image3, image4, image5, videoLink, languages, size }, ref) => {
     return (
-        <SpotlightContainer style={{ minHeight: (name === "1-Sentence Summary Of Every Class I Took") ? "200vh" : "100vh" }}>
+        <SpotlightContainer style={{ minHeight: (size) ? `${size}vh` : "150vh" }}>
             <ProjectName href={link} target="_blank" rel="noopener noreferrer">{name}</ProjectName>
             {image1 && <SpotlightImage src={require(`../images/${image1}.png`)} alt={`${name} image1`} />}
             {image2 && <SpotlightImage src={require(`../images/${image2}.png`)} alt={`${name} image2`} />}
             {image3 && <SpotlightImage src={require(`../images/${image3}.png`)} alt={`${name} image3`} />}
+            {image4 && <SpotlightImage src={require(`../images/${image4}.png`)} alt={`${name} image4`} />}
+            {image5 && <SpotlightImage src={require(`../images/${image5}.png`)} alt={`${name} image5`} />}
             {videoLink && (
                 <ReactPlayer
                     url={videoLink}

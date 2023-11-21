@@ -70,7 +70,7 @@ export const NavbarBackground = styled.div`
     background-repeat: repeat-z;
     background-position: bottom;
     justify-content: center;
-    cursor: pointer;
+    /* cursor: pointer; */
 `;
 
 export const NavbarButtons = styled.div`
@@ -208,15 +208,6 @@ export const MainParagraph = styled.p`
     padding: 0.5rem 5rem;
 `;
 
-export const MainLink = styled.a`
-    color: white;
-
-    &:hover {
-        color: white;
-        text-shadow: 0 0 6px rgb(20, 20, 20);
-    }
-`;
-
 export const MainListItem = styled.li`
     list-style: none;
     font-size: 1.5rem;
@@ -235,6 +226,25 @@ export const MainText = styled.p`
 
     /* padding-bottom: 5rem; */
 
+    a {
+        color: white
+    }
+`;
+
+export const MainLink = styled.p`
+    text-align: center;
+
+    font-size: 1.4rem;
+    vertical-align: middle;
+    text-shadow: 0 0 6px rgb(100, 100, 100);
+
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+    /* padding-bottom: 5rem; */
+
+    cursor: pointer;
+    
     a {
         color: white
     }
