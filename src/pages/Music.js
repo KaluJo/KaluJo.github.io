@@ -126,7 +126,7 @@ const Music = () => {
 
                         <Main>
                             <MainText>
-                                Oh, welcome to my *secret* music section!
+                                Welcome to my music section!
                             </MainText>
                             <MainText>
                                 I create monthly music playlists based on music I discovered or had on repeat that month. I add them here at the end of each month. It's mostly for my own reference, but I hope you find something you like too!

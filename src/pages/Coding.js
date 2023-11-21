@@ -172,7 +172,7 @@ const Coding = () => {
                     <ProjectSpotlight
                         name={"Dootch"}
                         link={"https://github.com/KaluJo/gagagaga"}
-                        description={"To help me learn German using just sentences and pattern recognition, I created Dootch. I am actively memorizing 3-5 sentences daily using this app, constantly adding new features to suit my needs."}
+                        description={"To help me learn German using just sentences and pattern recognition, I created Dootch. I am actively memorizing 1-3 sentences daily using this app, constantly adding new features to suit my needs."}
                         techStack={"React (TypeScript), Node.js, Netlify, MongoDB, DeepL API, GPT-4 API, Chakra"}
                         videoLink={"https://youtu.be/X7T84kOzuBA"}
                     />
