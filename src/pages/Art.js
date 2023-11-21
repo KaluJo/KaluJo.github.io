@@ -137,6 +137,13 @@ const Art = () => {
                     </MainContent>
 
                     <ProjectSpotlight
+                        name={"my nature"}
+                        description={"what happens to a baby that has art in its nature and is nurtured to make art?"}
+                        image1={"bhada"}
+                        size={150}
+                    />
+
+                    <ProjectSpotlight
                         name={"Susuwatari"}
                         description={"Printmaking has always been one of my favorite ways to make art. I also really like Totoro (I've watched it over 50 times). As an homage to the way Susuwatari took over my mind as a little kid, I took over the walls of an art studio with these little linoleum stamps I made."}
                         image1={"susuwatari1"}
@@ -166,7 +173,7 @@ const Art = () => {
 
                     <ProjectSpotlight
                         name={"Aru Design"}
-                        description={"I also dabbled with working with higher-end stones. The main challenge was making images that justify the cost. I had to learn a lot about lighting, photography, and editing. I learned that using magic, you can turn a $1 Daiso coaster, $1 Daiso \'woodprint\' sticker, and the bowl you eat rice from into a beautiful display. I had these products up on my shop and I sold out over the coarse of my 10th grade Summer. While it was really fun, I'm grateful that it's over as working with dainty chains and pliars really takes a toll on your fingers."}
+                        description={"I also dabbled with working with higher-end stones. The main challenge was making images that justify the cost. I had to learn a lot about lighting, photography, and editing. I learned that using magic, you can turn a $1 Daiso coaster, $1 Daiso \'woodprint\' sticker, and the bowl you eat rice from into a beautiful display. I had these products up on my shop and I sold out over the course of my 10th grade Summer. While it was really fun, I'm grateful that it's over as working with dainty chains and pliars really takes a toll on your fingers."}
                         image1={"moonstoneearrings"}
                         image2={"opalbracelet"}
                         size={300}
@@ -185,7 +192,7 @@ const Art = () => {
                     <ProjectSpotlight
                         name={"The Garden"}
                         description={"Some of the best art is found within patience. And nothing requires more patience than tending to a garden. The secret to always being enchanted is to remind yourself that \"you haven\'t seen nothin\' yet\""}
-                        image1={"garden"}
+                        image1={"thegarden"}
                         size={150}
                     />
 
@@ -198,7 +205,7 @@ const Art = () => {
 
                     <ProjectSpotlight
                         name={"Porcelain"}
-                        description={"When people think of porcelain, they instead think of the words fragile, delicate, and expensive. However, having worked with it from molding to finish, I find more truth in the words strong, resilient, and beautiful."}
+                        description={"When most people think of porcelain, they think of the words fragile, delicate, and expensive. However, having worked with it from molding to finish, I find more truth in the words strong, resilient, and beautiful."}
                         image1={"porcelain1"}
                         image2={"porcelain2"}
                         size={250}
@@ -210,6 +217,36 @@ const Art = () => {
                         image1={"planter1"}
                         image2={"planter2"}
                         size={300}
+                    />
+
+                    <ProjectSpotlight
+                        name={"Conscripts"}
+                        description={"Words CAN describe how I feel about human history. When writing was spread to the masses, the true story humanity was liberated. With my conscripts, I am freeing my own story into the world."}
+                        image1={"conscripts1"}
+                        image2={"conscripts2"}
+                        image3={"conscripts3"}
+                        size={500}
+                    />
+
+                    <ProjectSpotlight
+                        name={"Polymer"}
+                        description={"Polymer clay is truly an overwhelming art medium. The possibilities are endless, but once you start molding, you can't go back."}
+                        image1={"polymer"}
+                        size={150}
+                    />
+
+                    <ProjectSpotlight
+                        name={"Bagel"}
+                        description={"Do you remember who you forget?"}
+                        image1={"bagel"}
+                        size={150}
+                    />
+
+                    <ProjectSpotlight
+                        name={"Pineapple Expression"}
+                        description={"They say the fruits of your labor are the sweetest. But what if the fruit in question is a quince? I've never had a tasty quince."}
+                        image1={"pineapple"}
+                        size={400}
                     />
 
                     <ProjectSpotlight
