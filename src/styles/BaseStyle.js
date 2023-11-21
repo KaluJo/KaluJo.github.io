@@ -243,6 +243,8 @@ export const MainLink = styled.p`
 
     /* padding-bottom: 5rem; */
 
+    text-decoration: underline;
+
     cursor: pointer;
     
     a {

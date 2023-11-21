@@ -193,7 +193,8 @@ const Art = () => {
                         name={"The Garden"}
                         description={"Some of the best art is found within patience. And nothing requires more patience than tending to a garden. The secret to always being enchanted is to remind yourself that \"you haven\'t seen nothin\' yet\""}
                         image1={"thegarden"}
-                        size={150}
+                        image2={"me"}
+                        size={250}
                     />
 
                     <ProjectSpotlight
