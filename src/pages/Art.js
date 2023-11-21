@@ -221,7 +221,7 @@ const Art = () => {
 
                     <ProjectSpotlight
                         name={"Conscripts"}
-                        description={"Words CAN describe how I feel about human history. When writing was spread to the masses, the true story humanity was liberated. With my conscripts, I am freeing my own story into the world."}
+                        description={"Words CAN describe how I feel about human history. When writing was spread to the masses, the true story of humanity was liberated. With my conscripts, I am freeing my own story into the world."}
                         image1={"conscripts1"}
                         image2={"conscripts2"}
                         image3={"conscripts3"}
