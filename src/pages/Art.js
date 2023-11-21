@@ -153,7 +153,7 @@ const Art = () => {
 
                     <ProjectSpotlight
                         name={"B&W Prints"}
-                        description={"Your heart stops for a moment as you peel off the wooden block from the paper. You never know how it will come out, whether the text will be inverted, whether the ink will be too thick, whether the paper will be too thin. But when it comes out just right, it's a beautiful thing."}
+                        description={"Your heart stops for a moment as you peel off the paper from the wooden block. You never know how it will come out, whether the text will be inverted, whether the ink will be too thick, whether the paper will be too thin. But when it comes out just right, it's a beautiful thing."}
                         image1={"plantsprint"}
                         image2={"cheese1"}
                         image3={"cheese2"}
