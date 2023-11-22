@@ -12,7 +12,7 @@ import {
 
 const ProjectSpotlight = React.forwardRef(({ name, link, description, techStack, image1, image2, image3, image4, image5, videoLink, languages, size }, ref) => {
     return (
-        <SpotlightContainer style={{ minHeight: (size) ? `${size}vh` : "150vh" }}>
+        <SpotlightContainer style={{ minHeight: (size) ? `${size}vh` : "125vh" }}>
             <ProjectName href={link} target="_blank" rel="noopener noreferrer">{name}</ProjectName>
             {image1 && <SpotlightImage src={require(`../images/${image1}.png`)} alt={`${name} image1`} />}
             {image2 && <SpotlightImage src={require(`../images/${image2}.png`)} alt={`${name} image2`} />}

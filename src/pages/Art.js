@@ -186,22 +186,17 @@ const Art = () => {
                         image2={"paintings2"}
                         image3={"paintings3"}
                         image4={"paintings4"}
-                        size={400}
+                        image5={"paintings5"}
+                        size={550}
                     />
 
                     <ProjectSpotlight
                         name={"The Garden"}
                         description={"Some of the best art is found within patience. And nothing requires more patience than tending to a garden. The secret to always being enchanted is to remind yourself that \"you haven\'t seen nothin\' yet\""}
-                        image1={"thegarden"}
-                        image2={"me"}
-                        size={250}
-                    />
-
-                    <ProjectSpotlight
-                        name={"The Bear"}
-                        description={"My favorite animal is the bear. I think the importance of the idol of the bear has been passed down through time to me; from 웅녀, to the bear cults of my prehistoric ancestors, I am reminded that we, humans, are blinded by the illusion of being number 1 on this planet. Back to a time when there was true fear, true survival, true respect for the Earth, this is what I see in the lonely bear."}
-                        image1={"thebear"}
-                        size={150}
+                        image1={"garden1"}
+                        image2={"garden2"}
+                        image3={"me"}
+                        size={400}
                     />
 
                     <ProjectSpotlight
@@ -221,11 +216,26 @@ const Art = () => {
                     />
 
                     <ProjectSpotlight
+                        name={"The Bear"}
+                        description={"My favorite animal is the bear. I think the importance of the idol of the bear has been passed down through time to me; from 웅녀, to the bear cults of my prehistoric ancestors, I am reminded that we, humans, are blinded by the illusion of being number 1 on this planet. Back to a time when there was true fear, true survival, true respect for the Earth, this is what I see in the lonely bear."}
+                        image1={"thebear"}
+                        size={150}
+                    />
+
+                    <ProjectSpotlight
+                        name={"The Horse"}
+                        description={"I was born in the year of the horse. While I don't exactly know what this factoid entails, I nonetheless enjoyed making this horse that looks suspiciously like a zebra."}
+                        image1={"thehorse"}
+                        size={150}
+                    />
+
+                    <ProjectSpotlight
                         name={"Conscripts"}
                         description={"Words CAN describe how I feel about human history. When writing was spread to the masses, the true story of humanity was liberated. With my conscripts, I am freeing my own story into the world."}
                         image1={"conscripts1"}
                         image2={"conscripts2"}
                         image3={"conscripts3"}
+                        image4={"conscripts4"}
                         size={500}
                     />
 
