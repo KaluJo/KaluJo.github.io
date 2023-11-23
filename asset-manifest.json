@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0ff1bddd.css",
-    "main.js": "/static/js/main.442361ff.js",
+    "main.js": "/static/js/main.8b41a108.js",
     "static/js/787.e786cf46.chunk.js": "/static/js/787.e786cf46.chunk.js",
     "static/media/moonstoneearrings.png": "/static/media/moonstoneearrings.4966ca2e7d822982f6db.png",
     "static/media/conscripts4.png": "/static/media/conscripts4.04de9efe3f18993188b9.png",
@@ -69,11 +69,11 @@
     "static/media/noto-sans-greek-ext-400-normal.woff2": "/static/media/noto-sans-greek-ext-400-normal.a53d3a503b7febd2de61.woff2",
     "index.html": "/index.html",
     "main.0ff1bddd.css.map": "/static/css/main.0ff1bddd.css.map",
-    "main.442361ff.js.map": "/static/js/main.442361ff.js.map",
+    "main.8b41a108.js.map": "/static/js/main.8b41a108.js.map",
     "787.e786cf46.chunk.js.map": "/static/js/787.e786cf46.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ff1bddd.css",
-    "static/js/main.442361ff.js"
+    "static/js/main.8b41a108.js"
   ]
 }
