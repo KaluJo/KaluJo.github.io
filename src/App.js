@@ -18,7 +18,7 @@ import { useNavigate } from 'react-router-dom';
 
 const GlobalStyle = createGlobalStyle`
     body {
-        background: linear-gradient(${props => props.bgColor.altColor}, ${props => props.bgColor.color});
+        background: linear-gradient(${props => props.bgColor.color}, ${props => props.bgColor.altColor});
         background-color: ${props => props.bgColor.color || 'rgb(30, 150, 235)'};
         height: 100%;
         overflow: auto;
