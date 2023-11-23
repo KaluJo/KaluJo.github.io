@@ -89,7 +89,7 @@ const Art = () => {
 
             <ProjectSpotlight
                 name={"a burden"}
-                description={"my favorite animal is the bear. i think the importance of the idol of the bear has been passed down through time to me; from 웅녀, to the bear cults of my prehistoric ancestors. whenever i think more about this \"prehistory\", i am taken back to a time when there was true fear, true survival, true respect for the Earth; this is what i see in the lonely bear."}
+                description={"my favorite animal is the bear. i think the importance of the idol of the bear has been passed down through time to me; from 웅녀, to the bear cults of my prehistoric ancestors. whenever i think more about this \'prehistory\', i am taken back to a time when there was true fear, true survival, true respect for the Earth; this is what i see in the lonely bear."}
                 image1={"thebear"}
                 size={200}
             />

@@ -18,13 +18,14 @@ import { useNavigate } from 'react-router-dom';
 
 const GlobalStyle = createGlobalStyle`
     body {
-            background-color: ${props => props.bgColor || 'rgb(67, 174, 218)'};
-            height: 100%;
-            overflow:auto; 
+        background: linear-gradient(${props => props.bgColor.altColor}, ${props => props.bgColor.color});
+        background-color: ${props => props.bgColor.color || 'rgb(30, 150, 235)'};
+        height: 100%;
+        overflow: auto;
     }
     html { 
         height: 100%;
-        overflow:auto; 
+        overflow: auto; 
     }
 `;
 
@@ -36,8 +37,9 @@ const App = () => {
     }, [location]);
 
     const [bgColor, setBgColor] = useState({
-        color: 'rgb(67, 174, 218)',
-        brightness: 1
+        color: 'rgb(30, 150, 235)',
+        altColor: 'rgb(24, 120, 235)',
+        brightness: 1.0
     });
 
     const [percentageScrolled, setPercentageScrolled] = useState(0);
@@ -62,13 +64,18 @@ const App = () => {
     };
 
     const updateColor = (percentage) => {
-        let r = 67 + (10 - 67) * percentage * 1;
-        let g = 174 + (23 - 174) * percentage * 1;
-        let b = 218 + (52 - 218) * percentage * 1;
+        let r = 30 + (10 - 30) * percentage * 1;
+        let g = 150 + (23 - 150) * percentage * 1;
+        let b = 235 + (52 - 235) * percentage * 1;
         let brightness = 1 - percentage * 0.25;
+
+        let r_alt = Math.min(255, r * 0.8);
+        let g_alt = Math.min(255, g * 0.8);
+        let b_alt = Math.min(255, b * 1.0);
 
         setBgColor({
             color: `rgb(${Math.round(r)}, ${Math.round(g)}, ${Math.round(b)})`,
+            altColor:  `rgb(${Math.round(r_alt)}, ${Math.round(g_alt)}, ${Math.round(b_alt)})`,
             brightness: brightness
         });
     };
@@ -106,7 +113,7 @@ const App = () => {
 
     return (
         <>
-            <GlobalStyle bgColor={bgColor.color} />
+            <GlobalStyle bgColor={bgColor} />
             <Base>
                 <Content bgColor={bgColor.color}>
                     <SpotlightContent>
