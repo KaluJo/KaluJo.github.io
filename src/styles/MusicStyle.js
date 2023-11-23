@@ -2,35 +2,7 @@ import styled from 'styled-components';
 import footerImage2 from '../images/babyblu.png';
 import footerImage from '../images/babybluflipped.png';
 
-export const MusicSpotlightContent = styled.div`
-    display: flex;
-    flex-direction: column;
-    
-    min-height: 100vh;
-
-    ::-webkit-scrollbar {
-        display: none;
-    }
-
-    scrollbar-width: none;
-
-    -ms-overflow-style: none;
-
-    @media (min-width: 769px) {
-        scroll-snap-type: y mandatory;
-        scroll-snap-align: center;
-        overflow-y: scroll;
-        height: 100vh;
-    }
-
-    @media (max-width: 768px) {
-        flex: 1;
-    }
-`;
-
 export const MusicSpotlightContainer = styled.div`
-    /* min-height: 300vh; */
-
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -87,8 +59,6 @@ export const SongData = styled.div`
     justify-content: center;
     max-width: 80%;
 `;
-
-{/* <SongTitle style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', maxWidth: '100%' }}> */}
 
 export const SongTitle = styled.a`
     font-size: 13px;

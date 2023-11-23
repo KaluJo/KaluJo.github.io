@@ -39,9 +39,13 @@ export const SpotlightContainer = styled.div`
 
     @media (max-width: 768px) {
         padding: 10px;
+        min-height: 150vh;
+
     }
 
     @media (min-width: 769px) {
+        min-height: ${props => props.size ? props.size : 150}vh;
+
         scroll-snap-align: center;
         scroll-snap-stop: normal;
     }
@@ -57,14 +61,14 @@ export const ProjectName = styled.a`
     vertical-align: middle;
     text-shadow: 0 0 6px rgb(100, 100, 100);
     color: white;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.5rem;
 `;
 
 export const SpotlightImage = styled.img`
     width: 80%;
     height: auto;
 
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.5rem;
 
     @media (max-width: 768px) {
         max-width: 100%;
@@ -75,13 +79,14 @@ export const SpotlightDescription = styled.p`
     margin: 0px;
     margin-bottom: 1rem;
     font-size: 1.2rem;
-    vertical-align: middle;
+    vertical-align: middle; 
     font-weight: 400;
     text-shadow: 0 0 4px rgb(100, 100, 100);
     a {
         color: white
     }
     width: 80%;
+    white-space: pre-line;
 `;
 
 export const SpotlightStack = styled.p`

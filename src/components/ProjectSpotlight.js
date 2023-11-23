@@ -10,21 +10,23 @@ import {
     SpotlightStack
 } from '../styles/SpotlightStyle';
 
-const ProjectSpotlight = React.forwardRef(({ name, link, description, techStack, image1, image2, image3, image4, image5, videoLink, languages, size }, ref) => {
+const ProjectSpotlight = React.forwardRef(({ name, link, description, techStack, image1, image2, image3, image4, image5, image6, videoLink, languages, size }, ref) => {
+
     return (
-        <SpotlightContainer style={{ minHeight: (size) ? `${size}vh` : "125vh" }}>
+        <SpotlightContainer size={size}>
             <ProjectName href={link} target="_blank" rel="noopener noreferrer">{name}</ProjectName>
             {image1 && <SpotlightImage src={require(`../images/${image1}.png`)} alt={`${name} image1`} />}
             {image2 && <SpotlightImage src={require(`../images/${image2}.png`)} alt={`${name} image2`} />}
             {image3 && <SpotlightImage src={require(`../images/${image3}.png`)} alt={`${name} image3`} />}
             {image4 && <SpotlightImage src={require(`../images/${image4}.png`)} alt={`${name} image4`} />}
             {image5 && <SpotlightImage src={require(`../images/${image5}.png`)} alt={`${name} image5`} />}
+            {image6 && <SpotlightImage src={require(`../images/${image6}.png`)} alt={`${name} image6`} />}
             {videoLink && (
                 <ReactPlayer
                     url={videoLink}
                     controls={true}
                     width='80%'
-                    style={{ marginBottom: '1.2rem' }}
+                    style={{ marginBottom: '1.5rem' }}
                 />
             )}
 

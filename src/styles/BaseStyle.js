@@ -2,14 +2,8 @@ import styled from 'styled-components';
 import footerImage2 from '../images/babyblu.png';
 import footerImage from '../images/babybluflipped.png';
 
-/* --- Resets --- */
 export const Base = styled.div`
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    overflow: scroll;
+    overflow: auto;
 
     ::-webkit-scrollbar {
         display: none;
@@ -40,8 +34,6 @@ export const Base = styled.div`
         overflow: auto;
     }
 `;
-
-/* --- Navbar --- */
 
 export const NavbarContent = styled.div`
     height: 100vh;
@@ -145,20 +137,14 @@ export const ToggleButton = styled.div`
         box-shadow: 0 0 10px rgb(60, 60, 60);
     }
 
-    &:hover .bar {
-        /* box-shadow: 0 0 10px rgb(20, 20, 20); */
-    }
-
     @media (max-width: 600px) {
         display: flex;
     }
 `;
 
-/* --- Main Content --- */
 export const Content = styled.div`
     display: flex;
     flex-direction: column;
-    /* min-height: 100vh; */
 
     @media (min-width: 769px) {
         scroll-snap-type: y proximity;
@@ -190,21 +176,19 @@ export const Main = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    align-items: center;
     min-height: 100vh;
 `;
 
 export const MainHeading = styled.h1`
     font-size: 1.6rem;
     vertical-align: middle;
-    /* text-shadow: 0 0 10px rgb(80, 80, 80); */
     padding: 1rem 3rem;
 `;
 
 export const MainParagraph = styled.p`
     font-size: 1.5rem;
     vertical-align: middle;
-    /* text-shadow: 0 0 10px rgb(80, 80, 80); */
     padding: 0.5rem 5rem;
 `;
 
@@ -212,10 +196,8 @@ export const MainListItem = styled.li`
     list-style: none;
     font-size: 1.5rem;
     padding: 0.5rem 2.5rem;
-    /* text-shadow: 0 0 5px rgb(80, 80, 80); */
 `;
 
-// MainText
 export const MainText = styled.p`
     font-size: 1.4rem;
     vertical-align: middle;
@@ -224,16 +206,12 @@ export const MainText = styled.p`
     margin-left: 5vw;
     margin-right: 5vw;
 
-    /* padding-bottom: 5rem; */
-
     a {
         color: white
     }
 `;
 
 export const MainLink = styled.p`
-    text-align: center;
-
     font-size: 1.4rem;
     vertical-align: middle;
     text-shadow: 0 0 6px rgb(100, 100, 100);
@@ -241,9 +219,8 @@ export const MainLink = styled.p`
     margin-left: 5vw;
     margin-right: 5vw;
 
-    /* padding-bottom: 5rem; */
-
-    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1.25px;
 
     cursor: pointer;
     
@@ -251,8 +228,6 @@ export const MainLink = styled.p`
         color: white
     }
 `;
-
-/* --- Footer --- */
 
 export const Footer = styled.footer`
     @media (min-width: 769px) {
