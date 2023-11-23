@@ -52,7 +52,7 @@ const Art = () => {
             />
 
             <ProjectSpotlight
-                name={"and preserves"}
+                name={"that preserves"}
                 description={"i always tell myself i'm going to start painting again until i completely forget how to lift a brush."}
                 image1={"paintings1"}
                 image2={"paintings2"}
