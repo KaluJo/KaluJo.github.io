@@ -62,7 +62,7 @@ export const NavbarBackground = styled.div`
     background-repeat: repeat-z;
     background-position: bottom;
     justify-content: center;
-    /* cursor: pointer; */
+    cursor: pointer;
 `;
 
 export const NavbarButtons = styled.div`

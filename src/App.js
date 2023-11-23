@@ -1,9 +1,9 @@
-import React, { useEffect, useState, useLayoutEffect, useRef } from 'react';
+import React, { useEffect, useState, useLayoutEffect } from 'react';
 import '@fontsource-variable/outfit';
 import '@fontsource-variable/domine';
 import '@fontsource/noto-sans';
 
-import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Music from './pages/Music';
@@ -11,15 +11,13 @@ import Coding from './pages/Coding';
 import Art from './pages/Art';
 import Random from './pages/Random';
 import { createGlobalStyle } from 'styled-components';
-import { Base, Content, Copyright, Footer, FooterBackground, MainContent, MainLink, Navbar, NavbarBackground, NavbarContent } from './styles/BaseStyle';
+import { Base, Content, Copyright, Footer, FooterBackground, MainContent, Navbar, NavbarBackground, NavbarContent } from './styles/BaseStyle';
 import { SpotlightContent } from './styles/SpotlightStyle';
-
-import { useNavigate } from 'react-router-dom';
 
 const GlobalStyle = createGlobalStyle`
     body {
         background: linear-gradient(${props => props.bgColor.color}, ${props => props.bgColor.altColor});
-        background-color: ${props => props.bgColor.color || 'rgb(30, 150, 235)'};
+        background-color: ${props => props.bgColor.color || 'rgb(30, 180, 300)'};
         height: 100%;
         overflow: auto;
     }
@@ -37,8 +35,8 @@ const App = () => {
     }, [location]);
 
     const [bgColor, setBgColor] = useState({
-        color: 'rgb(30, 150, 235)',
-        altColor: 'rgb(24, 120, 235)',
+        color: 'rgb(30, 180, 300)',
+        altColor: 'rgb(21, 90, 210)',
         brightness: 1.0
     });
 
@@ -46,16 +44,14 @@ const App = () => {
 
     const [touchStart, setTouchStart] = useState(0);
 
-    const navigate = useNavigate();
-
     const handleWheel = (e) => {
         const scrollDirection = e.deltaY;
 
         let newPercentage = percentageScrolled;
         if (scrollDirection > 0) {
-            newPercentage += 0.05;
+            newPercentage += 0.03;
         } else if (scrollDirection < 0) {
-            newPercentage -= 0.05;
+            newPercentage -= 0.03;
         }
         newPercentage = Math.max(0, Math.min(1, newPercentage));
         setPercentageScrolled(newPercentage);
@@ -65,13 +61,13 @@ const App = () => {
 
     const updateColor = (percentage) => {
         let r = 30 + (10 - 30) * percentage * 1;
-        let g = 150 + (23 - 150) * percentage * 1;
-        let b = 235 + (52 - 235) * percentage * 1;
-        let brightness = 1 - percentage * 0.25;
+        let g = 180 + (23 - 180) * percentage * 1;
+        let b = 300 + (52 - 300) * percentage * 1;
+        let brightness = 1 - percentage * 0.3;
 
-        let r_alt = Math.min(255, r * 0.8);
-        let g_alt = Math.min(255, g * 0.8);
-        let b_alt = Math.min(255, b * 1.0);
+        let r_alt = Math.min(255, r * 0.7);
+        let g_alt = Math.min(255, g * 0.5);
+        let b_alt = Math.min(255, b * 0.7);
 
         setBgColor({
             color: `rgb(${Math.round(r)}, ${Math.round(g)}, ${Math.round(b)})`,
@@ -120,8 +116,8 @@ const App = () => {
                         <div id="top" />
 
                         <MainContent>
-                            <NavbarContent >
-                                <Navbar>
+                            <NavbarContent>
+                                <Navbar onClick={() => document.getElementById("bottom").scrollIntoView({ behavior: "smooth" })}>
                                     <NavbarBackground bgColor={bgColor} />
                                 </Navbar>
                             </NavbarContent>
@@ -143,6 +139,7 @@ const App = () => {
                             &copy; ∞ Bhada Yun
                         </Copyright>
 
+                        <div id="bottom" />
                     </SpotlightContent>
 
                 </Content>

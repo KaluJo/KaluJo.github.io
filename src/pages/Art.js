@@ -153,7 +153,7 @@ const Art = () => {
             />
 
             <ProjectSpotlight
-                name={"i am here"}
+                name={"i'm still here"}
                 description={"nothing truly lasts, but the memory of how i felt when i pulled these out of the oven (and the brie from the aging chamber) will forever be one with the experience that i am: Bhada."}
                 image1={"conchas"}
                 image2={"brie"}
