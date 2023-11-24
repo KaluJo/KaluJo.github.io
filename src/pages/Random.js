@@ -82,6 +82,42 @@ const Random = () => {
                 size={200}
             />
 
+
+            <ProjectSpotlight
+                name={"Food I Like"}
+                description={"non-exhaustive, random:"}
+                languages={
+                    ["ghormeh sabzi w/ zereshk polo",
+                        "poutine",
+                        "the three tangs: 곰탕 (gomtang), 설렁탕 (seolleongtang), 갈비탕 (galbitang)",
+                        "순두부찌개 (sundubujjigae)",
+                        "열무국수 (yeolmuguksu)",
+                        "ネギトロ巻き (negitoromaki)",
+                        "dondurma (rose++)",
+                        "taco bell doritos locos supreme tacos at 3am",
+                        "호떡 (hotteok) in 남대문 (namdaemun) after an 알파문구 (alpamungu) run",
+                        "カステラ (castella) you get offered for goûter",
+                        "extra tart lemon bars",
+                        "손칼국수 (sonkalguksu) from a 단골집 (dangoljib)",
+                        "mango with tajin on beach days",
+                        "수제비 (sujebi), 얼큰 if you're feeling spicy",
+                        "elote when you least expect it",
+                        "açaí bowls with extra granola",
+                        "pupusas con extra curtido y salsa",
+                        "도토리묵 양념장 (dotorimuk yangnyeomjang)",
+                        "dried apples",
+                        "homemade spätzle",
+                        "pão de queijo",
+                        "joe's pizza",
+                        "dosa with extra sambar",
+                        "burmese tea-leaf salad to start off the day",
+                        "훈제란 (hunjaeran) with extra 맛소금 (matsogeum)",
+                        "pozole verde",
+                        "お茶漬け (ochazuke)"
+                    ]}
+                size={240}
+            />
+
             {NavSection()}
 
             <MainContent>

@@ -219,13 +219,15 @@ export const MainLink = styled.p`
     margin-left: 5vw;
     margin-right: 5vw;
 
-    text-decoration: underline;
-    text-decoration-thickness: 1.25px;
-
     cursor: pointer;
     
     a {
         color: white
+    }
+
+    :hover {
+        text-decoration: underline;
+        text-decoration-thickness: 1.5px;
     }
 `;
 
