@@ -28,7 +28,7 @@ const Art = () => {
 
             <ProjectSpotlight
                 name={"my story"}
-                description={"what happens to a baby that has art in its nature and is nurtured to make art?"}
+                description={"what happens to a boy that has art in its nature and is nurtured to make art?"}
                 image1={"bhada"}
                 size={200}
             />
@@ -64,7 +64,7 @@ const Art = () => {
 
             <ProjectSpotlight
                 name={"the fragile"}
-                description={"previously, i perceived porcelain as fragile, delicate, and expensive. however, having worked with it from mold to finish, i now find more truth in the words strong, resilient, and beautiful."}
+                description={"previously, i perceived porcelain as fragile, delicate, and pricy. however, having worked with it from mold to finish, i now find more truth in the words strong, resilient, and beautiful."}
                 image1={"porcelain1"}
                 image2={"porcelain2"}
                 size={250}
@@ -103,7 +103,7 @@ const Art = () => {
 
             <ProjectSpotlight
                 name={"all the stars"}
-                description={"it was an interesting experience, searching all around the world through the internet for the vendors that would sell the exact type and level of treatment for the stones i needed, but it was really fun making these connections. building with them, however, took a toll on my fingers."}
+                description={"it was an interesting experience, searching all around the world through the internet for the vendors that would sell the exact type and level of treatment (as little as possible) for the stones i needed, but it was really fun making these connections. building with them, however, took a toll on my fingers."}
                 image1={"bracelets1"}
                 image2={"bracelets2"}
                 image3={"bracelets3"}
@@ -115,7 +115,7 @@ const Art = () => {
 
             <ProjectSpotlight
                 name={"and back to"}
-                description={"written words describe how we felt and what we thought about throughout human history. when writing was spread to the masses, the true story of humanity was liberated."}
+                description={"written words preserve how we felt and what we thought about throughout human history. when writing was spread to the masses, the true story of humanity was liberated."}
                 image1={"conscripts1"}
                 image2={"conscripts2"}
                 image3={"conscripts3"}

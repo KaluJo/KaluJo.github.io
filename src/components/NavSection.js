@@ -16,19 +16,27 @@ const NavSection = () => {
         <MainContent>
             <Main>
                 <MainLink onClick={() => navigate("/art")}>
-                   Click to see my art
+                    my art
                 </MainLink>
                 <MainLink onClick={() => navigate("/coding")}>
-                    Click to see my coding projects
+                    my projects
                 </MainLink>
                 <MainLink onClick={() => navigate("/music")}>
-                    Click to see my playlists
+                    my playlists
                 </MainLink>
                 <MainLink onClick={() => navigate("/random")}>
-                    Click to see literally anything else
+                    literally anything else
                 </MainLink>
                 <MainLink onClick={() => navigate("/")}>
-                    Go back home
+                    go back home
+                </MainLink>
+                <MainLink
+                    onClick={(e) => {
+                        window.location.href = "mailto:bhadayun@gmail.com";
+                        e.preventDefault();
+                    }}
+                >
+                    get in touch
                 </MainLink>
             </Main>
         </MainContent>

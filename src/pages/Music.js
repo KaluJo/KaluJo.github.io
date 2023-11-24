@@ -55,7 +55,7 @@ const Music = () => {
             <MainContent>
                 <Main>
                     <MainText style={{ textAlign: 'center' }}>
-                        Am I more awake or more asleep while I'm listening to music?
+                        Am I more awake or asleep when I listen to music?
                     </MainText>
                 </Main>
             </MainContent>

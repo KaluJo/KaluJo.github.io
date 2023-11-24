@@ -15,10 +15,10 @@ const Coding = () => {
                         Welcome to my coding project spotlight!
                     </MainText>
                     <MainText>
-                        I like making things for people. I like making things that make people think. I like making things that make people laugh. I like making things that make people feel like they're not alone.
+                        I like making things for people. I like making things that help people realize that they're not alone.
                     </MainText>
                     <MainText>
-                        I'm always looking for new projects! Let me know if you're interested in working on something with me, I'm always looking to meet new people and learn new things.
+                        Let me know if you're interested in working on an idea with me! I'm always looking to meet new people and learn new things.
                     </MainText>
                 </Main>
             </MainContent>

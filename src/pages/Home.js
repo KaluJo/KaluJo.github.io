@@ -45,7 +45,7 @@ const HomePage = () => {
             <MainContent>
                 <Main>
                     <MainText>
-                        Hi, I'm Bhada Yun, welcome to my site.
+                        Hi, I'm Bhada Yun, welcome to my corner of the sky.
                     </MainText>
                     <MainText>
                         My favorite phoneme is the voiced postalveolar fricative /ʒ/, favorite color is <span style={{ color: hoverColor ? favoriteColor.id : 'inherit' }} onMouseEnter={() => setHoverColor(true)} onMouseLeave={() => setHoverColor(false)}>{favoriteColor.name}</span>, and my favorite fruit is probably mango.
