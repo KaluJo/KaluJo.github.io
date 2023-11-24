@@ -52,7 +52,7 @@ const Art = () => {
             />
 
             <ProjectSpotlight
-                name={"that preserves"}
+                name={"preserving"}
                 description={"i always tell myself i'm going to start painting again until i completely forget how to lift a brush."}
                 image1={"paintings1"}
                 image2={"paintings2"}
@@ -80,7 +80,7 @@ const Art = () => {
             />
 
             <ProjectSpotlight
-                name={"that carry"}
+                name={"carrying"}
                 description={"i wonder when the first planter was made. i wonder who first decided to grow a plant in a pot. not for food, not for medicine, but simply to grow alongside something else."}
                 image1={"planter1"}
                 image2={"planter2"}
@@ -88,7 +88,7 @@ const Art = () => {
             />
 
             <ProjectSpotlight
-                name={"a burden"}
+                name={"the burden"}
                 description={"my favorite animal is the bear. i think the importance of the idol of the bear has been passed down through time to me; from 웅녀, to the bear cults of my prehistoric ancestors. whenever i think more about this \'prehistory\', i am taken back to a time when there was true fear, true survival, true respect for the Earth; this is what i see in the lonely bear."}
                 image1={"thebear"}
                 size={200}
@@ -124,7 +124,7 @@ const Art = () => {
             />
 
             <ProjectSpotlight
-                name={"a time when"}
+                name={"the time when"}
                 description={"polymer clay is truly an overwhelming art medium. the possibilities are endless, but once you start molding, you can't go back."}
                 image1={"polymer"}
                 size={200}
@@ -153,7 +153,7 @@ const Art = () => {
             />
 
             <ProjectSpotlight
-                name={"i'm still here"}
+                name={"i'm still there"}
                 description={"nothing truly lasts, but the memory of how i felt when i pulled these out of the oven (and the brie from the aging chamber) will forever be one with the experience that i am: Bhada."}
                 image1={"conchas"}
                 image2={"brie"}
