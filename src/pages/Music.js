@@ -18,7 +18,7 @@ const Music = () => {
             <MainContent>
                 <Main>
                     <MainText>
-                        welcome to my music section!
+                        welcome to my music section.
                     </MainText>
                     <MainText>
                         i create monthly music playlists based on music i discovered or had on repeat that month.
@@ -33,7 +33,7 @@ const Music = () => {
                         if you have any recs, let me know! i actually do listen to all recs i get.
                     </MainText>
                     <MainText>
-                        for my favorites or most played of each month, i put a star emoji beside the title ⭐.
+                        for my favorites or most played of each month, i put a star emoji beside the title ⭐
                     </MainText>
                 </Main>
             </MainContent>

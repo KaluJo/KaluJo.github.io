@@ -91,6 +91,7 @@ export const SpotlightDescription = styled.p`
 
 export const SpotlightStack = styled.p`
     margin: 0px;
+    margin-top: 0.5rem;
     margin-bottom: 1rem;
     font-size: 1.1rem;
     vertical-align: middle;

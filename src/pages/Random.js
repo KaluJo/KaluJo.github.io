@@ -84,7 +84,7 @@ const Random = () => {
 
 
             <ProjectSpotlight
-                name={"Food I Like"}
+                name={"Some Food I Like"}
                 description={"non-exhaustive, random:"}
                 languages={
                     ["ghormeh sabzi w/ zereshk polo",
