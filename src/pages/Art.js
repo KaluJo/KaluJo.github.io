@@ -12,13 +12,13 @@ const Art = () => {
             <MainContent>
                 <Main>
                     <MainText>
-                        welcome to my art showcase.
+                        welcome to my art gallery.
                     </MainText>
                     <MainText>
                         if you were to ask me what my favorite activity is, i would say, 'creating'—whatever brings an abstract thought into physical reality.
                     </MainText>
                     <MainText>
-                        my biggest fear when it comes to making art is the fear of being perceived. but here i am, facing this fear.
+                        my <a href="https://www.instagram.com/50cho/" target="_blank" rel="noopener noreferrer">mom</a> is a painter and my dad is an art curator and they taught me to always view things from multiple perspectives.
                     </MainText>
                     <MainText>
                         to me, anything worth sharing is art. and i believe everything is worth sharing.

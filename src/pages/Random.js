@@ -113,7 +113,8 @@ const Random = () => {
                         "burmese tea-leaf salad to start off the day",
                         "훈제란 (hunjaeran) with extra 맛소금 (matsogeum)",
                         "pozole verde",
-                        "お茶漬け (ochazuke)"
+                        "お茶漬け (ochazuke)",
+                        "three medjool dates before bouldering"
                     ]}
                 size={240}
             />

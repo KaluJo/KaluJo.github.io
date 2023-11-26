@@ -53,7 +53,7 @@ const HomePage = () => {
                     <MainText>
                         I am convinced that given context, compassion, and courage, we can come to understand anyone, and any "other".</MainText>
                     <MainText>
-                        Currently a Junior at UC Berkeley pursuing a double major in Computer Science & Linguistics.
+                        Currently a Junior at UC Berkeley pursuing a double major in computer science & linguistics.
                     </MainText>
                     <MainText>
                         This is where you can find my creative dumps. I post art, thoughts, and whatnot, I hope you find something interesting!

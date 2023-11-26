@@ -15,14 +15,14 @@ const NavSection = () => {
     return (
         <MainContent>
             <Main>
-                <MainLink onClick={() => navigate("/art")}>
-                    my art
-                </MainLink>
                 <MainLink onClick={() => navigate("/coding")}>
-                    my projects
+                    projects
+                </MainLink>
+                <MainLink onClick={() => navigate("/art")}>
+                    some art
                 </MainLink>
                 <MainLink onClick={() => navigate("/music")}>
-                    my playlists
+                    playlists
                 </MainLink>
                 <MainLink onClick={() => navigate("/random")}>
                     literally anything else

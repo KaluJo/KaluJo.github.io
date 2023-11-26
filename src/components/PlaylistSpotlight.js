@@ -52,7 +52,7 @@ const TrackDetail = ({ track, onPlay, isPlaying, isMobile }) => {
 };
 
 const PlaylistSpotlight = ({ playlistData, currentClip, setCurrentClip, isPlaying, setIsPlaying }) => {
-    const dynamicMinHeight = Math.max(200, (playlistData.tracks.length / 10) * 80);
+    const dynamicMinHeight = Math.max(200, (playlistData.tracks.length / 5) * 25);
 
     const [isMobile, setIsMobile] = useState(window.innerWidth < 500);
 

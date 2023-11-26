@@ -1,5 +1,402 @@
 export const musicData = [
     {
+        "cover_image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb5c04d78b7cd6cef52742c950",
+        "name": "ainsi soit-il",
+        "description": "nov - k\u00f6nnen Sie mir helfen bitte? / femcel era / \"i was born in the wrong generation\"",
+        "tracks": [
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27303dadde4d9d305c1c3e0d91c",
+                "song_title": "Since U Been Gone ⭐",
+                "artist": "Kelly Clarkson",
+                "album": "Breakaway",
+                "song_clip": "https://p.scdn.co/mp3-preview/2bbd88b6a46fd986e9e4057756bcf5d876f14cfa?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273c6bc69adbd76dc9a06509936",
+                "song_title": "Smog ⭐",
+                "artist": "Indigo De Souza",
+                "album": "All of This Will End",
+                "song_clip": "https://p.scdn.co/mp3-preview/5f238fccf16d72678ccad3178a571ed43345a780?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273c5c6cddc4cdce692d2c9c630",
+                "song_title": "Big in Japan - 2019 Remaster ⭐",
+                "artist": "Alphaville",
+                "album": "Forever Young (Super Deluxe Edition; 2019 Remaster)",
+                "song_clip": "https://p.scdn.co/mp3-preview/61efd5bae8f57a8170e214b056276026f5d62767?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273c01f5670830f5ea89856e36c",
+                "song_title": "Je t'aime m\u00e9lancolie - Remix Version",
+                "artist": "Myl\u00e8ne Farmer",
+                "album": "L'Autre",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27390330b988532d70253df6e4c",
+                "song_title": "enknee1",
+                "artist": "hemlocke springs",
+                "album": "going...going...GONE!",
+                "song_clip": "https://p.scdn.co/mp3-preview/86f8e51a14ad913aedda5532a82f1ebd2b9925da?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273db1861fd7975106f2d146f08",
+                "song_title": "\u592a\u967d\u3055\u3093",
+                "artist": "Ichiko Aoba",
+                "album": "\u30de\u30db\u30ed\u30dc\u30b7\u30e4",
+                "song_clip": "https://p.scdn.co/mp3-preview/e6c8f0376be62fc709eceb103f441d38576981fa?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27381c32ab35a4ac81538c7ef60",
+                "song_title": "I'm Your Empress Of",
+                "artist": "Empress Of",
+                "album": "I'm Your Empress Of",
+                "song_clip": "https://p.scdn.co/mp3-preview/d28a0d3cd0f6b187c6658f95b4174d483ebda341?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27395dd6f9473e9651d59465eb0",
+                "song_title": "Bassically ⭐",
+                "artist": "Tei Shi",
+                "album": "Verde",
+                "song_clip": "https://p.scdn.co/mp3-preview/ac444bb7b820b3f7b3098b169b48fb0af1d0ef4e?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2730f5b85c5d4a8131d01aca941",
+                "song_title": "Caroline ⭐",
+                "artist": "Arlo Parks",
+                "album": "Collapsed In Sunbeams",
+                "song_clip": "https://p.scdn.co/mp3-preview/8f723fd3954fe03cf187a937e9bc0cef9021097e?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2732a89f91a19c16e94ba441132",
+                "song_title": "\u30c9\u30e9\u30a4\u30d5\u30e9\u30ef\u30fc ⭐",
+                "artist": "Yuuri",
+                "album": "\u30c9\u30e9\u30a4\u30d5\u30e9\u30ef\u30fc",
+                "song_clip": "https://p.scdn.co/mp3-preview/f9885e1c484280495e25f2882f7ecb5492de0ce0?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27398cef4347c2a63acbb7268f6",
+                "song_title": "Something blue",
+                "artist": "Hiroshi Yoshimura",
+                "album": "Surround",
+                "song_clip": "https://p.scdn.co/mp3-preview/c84ce0ccdd9049d0bcf68bdbd5f3b7802e05d68c?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27334ef8f7d06cf2fc2146f420a",
+                "song_title": "A Day In The Life - Remastered 2009 ⭐",
+                "artist": "The Beatles",
+                "album": "Sgt. Pepper's Lonely Hearts Club Band (Remastered)",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27338abd299129f8be89e636d98",
+                "song_title": "She Wolf ⭐",
+                "artist": "Shakira",
+                "album": "She Wolf (Expanded Edition)",
+                "song_clip": "https://p.scdn.co/mp3-preview/43a384c6842dfeeecb60e0af890490130a091b41?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273a4c01842096428fb14859bdc",
+                "song_title": "You Make Me Feel... (feat. Sabi)",
+                "artist": "Cobra Starship, Sabi",
+                "album": "Night Shades",
+                "song_clip": "https://p.scdn.co/mp3-preview/33df42e0397bd8d33cf360bb948218746844b9a1?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273a5e994914c15f75d998d7870",
+                "song_title": "Encontro",
+                "artist": "Evinha",
+                "album": "Cart\u00e3o Postal",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273530a2c5dd17d2ddf8edc2978",
+                "song_title": "Bizarre Love Triangle ⭐",
+                "artist": "New Order",
+                "album": "Brotherhood (Collector's Edition)",
+                "song_clip": "https://p.scdn.co/mp3-preview/6fba085e79ac8124665ced75f85bdf2af668b6e4?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273e85259a1cae29a8d91f2093d",
+                "song_title": "bad idea right?",
+                "artist": "Olivia Rodrigo",
+                "album": "GUTS",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273d8041a531487d0e0e4cfb41f",
+                "song_title": "Should've Been Me",
+                "artist": "Mitski",
+                "album": "Laurel Hell",
+                "song_clip": "https://p.scdn.co/mp3-preview/2572aad7644e54ea4c8bbac6d1069aee792e8fb8?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2732df3a5c027a214215210d632",
+                "song_title": "Get Connected (Education Connection Commercial Jingle)",
+                "artist": "Falcone",
+                "album": "Get Connected (Education Connection Commercial Jingle)",
+                "song_clip": "https://p.scdn.co/mp3-preview/d7168196264e96293fdc6cd1336f99d2927f011a?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273f7ecaf9daf2c1d5ca89f7312",
+                "song_title": "SOS ⭐",
+                "artist": "ABBA",
+                "album": "ABBA Gold",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2731a302aafa2ea587960e27951",
+                "song_title": "Violence - Original Mix",
+                "artist": "Grimes, i_o",
+                "album": "Miss Anthropocene (Deluxe Edition)",
+                "song_clip": "https://p.scdn.co/mp3-preview/d27a80e22d3e568d75cc1f2a04e15feaf172183e?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273d4316d60f0987758291942c7",
+                "song_title": "Player Of Games ⭐",
+                "artist": "Grimes",
+                "album": "Player Of Games",
+                "song_clip": "https://p.scdn.co/mp3-preview/0f5017977a55091c5919669c53e695860a364865?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273d8fb5b4308dc27f210064ef4",
+                "song_title": "Mrs. Robinson - From \"The Graduate\" Soundtrack ⭐",
+                "artist": "Simon & Garfunkel",
+                "album": "Bookends",
+                "song_clip": "https://p.scdn.co/mp3-preview/b48d5e6bd6312c23e674b6d3c5293438190cd99b?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27370a92681f8aff88714cb0296",
+                "song_title": "Lambada - Original Version 1989",
+                "artist": "Kaoma",
+                "album": "Lambada - Les originaux No. 1 de l'\u00e9t\u00e9 (Original 1989)",
+                "song_clip": "https://p.scdn.co/mp3-preview/9f1e031aec82989d81e197f5059875b65e3a8139?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273fcc36f9c0515e6e7faa2030b",
+                "song_title": "Good Life (with G-Eazy & Kehlani)",
+                "artist": "G-Eazy, Kehlani",
+                "album": "Good Life (with G-Eazy & Kehlani)",
+                "song_clip": "https://p.scdn.co/mp3-preview/875a492b2ac38341d4b7482fd1be5b019e9136db?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273ae2d8e716f3dd7cc325b2c2d",
+                "song_title": "Lemon Glow ⭐",
+                "artist": "Beach House",
+                "album": "7",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2733f31769b727102837cb32a63",
+                "song_title": "Two Thousand and Seventeen",
+                "artist": "Four Tet",
+                "album": "New Energy",
+                "song_clip": "https://p.scdn.co/mp3-preview/4b2868aff6ad4aa10dfdb39508ac9922c1084af5?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2736f705bef76c1d861c4d51d8c",
+                "song_title": "Take A Chance On Me",
+                "artist": "ABBA",
+                "album": "The Album",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273e7248738c2f7ce3b5584b15d",
+                "song_title": "Wild World",
+                "artist": "Yusuf / Cat Stevens",
+                "album": "Tea For The Tillerman (Remastered 2020)",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2738f5813c842cb115f3cf1fecd",
+                "song_title": "Voyage voyage ⭐",
+                "artist": "Desireless",
+                "album": "Fran\u00e7ois",
+                "song_clip": "https://p.scdn.co/mp3-preview/eef13bc40aa3354d2a2b3313464312fa25eb6f70?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273c41f4e1133b0e6c5fcf58680",
+                "song_title": "Starman - 2012 Remaster",
+                "artist": "David Bowie",
+                "album": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars (2012 Remaster)",
+                "song_clip": "https://p.scdn.co/mp3-preview/6b0a9731bccd31cea4f1e229800e82b5c7be8f53?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273afb855e6461310dff4046c56",
+                "song_title": "A Horse with No Name ⭐",
+                "artist": "America, George Martin",
+                "album": "America",
+                "song_clip": "https://p.scdn.co/mp3-preview/89200c908d805e98dd40aedf35f25a563713ffa6?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273707d13d3f87652e737e94d45",
+                "song_title": "Bitter Sweet Symphony - Remastered 2016",
+                "artist": "The Verve",
+                "album": "Urban Hymns (Remastered 2016)",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273b66c23534dd78ff7d3da83b8",
+                "song_title": "Wicked Game",
+                "artist": "Chris Isaak",
+                "album": "Heart Shaped World",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27352f532df7ba3269b0242fed9",
+                "song_title": "Time After Time ⭐",
+                "artist": "Cyndi Lauper",
+                "album": "She's So Unusual",
+                "song_clip": "https://p.scdn.co/mp3-preview/36937f5e84f627d9b6b2380cb715e6ead0ecf52b?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273c367449dfec44aeb7c7bed13",
+                "song_title": "Like Money",
+                "artist": "Wonder Girls, Akon",
+                "album": "Like Money",
+                "song_clip": "https://p.scdn.co/mp3-preview/18f02b793d71c7da95f7965f553593f7cce76906?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27387c95c59b33bdfdafc25a813",
+                "song_title": "Mercy ⭐",
+                "artist": "Duffy",
+                "album": "Rockferry",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27355eacf604f263cc9347e03e7",
+                "song_title": "Act Up",
+                "artist": "City Girls",
+                "album": "Girl Code",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27334d6221c70e5865cf21787e7",
+                "song_title": "Le Dernier Jour du Disco",
+                "artist": "Juliette Armanet",
+                "album": "Br\u00fbler le feu",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            }
+        ]
+    },
+    {
         "cover_image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbc1fda4dab8e02fbdee0c7163",
         "name": "remember to stay inside the oven until it's heated to the right temperature",
         "description": "oct - steppe inside",

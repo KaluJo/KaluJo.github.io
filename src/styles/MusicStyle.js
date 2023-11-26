@@ -97,6 +97,7 @@ export const SongAlbum = styled.a`
 export const PlaylistCoverImage = styled.img`
     width: 150px;
     height: 150px;
+    min-width: 150px;
     border-radius: 2px;
     object-fit: cover;
     object-position: center;
