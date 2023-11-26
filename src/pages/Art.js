@@ -48,7 +48,7 @@ const Art = () => {
                 image2={"cheese1"}
                 image3={"cheese2"}
                 image4={"cheese3"}
-                size={500}
+                size={450}
             />
 
             <ProjectSpotlight
@@ -58,8 +58,7 @@ const Art = () => {
                 image2={"paintings2"}
                 image3={"paintings3"}
                 image4={"paintings4"}
-                image5={"paintings5"}
-                size={550}
+                size={500}
             />
 
             <ProjectSpotlight
@@ -125,9 +124,9 @@ const Art = () => {
 
             <ProjectSpotlight
                 name={"the time when"}
-                description={"polymer clay is truly an overwhelming art medium. the possibilities are endless, but once you start molding, you can't go back."}
-                image1={"polymer"}
-                size={200}
+                description={"my dream when i was 5 was to become a persimmon tree when i grow up."}
+                image1={"memoi"}
+                size={350}
             />
 
             <ProjectSpotlight
@@ -148,8 +147,9 @@ const Art = () => {
             <ProjectSpotlight
                 name={"you all that"}
                 description={"sometimes, art is pain. and i got reminded of this when i used myself as a canvas. these 7 symbols are very important to me, reminding me that life is a balance of order and chaos, and there is no life without either. write all the books you want, they will be burned. build all the buildings you want, they will crumble. but don't write and don't build anything, did you even live?"}
-                image1={"pain"}
-                size={200}
+                image1={"pain1"}
+                image2={"pain2"}
+                size={300}
             />
 
             <ProjectSpotlight

@@ -118,6 +118,13 @@ const Random = () => {
                 size={240}
             />
 
+            <ProjectSpotlight
+                name={"bruh"}
+                description={"absolutely worth $80"}
+                image1={"bruh"}
+                size={300}
+            />
+
             {NavSection()}
 
             <MainContent>
