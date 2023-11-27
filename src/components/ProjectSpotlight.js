@@ -10,7 +10,7 @@ import {
     SpotlightStack
 } from '../styles/SpotlightStyle';
 
-const ProjectSpotlight = React.forwardRef(({ name, link, description, techStack, image1, image2, image3, image4, image5, image6, videoLink, languages, size }, ref) => {
+const ProjectSpotlight = React.forwardRef(({ name, link, description, techStack, image1, image2, image3, image4, image5, image6, image7, videoLink, languages, size }, ref) => {
 
     return (
         <SpotlightContainer size={size}>
@@ -21,6 +21,7 @@ const ProjectSpotlight = React.forwardRef(({ name, link, description, techStack,
             {image4 && <SpotlightImage src={require(`../images/${image4}.png`)} alt={`${name} image4`} />}
             {image5 && <SpotlightImage src={require(`../images/${image5}.png`)} alt={`${name} image5`} />}
             {image6 && <SpotlightImage src={require(`../images/${image6}.png`)} alt={`${name} image6`} />}
+            {image7 && <SpotlightImage src={require(`../images/${image6}.png`)} alt={`${name} image7`} />}
             {videoLink && (
                 <ReactPlayer
                     url={videoLink}

@@ -74,8 +74,10 @@ const Art = () => {
                 description={"some of the best art is found within patience, and gardening is the practice of patience. the secret to always being enchanted is to remind yourself that \"you haven\'t seen nothin\' yet\" and simply wait."}
                 image1={"garden1"}
                 image2={"garden2"}
-                image3={"me"}
-                size={450}
+                image3={"garden3"}
+                image4={"garden4"}
+                image5={"me"}
+                size={675}
             />
 
             <ProjectSpotlight
@@ -103,12 +105,13 @@ const Art = () => {
             <ProjectSpotlight
                 name={"all the stars"}
                 description={"it was an interesting experience, searching all around the world through the internet for the vendors that would sell the exact type and level of treatment (as little as possible) for the stones i needed, but it was really fun making these connections. building with them, however, took a toll on my fingers."}
-                image1={"bracelets1"}
-                image2={"bracelets2"}
-                image3={"bracelets3"}
-                image4={"bracelets4"}
-                image5={"moonstoneearrings"}
-                image6={"opalbracelet"}
+                image1={"rocks"}
+                image2={"bracelets1"}
+                image3={"bracelets2"}
+                image4={"bracelets3"}
+                image5={"bracelets4"}
+                image6={"moonstoneearrings"}
+                image7={"opalbracelet"}
                 size={600}
             />
 
