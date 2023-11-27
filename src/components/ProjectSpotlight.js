@@ -21,7 +21,7 @@ const ProjectSpotlight = React.forwardRef(({ name, link, description, techStack,
             {image4 && <SpotlightImage src={require(`../images/${image4}.png`)} alt={`${name} image4`} />}
             {image5 && <SpotlightImage src={require(`../images/${image5}.png`)} alt={`${name} image5`} />}
             {image6 && <SpotlightImage src={require(`../images/${image6}.png`)} alt={`${name} image6`} />}
-            {image7 && <SpotlightImage src={require(`../images/${image6}.png`)} alt={`${name} image7`} />}
+            {image7 && <SpotlightImage src={require(`../images/${image7}.png`)} alt={`${name} image7`} />}
             {videoLink && (
                 <ReactPlayer
                     url={videoLink}
