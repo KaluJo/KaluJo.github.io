@@ -1506,7 +1506,7 @@ export const musicData = [
     },
     {
         "cover_image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb56a55cd0118bcba432d462f8",
-        "name": "\u30df\u30eb\u30ad\u30fc\ub97c \uba39\ub294 \uc18c\ub294 \uc5b4\ub5a4 \uc8c4\ub97c \uc9a4\ub294 \uac78\u304b?",
+        "name": "\u30df\u30eb\u30ad\u30fc\ub97c \uba39\ub294 \uc18c\ub294 \uc5b4\ub5a4 \uc8c4\ub97c \uc9d3\ub294 \uac78\u304b?",
         "description": "jun - the ambiance of the future is t\u00e9l\u00e9chargement",
         "tracks": [
             {

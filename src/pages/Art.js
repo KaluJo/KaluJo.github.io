@@ -85,7 +85,9 @@ const Art = () => {
                 description={"i wonder when the first planter was made. i wonder who first decided to grow a plant in a pot. not for food, not for medicine, but simply to grow alongside something else."}
                 image1={"planter1"}
                 image2={"planter2"}
-                size={300}
+                image3={"blackberry"}
+                image4={"spider"}
+                size={500}
             />
 
             <ProjectSpotlight
@@ -99,7 +101,8 @@ const Art = () => {
                 name={"to travel"}
                 description={"i was born in the year of the horse. that isn't why i built this zebra, but it's a fun fact."}
                 image1={"thehorse"}
-                size={200}
+                image2={"standoff"}
+                size={600}
             />
 
             <ProjectSpotlight
