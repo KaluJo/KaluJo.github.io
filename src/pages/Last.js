@@ -9,6 +9,8 @@ import { Document, Page, pdfjs } from 'react-pdf';
 
 import { useNavigate } from 'react-router-dom';
 
+import { isMobile } from 'react-device-detect';
+
 import last from '../last.pdf';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
@@ -55,7 +57,7 @@ const Last = () => {
                         Back in 2019, I published my first poetry collection.
                     </MainText>
                     <MainText>
-                        In it, I explored the triple meaning of the title 'Last': the past, the end, and the enduring. 
+                        In it, I explored the triple meaning of the title 'Last': the past, the end, and the enduring.
                     </MainText>
                     <MainText>
                         There are 71 poems in total, with extra mini-poems scattered throughout.
@@ -70,13 +72,19 @@ const Last = () => {
             </MainContent>
             <Book>
                 <BookContent>
-                    <Document
-                        file={last}
-                        onLoadSuccess={onDocumentLoadSuccess}
-                        onLoadError={console.error}
-                    >
-                        {pages}
-                    </Document>
+                    {!isMobile ?
+                        <Document
+                            file={last}
+                            onLoadSuccess={onDocumentLoadSuccess}
+                            onLoadError={console.error}
+                        >
+                            {pages}
+                        </Document>
+                        :
+                        <MainText>
+                            Looks like you're on mobile. Unfortunately, the collection is not optimized for mobile yet. Please go to bhadayun.com on a web broswer.
+                        </MainText>
+                    }
                 </BookContent>
             </Book>
 

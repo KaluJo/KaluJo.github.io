@@ -9,6 +9,8 @@ import { Document, Page, pdfjs } from 'react-pdf';
 
 import { useNavigate } from 'react-router-dom';
 
+import { isMobile } from 'react-device-detect';
+
 import first from '../first.pdf';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
@@ -62,15 +64,22 @@ const First = () => {
                     </MainText>
                 </Main>
             </MainContent>
+
             <Book>
                 <BookContent>
-                    <Document
-                        file={first}
-                        onLoadSuccess={onDocumentLoadSuccess}
-                        onLoadError={console.error}
-                    >
-                        {pages}
-                    </Document>
+                    {!isMobile ?
+                        <Document
+                            file={first}
+                            onLoadSuccess={onDocumentLoadSuccess}
+                            onLoadError={console.error}
+                        >
+                            {pages}
+                        </Document>
+                        :
+                        <MainText>
+                            Looks like you're on mobile. Unfortunately, the collection is not optimized for mobile yet. Please go to bhadayun.com on a web broswer.
+                        </MainText>
+                    }
                 </BookContent>
             </Book>
 
