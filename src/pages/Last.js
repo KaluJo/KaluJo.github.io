@@ -19,6 +19,7 @@ const Last = () => {
     const navigate = useNavigate();
 
     const [numPages, setNumPages] = useState(null);
+    const [loadError, setLoadError] = useState(false);
 
     const [pageWidth, setPageWidth] = useState(Math.min(window.innerWidth, 550));
 
@@ -70,23 +71,28 @@ const Last = () => {
                     </MainText>
                 </Main>
             </MainContent>
-            <Book>
-                <BookContent>
-                    {!isMobile ?
+
+            {(!isMobile && !loadError) ?
+                <Book>
+                    <BookContent>
                         <Document
                             file={last}
                             onLoadSuccess={onDocumentLoadSuccess}
-                            onLoadError={console.error}
+                            onLoadError={() => setLoadError(true)}
                         >
                             {pages}
                         </Document>
-                        :
+                    </BookContent>
+                </Book>
+                :
+                <MainContent>
+                    <Main>
                         <MainText>
-                            Looks like you're on mobile. Unfortunately, the collection is not optimized for mobile yet. Please go to bhadayun.com on a web broswer.
+                            Unfortunately, the collection is not optimized for your broswer. Please go to bhadayun.com on a web broswer or this <a href="https://drive.google.com/file/d/1PlWRl-PLGqMWxJ6LikMO8dAfabUIaNtP/view?usp=sharing" target="_blank" rel="noopener noreferrer">Google Drive link</a>
                         </MainText>
-                    }
-                </BookContent>
-            </Book>
+                    </Main>
+                </MainContent>
+            }
 
             {NavSection()}
 
