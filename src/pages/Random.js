@@ -77,9 +77,10 @@ const Random = () => {
                         "NWMEDIA 151AC (Transforming Tech: Issues and Interventions in STEM and Silicon Valley): \“values != intentions != actions\”",
                         "CS 188 (Introduction to Artificial Intelligence): \“What can I do with these probabilities?\”",
                         "CS 194-196 (Responsible GenAI and Decentralized Intelligence): \“Let\'s make probabilities relatable\”",
-                        "LING C142 (Language & Thought): \“What came first, the language or the thought?\”"
+                        "LING C142 (Language & Thought): \“What came first, the language or the thought?\”",
+                        "UGBA 198 (SkyDeck Decal): \“You don't know anything about anyone you haven't talked to before\”"
                     ]}
-                size={200}
+                size={230}
             />
 
 
@@ -116,12 +117,12 @@ const Random = () => {
                         "お茶漬け (ochazuke)",
                         "three medjool dates before bouldering"
                     ]}
-                size={240}
+                size={260}
             />
 
             <ProjectSpotlight
                 name={"bruh"}
-                description={"absolutely worth $80"}
+                description={"absolutely worth $80 (in our defense we swore she had some pekingese in her)"}
                 image1={"bruh"}
                 size={300}
             />

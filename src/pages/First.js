@@ -11,7 +11,7 @@ import { useNavigate } from 'react-router-dom';
 
 import { isMobile } from 'react-device-detect';
 
-import first from '../first.pdf';
+import first from '../books/first.pdf';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 

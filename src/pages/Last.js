@@ -11,7 +11,7 @@ import { useNavigate } from 'react-router-dom';
 
 import { isMobile } from 'react-device-detect';
 
-import last from '../last.pdf';
+import last from '../books/last.pdf';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
@@ -61,13 +61,13 @@ const Last = () => {
                         In it, I explored the triple meaning of the title 'Last': the past, the end, and the enduring.
                     </MainText>
                     <MainText>
+                        These poems are how I processed my anxiety, depression, and loneliness at the time.
+                    </MainText>
+                    <MainText>
                         There are 71 poems in total, with extra mini-poems scattered throughout.
                     </MainText>
                     <MainText>
-                        Below, you can read through the full collection. It's separated into 5 parts, each with a very different focus and mood.
-                    </MainText>
-                    <MainText>
-                        I hope you enjoy something.
+                        Below, you can read through the entire collection 🌱
                     </MainText>
                 </Main>
             </MainContent>
@@ -88,7 +88,7 @@ const Last = () => {
                 <MainContent>
                     <Main>
                         <MainText>
-                            Unfortunately, the collection is not optimized for your broswer. Please go to bhadayun.com on a web broswer or this <a href="https://drive.google.com/file/d/1PlWRl-PLGqMWxJ6LikMO8dAfabUIaNtP/view?usp=sharing" target="_blank" rel="noopener noreferrer">Google Drive link</a>
+                            Unfortunately, the collection is not optimized for your broswer. Please go to bhadayun.com on a web broswer or this <a href="https://drive.google.com/file/d/1Zg__xnODhIOgCGT_McFqm3RnLyHuQ95f/view?usp=sharing" target="_blank" rel="noopener noreferrer">Google Drive link</a>
                         </MainText>
                     </Main>
                 </MainContent>
