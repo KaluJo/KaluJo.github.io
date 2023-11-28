@@ -87,7 +87,7 @@ const Art = () => {
                 image2={"planter2"}
                 image3={"blackberry"}
                 image4={"spider"}
-                size={500}
+                size={570}
             />
 
             <ProjectSpotlight

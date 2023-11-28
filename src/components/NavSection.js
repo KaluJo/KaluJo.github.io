@@ -21,6 +21,9 @@ const NavSection = () => {
                 <MainLink onClick={() => navigate("/art")}>
                     some art
                 </MainLink>
+                <MainLink onClick={() => navigate("/last")}>
+                    poetry
+                </MainLink>
                 <MainLink onClick={() => navigate("/music")}>
                     playlists
                 </MainLink>

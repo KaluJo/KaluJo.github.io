@@ -298,3 +298,23 @@ export const DoNotClickThisButton = styled.div`
     height: 0px;
     z-index: 10;
 `;
+
+export const BookContent = styled.div`
+    flex-direction: column;
+
+    min-height: 110vh;
+
+    @media (min-width: 769px) {
+        scroll-snap-type: y mandatory;
+        scroll-snap-align: center;
+        overflow-y: scroll;
+    }
+`;
+
+export const Book = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+`;

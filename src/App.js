@@ -10,6 +10,9 @@ import Music from './pages/Music';
 import Coding from './pages/Coding';
 import Art from './pages/Art';
 import Random from './pages/Random';
+import Last from './pages/Last';
+import First from './pages/First';
+
 import { createGlobalStyle } from 'styled-components';
 import { Base, Content, Copyright, Footer, FooterBackground, MainContent, Navbar, NavbarBackground, NavbarContent } from './styles/BaseStyle';
 import { SpotlightContent } from './styles/SpotlightStyle';
@@ -71,7 +74,7 @@ const App = () => {
 
         setBgColor({
             color: `rgb(${Math.round(r)}, ${Math.round(g)}, ${Math.round(b)})`,
-            altColor:  `rgb(${Math.round(r_alt)}, ${Math.round(g_alt)}, ${Math.round(b_alt)})`,
+            altColor: `rgb(${Math.round(r_alt)}, ${Math.round(g_alt)}, ${Math.round(b_alt)})`,
             brightness: brightness
         });
     };
@@ -129,6 +132,8 @@ const App = () => {
                             <Route path="/music" element={<Music />} />
                             <Route path="/coding" element={<Coding />} />
                             <Route path="/random" element={<Random />} />
+                            <Route path="/last" element={<Last />} />
+                            <Route path="/first" element={<First />} />
                         </Routes>
 
                         <Footer onClick={() => document.getElementById("top").scrollIntoView({ behavior: "smooth" })}>
