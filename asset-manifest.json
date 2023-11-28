@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.0ff1bddd.css",
-    "main.js": "/static/js/main.97033177.js",
-    "static/js/787.e786cf46.chunk.js": "/static/js/787.e786cf46.chunk.js",
+    "main.js": "/static/js/main.2b1bef5d.js",
+    "static/js/787.fc6f1862.chunk.js": "/static/js/787.fc6f1862.chunk.js",
     "static/media/moonstoneearrings.png": "/static/media/moonstoneearrings.4966ca2e7d822982f6db.png",
     "static/media/conscripts4.png": "/static/media/conscripts4.04de9efe3f18993188b9.png",
     "static/media/me.png": "/static/media/me.4529b9d515cea8c85c78.png",
@@ -76,11 +76,11 @@
     "static/media/noto-sans-greek-ext-400-normal.woff2": "/static/media/noto-sans-greek-ext-400-normal.a53d3a503b7febd2de61.woff2",
     "index.html": "/index.html",
     "main.0ff1bddd.css.map": "/static/css/main.0ff1bddd.css.map",
-    "main.97033177.js.map": "/static/js/main.97033177.js.map",
-    "787.e786cf46.chunk.js.map": "/static/js/787.e786cf46.chunk.js.map"
+    "main.2b1bef5d.js.map": "/static/js/main.2b1bef5d.js.map",
+    "787.fc6f1862.chunk.js.map": "/static/js/787.fc6f1862.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ff1bddd.css",
-    "static/js/main.97033177.js"
+    "static/js/main.2b1bef5d.js"
   ]
 }
