@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0ff1bddd.css",
-    "main.js": "/static/js/main.a600b1f8.js",
+    "main.js": "/static/js/main.97033177.js",
     "static/js/787.e786cf46.chunk.js": "/static/js/787.e786cf46.chunk.js",
     "static/media/moonstoneearrings.png": "/static/media/moonstoneearrings.4966ca2e7d822982f6db.png",
     "static/media/conscripts4.png": "/static/media/conscripts4.04de9efe3f18993188b9.png",
@@ -15,8 +15,10 @@
     "static/media/bracelets2.png": "/static/media/bracelets2.73cf05e1c8ac8d796621.png",
     "static/media/bracelets4.png": "/static/media/bracelets4.8f5e03cba720631af5d2.png",
     "static/media/bracelets3.png": "/static/media/bracelets3.83aea9a93ba9fba96713.png",
+    "static/media/blackberry.png": "/static/media/blackberry.5f02fe6349acb4dd1d3e.png",
     "static/media/bracelets1.png": "/static/media/bracelets1.2af1078852272cc52b07.png",
     "static/media/bagel1.png": "/static/media/bagel1.6bdd908ac25280e75ba3.png",
+    "static/media/spider.png": "/static/media/spider.9ab7727fee646751dd40.png",
     "static/media/garden2.png": "/static/media/garden2.99d80db2331ee2780545.png",
     "static/media/garden3.png": "/static/media/garden3.f55fad5f9dd2c6358e22.png",
     "static/media/porcelain2.png": "/static/media/porcelain2.a2cb4cd90195e63d4cf4.png",
@@ -30,6 +32,7 @@
     "static/media/cheese2.png": "/static/media/cheese2.5d0d428cce96066865ef.png",
     "static/media/thehorse.png": "/static/media/thehorse.bd858e1422a0bb816c96.png",
     "static/media/thebear.png": "/static/media/thebear.88c2e3c24e4650f84857.png",
+    "static/media/standoff.png": "/static/media/standoff.57debf78560bb13648df.png",
     "static/media/conscripts1.png": "/static/media/conscripts1.51c16cfa923b629f2b25.png",
     "static/media/cheese1.png": "/static/media/cheese1.c47e664806415d20c3b7.png",
     "static/media/paintings2.png": "/static/media/paintings2.cccfb2108cb5c3cd92bb.png",
@@ -73,11 +76,11 @@
     "static/media/noto-sans-greek-ext-400-normal.woff2": "/static/media/noto-sans-greek-ext-400-normal.a53d3a503b7febd2de61.woff2",
     "index.html": "/index.html",
     "main.0ff1bddd.css.map": "/static/css/main.0ff1bddd.css.map",
-    "main.a600b1f8.js.map": "/static/js/main.a600b1f8.js.map",
+    "main.97033177.js.map": "/static/js/main.97033177.js.map",
     "787.e786cf46.chunk.js.map": "/static/js/787.e786cf46.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ff1bddd.css",
-    "static/js/main.a600b1f8.js"
+    "static/js/main.97033177.js"
   ]
 }
