@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.0ff1bddd.css",
-    "main.js": "/static/js/main.2b1bef5d.js",
+    "main.js": "/static/js/main.1287343d.js",
     "static/js/787.fc6f1862.chunk.js": "/static/js/787.fc6f1862.chunk.js",
+    "static/media/last.pdf": "/static/media/last.996f060fedeb6e175ff9.pdf",
     "static/media/moonstoneearrings.png": "/static/media/moonstoneearrings.4966ca2e7d822982f6db.png",
     "static/media/conscripts4.png": "/static/media/conscripts4.04de9efe3f18993188b9.png",
     "static/media/me.png": "/static/media/me.4529b9d515cea8c85c78.png",
@@ -10,6 +11,7 @@
     "static/media/cheese3.png": "/static/media/cheese3.18c52f0084ebab9e9d50.png",
     "static/media/pineapple.png": "/static/media/pineapple.939406bb3d88e2c074f4.png",
     "static/media/bapimage.png": "/static/media/bapimage.0cc73b9d5258a3a5723a.png",
+    "static/media/first.pdf": "/static/media/first.35534b5985bbd610ad98.pdf",
     "static/media/conscripts2.png": "/static/media/conscripts2.7656ae7877e9b152f4ff.png",
     "static/media/memoi.png": "/static/media/memoi.05799cefcc7fee4aabbc.png",
     "static/media/bracelets2.png": "/static/media/bracelets2.73cf05e1c8ac8d796621.png",
@@ -76,11 +78,11 @@
     "static/media/noto-sans-greek-ext-400-normal.woff2": "/static/media/noto-sans-greek-ext-400-normal.a53d3a503b7febd2de61.woff2",
     "index.html": "/index.html",
     "main.0ff1bddd.css.map": "/static/css/main.0ff1bddd.css.map",
-    "main.2b1bef5d.js.map": "/static/js/main.2b1bef5d.js.map",
+    "main.1287343d.js.map": "/static/js/main.1287343d.js.map",
     "787.fc6f1862.chunk.js.map": "/static/js/787.fc6f1862.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ff1bddd.css",
-    "static/js/main.2b1bef5d.js"
+    "static/js/main.1287343d.js"
   ]
 }
