@@ -80,7 +80,6 @@ const Random = () => {
                         "LING C142 (Language & Thought): \“What came first, the language or the thought?\”",
                         "UGBA 198 (SkyDeck Decal): \“You don't know anything about anyone you haven't talked to before\”"
                     ]}
-                size={230}
             />
 
 
@@ -117,14 +116,13 @@ const Random = () => {
                         "お茶漬け (ochazuke)",
                         "three medjool dates before bouldering"
                     ]}
-                size={260}
             />
 
             <ProjectSpotlight
                 name={"bruh"}
                 description={"absolutely worth $80 (in our defense we swore she had some pekingese in her)"}
                 image1={"bruh"}
-                size={300}
+                size={250}
             />
 
             {NavSection()}

@@ -92,7 +92,7 @@ const First = () => {
 
             <MainContent>
                 <Main>
-                    <MainLink onClick={() => navigate("/last")} style={{ textAlign: 'center', textDecoration: 'underline' }}>
+                    <MainLink onClick={() => navigate("/last")} style={{ textAlign: 'center', textDecoration: 'underline', textDecorationThickness: 1.5 }}>
                         For every first, there is a last.
                     </MainLink>
                 </Main>

@@ -10,10 +10,14 @@ export const MusicSpotlightContainer = styled.div`
     justify-content: center;
 
     @media (max-width: 768px) {
-        padding: 10px;
+        padding-top: 25vh;
+        padding-bottom: 25vh;
     }
 
     @media (min-width: 769px) {
+        padding-top: 25vh;
+        padding-bottom: 75vh;
+
         scroll-snap-align: center;
         scroll-snap-stop: normal;
     }

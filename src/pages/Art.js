@@ -30,7 +30,6 @@ const Art = () => {
                 name={"my story"}
                 description={"what happens to a boy that has art in its nature and is nurtured to make art?"}
                 image1={"bhada"}
-                size={200}
             />
 
             <ProjectSpotlight
@@ -38,7 +37,6 @@ const Art = () => {
                 description={"printmaking has always been one of my favorite ways to make art. i also really like totoro (i've watched it over 50 times). as an homage to the way ススワタリ took over my mind as a little kid, i took over the walls of an art studio with these little linoleum stamps i made."}
                 image1={"susuwatari1"}
                 image2={"susuwatari2"}
-                size={350}
             />
 
             <ProjectSpotlight
@@ -48,7 +46,6 @@ const Art = () => {
                 image2={"cheese1"}
                 image3={"cheese2"}
                 image4={"cheese3"}
-                size={450}
             />
 
             <ProjectSpotlight
@@ -58,7 +55,6 @@ const Art = () => {
                 image2={"paintings2"}
                 image3={"paintings3"}
                 image4={"paintings4"}
-                size={500}
             />
 
             <ProjectSpotlight
@@ -66,7 +62,6 @@ const Art = () => {
                 description={"previously, i perceived porcelain as fragile, delicate, and pricy. however, having worked with it from mold to finish, i now find more truth in the words strong, resilient, and beautiful."}
                 image1={"porcelain1"}
                 image2={"porcelain2"}
-                size={250}
             />
 
             <ProjectSpotlight
@@ -77,7 +72,6 @@ const Art = () => {
                 image3={"garden3"}
                 image4={"garden4"}
                 image5={"me"}
-                size={675}
             />
 
             <ProjectSpotlight
@@ -87,14 +81,12 @@ const Art = () => {
                 image2={"planter2"}
                 image3={"blackberry"}
                 image4={"spider"}
-                size={570}
             />
 
             <ProjectSpotlight
                 name={"the burden"}
                 description={"my favorite animal is the bear. i think the importance of the idol of the bear has been passed down through time to me; from 웅녀, to the bear cults of my prehistoric ancestors. whenever i think more about this \'prehistory\', i am taken back to a time when there was true fear, true survival, true respect for the Earth; this is what i see in the lonely bear."}
                 image1={"thebear"}
-                size={200}
             />
 
             <ProjectSpotlight
@@ -102,7 +94,6 @@ const Art = () => {
                 description={"i was born in the year of the horse. that isn't why i built this zebra, but it's a fun fact."}
                 image1={"thehorse"}
                 image2={"standoff"}
-                size={600}
             />
 
             <ProjectSpotlight
@@ -115,7 +106,6 @@ const Art = () => {
                 image5={"bracelets4"}
                 image6={"moonstoneearrings"}
                 image7={"opalbracelet"}
-                size={600}
             />
 
             <ProjectSpotlight
@@ -125,14 +115,12 @@ const Art = () => {
                 image2={"conscripts2"}
                 image3={"conscripts3"}
                 image4={"conscripts4"}
-                size={550}
             />
 
             <ProjectSpotlight
                 name={"the time when"}
                 description={"my dream when i was 5 was to become a persimmon tree when i grow up."}
                 image1={"memoi"}
-                size={350}
             />
 
             <ProjectSpotlight
@@ -140,14 +128,12 @@ const Art = () => {
                 description={"do you remember who you're forgetting?"}
                 image1={"bagel1"}
                 image2={"bagel2"}
-                size={450}
             />
 
             <ProjectSpotlight
                 name={"to remind"}
                 description={"they say the fruits of your labor are the sweetest. but what if the fruit in question is a quince? i've never had a tasty quince."}
                 image1={"pineapple"}
-                size={400}
             />
 
             <ProjectSpotlight
@@ -155,7 +141,6 @@ const Art = () => {
                 description={"sometimes, art is pain. and i got reminded of this when i used myself as a canvas. these 7 symbols are very important to me, reminding me that life is a balance of order and chaos, and there is no life without either. write all the books you want, they will be burned. build all the buildings you want, they will crumble. but don't write and don't build anything, did you even live?"}
                 image1={"pain1"}
                 image2={"pain2"}
-                size={300}
             />
 
             <ProjectSpotlight
@@ -164,7 +149,6 @@ const Art = () => {
                 image1={"conchas"}
                 image2={"brie"}
                 image3={"sourdough"}
-                size={400}
             />
 
             {NavSection()}

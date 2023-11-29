@@ -29,8 +29,7 @@ export const SpotlightContent = styled.div`
 `;
 
 export const SpotlightContainer = styled.div`
-    min-height: 100vh;
-
+    /* min-height: 100vh; */
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -38,13 +37,14 @@ export const SpotlightContainer = styled.div`
     justify-content: center;
 
     @media (max-width: 768px) {
-        padding: 10px;
-        min-height: 150vh;
-
+        padding-top: 25vh;
+        padding-bottom: 25vh;
     }
 
     @media (min-width: 769px) {
-        min-height: ${props => props.size ? props.size : 150}vh;
+        min-height: ${props => props.size ? props.size : 100}vh;
+        padding-top: 25vh;
+        padding-bottom: 75vh;
 
         scroll-snap-align: center;
         scroll-snap-stop: normal;

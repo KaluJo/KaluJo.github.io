@@ -17,6 +17,8 @@ import { createGlobalStyle } from 'styled-components';
 import { Base, Content, Copyright, Footer, FooterBackground, MainContent, Navbar, NavbarBackground, NavbarContent } from './styles/BaseStyle';
 import { SpotlightContent } from './styles/SpotlightStyle';
 
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 const GlobalStyle = createGlobalStyle`
     body {
         background: linear-gradient(${props => props.bgColor.color}, ${props => props.bgColor.altColor});

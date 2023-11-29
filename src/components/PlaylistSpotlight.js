@@ -3,7 +3,9 @@ import React, { useState } from 'react';
 import { MusicSpotlightContainer, MusicSpotlightContent, MusicSpotlightImage, MusicSpotlightImageOverlay, PlaylistContainer, PlaylistCoverImage, PlaylistData, PlaylistDescription, PlaylistName, SongAlbum, SongContainer, SongData, SongSinger, SongTitle } from '../styles/MusicStyle';
 import { FaPlay, FaPause } from 'react-icons/fa';
 
-const TrackDetail = ({ track, onPlay, isPlaying, isMobile }) => {
+import { isMobile } from 'react-device-detect';
+
+const TrackDetail = ({ track, onPlay, isPlaying }) => {
     const [isTouched, setIsTouched] = useState(false);
     const [isHovered, setIsHovered] = useState(false);
     const OverlayIcon = isPlaying ? FaPause : FaPlay;
@@ -52,10 +54,6 @@ const TrackDetail = ({ track, onPlay, isPlaying, isMobile }) => {
 };
 
 const PlaylistSpotlight = ({ playlistData, currentClip, setCurrentClip, isPlaying, setIsPlaying }) => {
-    const dynamicMinHeight = Math.max(200, (playlistData.tracks.length / 5) * 40);
-
-    const [isMobile, setIsMobile] = useState(window.innerWidth < 500);
-
     const handlePlay = (clipUrl) => {
         if (currentClip.src === clipUrl && isPlaying) {
             currentClip.pause();
@@ -72,7 +70,7 @@ const PlaylistSpotlight = ({ playlistData, currentClip, setCurrentClip, isPlayin
     };
 
     return (
-        <MusicSpotlightContainer style={{ minHeight: dynamicMinHeight + "vw", paddingLeft: "12vw", paddingRight: "12vw" }}>
+        <MusicSpotlightContainer style={{ paddingLeft: "12vw", paddingRight: "12vw" }}>
             <PlaylistContainer>
                 {playlistData.cover_image && <PlaylistCoverImage src={playlistData.cover_image} alt={`Cover of ${playlistData.name}`} />}
                 <PlaylistData style={{ paddingLeft: 20 }}>
@@ -81,7 +79,7 @@ const PlaylistSpotlight = ({ playlistData, currentClip, setCurrentClip, isPlayin
                 </PlaylistData>
             </PlaylistContainer>
             {playlistData.tracks.map((track, index) => (
-                <TrackDetail key={index} track={track} onPlay={handlePlay} isPlaying={currentClip.src === track.song_clip && isPlaying} isMobile={isMobile} />
+                <TrackDetail key={index} track={track} onPlay={handlePlay} isPlaying={currentClip.src === track.song_clip && isPlaying} />
             ))}
         </MusicSpotlightContainer>
     );
