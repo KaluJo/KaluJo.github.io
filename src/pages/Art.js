@@ -55,7 +55,6 @@ const Art = () => {
                 image2={"paintings2"}
                 image3={"paintings3"}
                 image4={"paintings4"}
-                image5={"paintings5"}
             />
 
             <ProjectSpotlight
