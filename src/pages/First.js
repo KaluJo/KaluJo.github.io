@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 
 import { Book, BookContent, Main, MainContent, MainLink, MainText } from '../styles/BaseStyle';
 
-import ProjectSpotlight from '../components/ProjectSpotlight';
 import NavSection from '../components/NavSection';
 
 import { Document, Page, pdfjs } from 'react-pdf';

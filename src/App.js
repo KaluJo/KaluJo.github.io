@@ -1,9 +1,7 @@
-import React, { useEffect, useState, useLayoutEffect } from 'react';
+import React, { useEffect, useState, useLayoutEffect, useCallback } from 'react';
 import '@fontsource-variable/outfit';
-import '@fontsource-variable/domine';
-import '@fontsource/noto-sans';
 
-import { Route, Routes, useLocation } from 'react-router-dom';
+import { Route, Routes, useLocation, Navigate } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Music from './pages/Music';
@@ -16,8 +14,6 @@ import First from './pages/First';
 import { createGlobalStyle } from 'styled-components';
 import { Base, Content, Copyright, Footer, FooterBackground, MainContent, Navbar, NavbarBackground, NavbarContent } from './styles/BaseStyle';
 import { SpotlightContent } from './styles/SpotlightStyle';
-
-import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const GlobalStyle = createGlobalStyle`
     body {
@@ -49,7 +45,7 @@ const App = () => {
 
     const [touchStart, setTouchStart] = useState(0);
 
-    const handleWheel = (e) => {
+    const handleWheel = useCallback((e) => {
         const scrollDirection = e.deltaY;
 
         let newPercentage = percentageScrolled;
@@ -62,7 +58,7 @@ const App = () => {
         setPercentageScrolled(newPercentage);
 
         updateColor(newPercentage);
-    };
+    }, [percentageScrolled]);
 
     const updateColor = (percentage) => {
         let r = 30 + (10 - 30) * percentage * 1;
@@ -85,7 +81,7 @@ const App = () => {
         setTouchStart(e.touches[0].clientY);
     };
 
-    const handleTouchMove = (e) => {
+    const handleTouchMove = useCallback((e) => {
         const touchMove = e.touches[0].clientY;
         const difference = touchStart - touchMove;
 
@@ -96,7 +92,7 @@ const App = () => {
         setPercentageScrolled(newPercentage);
 
         updateColor(newPercentage);
-    };
+    }, [percentageScrolled, touchStart]);
 
     useEffect(() => {
         window.addEventListener('wheel', handleWheel);
@@ -110,7 +106,7 @@ const App = () => {
             window.removeEventListener('touchstart', handleTouchStart);
             window.removeEventListener('touchmove', handleTouchMove);
         };
-    }, [percentageScrolled, touchStart]);
+    }, [handleWheel, handleTouchMove, touchStart]);
 
     return (
         <>
@@ -136,6 +132,7 @@ const App = () => {
                             <Route path="/random" element={<Random />} />
                             <Route path="/last" element={<Last />} />
                             <Route path="/first" element={<First />} />
+                            <Route path="*" element={<Navigate to="/" replace />} />
                         </Routes>
 
                         <Footer onClick={() => document.getElementById("top").scrollIntoView({ behavior: "smooth" })}>

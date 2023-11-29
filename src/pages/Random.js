@@ -80,6 +80,7 @@ const Random = () => {
                         "LING C142 (Language & Thought): \“What came first, the language or the thought?\”",
                         "UGBA 198 (SkyDeck Decal): \“You don't know anything about anyone you haven't talked to before\”"
                     ]}
+                    size={160}
             />
 
 
@@ -116,6 +117,7 @@ const Random = () => {
                         "お茶漬け (ochazuke)",
                         "three medjool dates before bouldering"
                     ]}
+                    size={180}
             />
 
             <ProjectSpotlight

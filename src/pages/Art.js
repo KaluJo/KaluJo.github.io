@@ -55,6 +55,7 @@ const Art = () => {
                 image2={"paintings2"}
                 image3={"paintings3"}
                 image4={"paintings4"}
+                image5={"paintings5"}
             />
 
             <ProjectSpotlight
@@ -93,7 +94,8 @@ const Art = () => {
                 name={"to travel"}
                 description={"i was born in the year of the horse. that isn't why i built this zebra, but it's a fun fact."}
                 image1={"thehorse"}
-                image2={"standoff"}
+                image2={"thefiredhorse"}
+                image3={"standoff"}
             />
 
             <ProjectSpotlight
@@ -133,7 +135,8 @@ const Art = () => {
             <ProjectSpotlight
                 name={"to remind"}
                 description={"they say the fruits of your labor are the sweetest. but what if the fruit in question is a quince? i've never had a tasty quince."}
-                image1={"pineapple"}
+                image1={"painapple"}
+                image2={"pineapple"}
             />
 
             <ProjectSpotlight
