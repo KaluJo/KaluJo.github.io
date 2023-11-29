@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2cddf6bd.css",
-    "main.js": "/static/js/main.f91493ce.js",
+    "main.js": "/static/js/main.1628f422.js",
     "static/js/787.fc6f1862.chunk.js": "/static/js/787.fc6f1862.chunk.js",
     "static/media/last.pdf": "/static/media/last.6f24b0181e13cfc50586.pdf",
     "static/media/first.pdf": "/static/media/first.35534b5985bbd610ad98.pdf",
@@ -52,7 +52,6 @@
     "static/media/bagel2.png": "/static/media/bagel2.513514f83e1fd2c7cd8e.png",
     "static/media/iveeimage.png": "/static/media/iveeimage.0ebeef0e35ffe0d5655e.png",
     "static/media/bracelets1.png": "/static/media/bracelets1.6030a00e57228e1e8c80.png",
-    "static/media/paintings5.png": "/static/media/paintings5.b54105970f4176c69147.png",
     "static/media/conchas.png": "/static/media/conchas.18bcd7a517cb93c81246.png",
     "static/media/bracelets3.png": "/static/media/bracelets3.f5aafcef010de98615f6.png",
     "static/media/pain2.png": "/static/media/pain2.5cb632e97b76d548a93a.png",
@@ -63,11 +62,11 @@
     "static/media/outfit-latin-ext-wght-normal.woff2": "/static/media/outfit-latin-ext-wght-normal.a7f816e05f1202711a29.woff2",
     "index.html": "/index.html",
     "main.2cddf6bd.css.map": "/static/css/main.2cddf6bd.css.map",
-    "main.f91493ce.js.map": "/static/js/main.f91493ce.js.map",
+    "main.1628f422.js.map": "/static/js/main.1628f422.js.map",
     "787.fc6f1862.chunk.js.map": "/static/js/787.fc6f1862.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2cddf6bd.css",
-    "static/js/main.f91493ce.js"
+    "static/js/main.1628f422.js"
   ]
 }
