@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0ff1bddd.css",
-    "main.js": "/static/js/main.06e405d9.js",
+    "main.css": "/static/css/main.cf03567b.css",
+    "main.js": "/static/js/main.1cb348a9.js",
     "static/js/787.fc6f1862.chunk.js": "/static/js/787.fc6f1862.chunk.js",
     "static/media/moonstoneearrings.png": "/static/media/moonstoneearrings.4966ca2e7d822982f6db.png",
     "static/media/last.pdf": "/static/media/last.60f2b2df5380cb14c23d.pdf",
@@ -77,12 +77,12 @@
     "static/media/noto-sans-vietnamese-400-normal.woff2": "/static/media/noto-sans-vietnamese-400-normal.999fbba78534aa9c54f3.woff2",
     "static/media/noto-sans-greek-ext-400-normal.woff2": "/static/media/noto-sans-greek-ext-400-normal.a53d3a503b7febd2de61.woff2",
     "index.html": "/index.html",
-    "main.0ff1bddd.css.map": "/static/css/main.0ff1bddd.css.map",
-    "main.06e405d9.js.map": "/static/js/main.06e405d9.js.map",
+    "main.cf03567b.css.map": "/static/css/main.cf03567b.css.map",
+    "main.1cb348a9.js.map": "/static/js/main.1cb348a9.js.map",
     "787.fc6f1862.chunk.js.map": "/static/js/787.fc6f1862.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ff1bddd.css",
-    "static/js/main.06e405d9.js"
+    "static/css/main.cf03567b.css",
+    "static/js/main.1cb348a9.js"
   ]
 }
