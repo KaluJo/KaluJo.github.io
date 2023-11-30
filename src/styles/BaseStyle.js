@@ -77,7 +77,6 @@ export const NavbarButtons = styled.div`
     z-index: 10;
 `;
 export const NavbarHome = styled.div`
-
     a {
         text-decoration: none;
         font-weight: 500;
@@ -93,7 +92,6 @@ export const NavbarHome = styled.div`
 `;
 
 export const NavbarLinks = styled.div`
-
     ul {
         display: flex;
         margin: 0;
