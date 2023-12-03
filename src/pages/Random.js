@@ -105,6 +105,7 @@ const Random = () => {
                         "elote when you least expect it",
                         "açaí bowls with extra granola & passionfruit",
                         "pupusas con extra curtido y salsa",
+                        "baba ganoush",
                         "도토리묵 양념장 (dotorimuk yangnyeomjang)",
                         "dried apples",
                         "homemade spätzle",
@@ -115,17 +116,18 @@ const Random = () => {
                         "훈제란 (hunjaeran) with extra 맛소금 (matsogeum)",
                         "pozole verde",
                         "お茶漬け (ochazuke)",
-                        "three medjool dates before bouldering"
+                        "three medjool dates before bouldering",
+                        "challah with honey"
                     ]}
                     size={180}
             />
 
-            <ProjectSpotlight
+            {/* <ProjectSpotlight
                 name={"bruh"}
                 description={"absolutely worth $80 (in our defense we swore she had some pekingese in her)"}
                 image1={"bruh"}
                 size={250}
-            />
+            /> */}
 
             {NavSection()}
 
