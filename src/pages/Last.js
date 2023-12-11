@@ -87,7 +87,7 @@ const Last = () => {
                 <MainContent>
                     <Main>
                         <MainText>
-                            Unfortunately, the collection is not optimized for your broswer. Please go to bhadayun.com on a web broswer or this <a href="https://drive.google.com/file/d/1rjAUPmCwsExFZ5IQZsD7sNTYuDVEHIno/view?usp=sharing" target="_blank" rel="noopener noreferrer">Google Drive link</a>
+                            Unfortunately, the collection is not optimized for your broswer. Please go to bhadayun.com on a web broswer or this <a href="https://drive.google.com/file/d/1N50LpmKH1mROUHm9SAlvM8X-mWwqZxiw/view?usp=sharing" target="_blank" rel="noopener noreferrer">Google Drive link</a>
                         </MainText>
                     </Main>
                 </MainContent>
