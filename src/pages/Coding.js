@@ -49,7 +49,7 @@ const Coding = () => {
 
             <ProjectSpotlight
                 name={"Cliniprompt / PromptQ"}
-                // link={"https://timelesstreasures.app/"}
+                link={"https://github.com/KaluJo/cliniprompt-public"}
                 description={"I worked with a team based in UC Berkeley and researchers from University of Wisconsin-Madison on a full-stack design & development project for a real-world LLM application.\n\nWe created PromptQ, an open-source framework that aids in prompt crowdsourcing and evaluation of various enterprise and open-source models. Our specific use-case was for a clinical setting, using our framework to help hospitals gather useful prompts related to patient care.\n\nTo mediate the \'technical jargon\' associated with AI/prompting we drew inspiration from Tinder and Duolingo for our design choices, implementing a swiping system as well as a leaderboard/streak system to encourage consistent participation through gamification."}
                 techStack={"React.js, Firebase, HuggingFace, Python, Flask, OpenAI API, LLaMA, Styled Components, Mantine"}
                 videoLink={"https://youtu.be/1TWhKbf55yc"}
