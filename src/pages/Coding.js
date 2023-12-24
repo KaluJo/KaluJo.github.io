@@ -49,7 +49,7 @@ const Coding = () => {
 
             <ProjectSpotlight
                 name={"Cliniprompt / PromptQ"}
-                link={"https://github.com/KaluJo/cliniprompt-public"}
+                link={"https://timelesstreasures.app/"}
                 description={"I worked with a team based in UC Berkeley and researchers from University of Wisconsin-Madison on a full-stack design & development project for a real-world LLM application.\n\nWe created PromptQ, an open-source framework that aids in prompt crowdsourcing and evaluation of various enterprise and open-source models. Our specific use-case was for a clinical setting, using our framework to help hospitals gather useful prompts related to patient care.\n\nTo mediate the \'technical jargon\' associated with AI/prompting we drew inspiration from Tinder and Duolingo for our design choices, implementing a swiping system as well as a leaderboard/streak system to encourage consistent participation through gamification."}
                 techStack={"React.js, Firebase, HuggingFace, Python, Flask, OpenAI API, LLaMA, Styled Components, Mantine"}
                 videoLink={"https://youtu.be/1TWhKbf55yc"}
@@ -78,6 +78,14 @@ const Coding = () => {
                 description={"It makes no sense trying to memorize sentences by simply staring at a piece of paper with words, hoping they will stick to my brain.\n\nUsing STT/TTS libraries, I made this mini open-source project, to practice sentences and pronunciation for a target language.\n\nI also gave myself a maximum of ~3 errors in pronunciation using the Levenshtein distance for each sentence practiced. I am very excited to see the future of STT/TTS technology, especially during its union with artificial intelligence."}
                 techStack={"React Native (TypeScript), ElevenLabs Multilingual v2, Styled Components"}
                 videoLink={"https://www.youtube.com/shorts/nQydlU06QN4"}
+            />
+
+            <ProjectSpotlight
+                name={"Bhada's Site"}
+                link={"https://github.com/KaluJo/KaluJo.github.io"}
+                description={"This site was coded entirely by me! I hope that overall it serves a pleasant experience, but if anything is annoying, please let me know..! (and yes I made the clouds myself)"}
+                techStack={"React.js (JavaScript), Spotify API, Styled Components, GitHub Pages, lots and lots of love"}
+                image1={"mysite"}
             />
 
             {NavSection()}
