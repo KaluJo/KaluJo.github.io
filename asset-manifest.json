@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2cddf6bd.css",
-    "main.js": "/static/js/main.41299a1f.js",
+    "main.js": "/static/js/main.b47db2b0.js",
     "static/js/787.fc6f1862.chunk.js": "/static/js/787.fc6f1862.chunk.js",
     "static/media/last.pdf": "/static/media/last.3344c631cefa327f7a25.pdf",
     "static/media/first.pdf": "/static/media/first.35534b5985bbd610ad98.pdf",
@@ -49,6 +49,7 @@
     "static/media/bracelets2.png": "/static/media/bracelets2.a2601c9c5af6f4188f4c.png",
     "static/media/planter1.png": "/static/media/planter1.24d6204ee6a758157b4d.png",
     "static/media/babybluflipped.png": "/static/media/babybluflipped.2c1f5b203116bb0989ef.png",
+    "static/media/mysite.png": "/static/media/mysite.deb6b41b9dc3684bafb6.png",
     "static/media/bagel2.png": "/static/media/bagel2.513514f83e1fd2c7cd8e.png",
     "static/media/iveeimage.png": "/static/media/iveeimage.0ebeef0e35ffe0d5655e.png",
     "static/media/bracelets1.png": "/static/media/bracelets1.6030a00e57228e1e8c80.png",
@@ -62,11 +63,11 @@
     "static/media/outfit-latin-ext-wght-normal.woff2": "/static/media/outfit-latin-ext-wght-normal.a7f816e05f1202711a29.woff2",
     "index.html": "/index.html",
     "main.2cddf6bd.css.map": "/static/css/main.2cddf6bd.css.map",
-    "main.41299a1f.js.map": "/static/js/main.41299a1f.js.map",
+    "main.b47db2b0.js.map": "/static/js/main.b47db2b0.js.map",
     "787.fc6f1862.chunk.js.map": "/static/js/787.fc6f1862.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2cddf6bd.css",
-    "static/js/main.41299a1f.js"
+    "static/js/main.b47db2b0.js"
   ]
 }
