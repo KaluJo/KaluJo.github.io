@@ -83,8 +83,8 @@ const Coding = () => {
             <ProjectSpotlight
                 name={"Bhada's Site"}
                 link={"https://github.com/KaluJo/KaluJo.github.io"}
-                description={"This site was coded entirely by me! I hope that overall it serves a pleasant experience, but if anything is annoying, please let me know..! (and yes I made the clouds myself)"}
-                techStack={"React.js (JavaScript), Spotify API, Styled Components, GitHub Pages, lots and lots of love"}
+                description={"This site was coded & designed entirely by me! I hope that overall it serves a pleasant experience, but if anything is annoying, please let me know..!"}
+                techStack={"React.js (JavaScript), Spotify API, Styled Components, GitHub Pages, lots and lots of luv"}
                 image1={"mysite"}
             />
 

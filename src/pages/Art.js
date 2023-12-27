@@ -36,7 +36,7 @@ const Art = () => {
                 name={"starts with ink"}
                 description={"printmaking has always been one of my favorite ways to make art. i also really like totoro (i've watched it over 50 times). as an homage to the way ススワタリ took over my mind as a little kid, i took over the walls of an art studio with these little linoleum stamps i made."}
                 image1={"susuwatari1"}
-                image2={"susuwatari2"}
+                // image2={"susuwatari2"}
             />
 
             <ProjectSpotlight
@@ -94,7 +94,7 @@ const Art = () => {
                 description={"i was born in the year of the horse. that isn't why i built this zebra, but it's a fun fact."}
                 image1={"thehorse"}
                 image2={"thefiredhorse"}
-                image3={"standoff"}
+                // image3={"standoff"}
             />
 
             <ProjectSpotlight
@@ -128,7 +128,7 @@ const Art = () => {
                 name={"i was here"}
                 description={"do you remember who you're forgetting?"}
                 image1={"bagel1"}
-                image2={"bagel2"}
+                // image2={"bagel2"}
             />
 
             <ProjectSpotlight
