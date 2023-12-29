@@ -135,7 +135,7 @@ const Art = () => {
                 name={"to remind"}
                 description={"they say the fruits of your labor are the sweetest. but what if the fruit in question is a quince? i've never had a tasty quince."}
                 image1={"painapple"}
-                image2={"pineapple"}
+                // image2={"pineapple"}
             />
 
             <ProjectSpotlight

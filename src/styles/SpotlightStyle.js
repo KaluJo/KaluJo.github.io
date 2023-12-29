@@ -16,12 +16,12 @@ export const SpotlightContent = styled.div`
 
     -ms-overflow-style: none;
 
-    @media (min-width: 769px) {
+    /* @media (min-width: 769px) {
         scroll-snap-type: y mandatory;
         scroll-snap-align: center;
         overflow-y: scroll;
         height: 100vh;
-    }
+    } */
 
     @media (max-width: 768px) {
         flex: 1;
@@ -36,25 +36,28 @@ export const SpotlightContainer = styled.div`
     align-items: center;
     justify-content: center;
 
-    @media (max-width: 768px) {
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+
+    /* @media (max-width: 768px) {
         padding-top: 25vh;
         padding-bottom: 25vh;
-    }
+    } */
 
-    @media (min-width: 769px) {
+    /* @media (min-width: 769px) {
         min-height: ${props => props.size ? props.size : 100}vh;
         padding-top: 44vh;
         padding-bottom: 75vh;
 
         scroll-snap-align: center;
         scroll-snap-stop: normal;
-    }
+    } */
 `;
 
 export const ProjectName = styled.a`
-    @media (min-width: 769px) {
+    /* @media (min-width: 769px) {
         scroll-snap-stop: always;
-    }
+    } */
         
     text-align: center;
     font-size: 1.5rem;

@@ -76,6 +76,7 @@ export const NavbarButtons = styled.div`
     display: flex;
     z-index: 10;
 `;
+
 export const NavbarHome = styled.div`
     a {
         text-decoration: none;
@@ -144,10 +145,10 @@ export const Content = styled.div`
     display: flex;
     flex-direction: column;
 
-    @media (min-width: 769px) {
+    /* @media (min-width: 769px) {
         scroll-snap-type: y proximity;
         overflow-y: scroll;
-    }
+    } */
 `;
 
 export const MainContent = styled.div`
@@ -163,11 +164,11 @@ export const MainContent = styled.div`
 
     -ms-overflow-style: none;
 
-    @media (min-width: 769px) {
+    /* @media (min-width: 769px) {
         scroll-snap-type: y mandatory;
         scroll-snap-align: center;
         overflow-y: scroll;
-    }
+    } */
 `;
 
 export const Main = styled.div`
@@ -230,10 +231,10 @@ export const MainLink = styled.p`
 `;
 
 export const Footer = styled.footer`
-    @media (min-width: 769px) {
+    /* @media (min-width: 769px) {
         scroll-snap-align: center;
         scroll-snap-stop: normal;
-    }
+    } */
         
     display: flex;
     flex: 1 50vmin;
@@ -302,11 +303,11 @@ export const BookContent = styled.div`
 
     min-height: 110vh;
 
-    @media (min-width: 769px) {
+    /* @media (min-width: 769px) {
         scroll-snap-type: y mandatory;
         scroll-snap-align: center;
         overflow-y: scroll;
-    }
+    } */
 `;
 
 export const Book = styled.div`
