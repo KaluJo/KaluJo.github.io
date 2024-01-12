@@ -24,7 +24,7 @@ const Coding = () => {
             </MainContent>
 
             <ProjectSpotlight
-                name={"Ivee.ai"}
+                name={"ivee.ai"}
                 link={"https://devpost.com/software/ivee"}
                 description={"Won my first hackathon at CalHacks 10.0 with Ivee.ai. This was a full-stack team effort with Sania, Lema, and Tianyun, we tackled the challenge of making AI approachable & accessible by creating a voice assistant that helps any person, regardless of technical background, to speak their life stories into a lasting leaves of memories on a tree.\n\nWe are currently expanding upon this idea as a team, and we are very excited to see where this project goes."}
                 techStack={"React Native, Figma, Firebase, Styled Components, OpenAI API, Intel Developer Cloud, Hume.ai, Milvus Vector Database, Flask, Deepgram, ElevenLabs, Expo, Dall-E, Hugging Face"}
@@ -83,7 +83,7 @@ const Coding = () => {
             <ProjectSpotlight
                 name={"Bhada's Site"}
                 link={"https://github.com/KaluJo/KaluJo.github.io"}
-                description={"This site was coded & designed entirely by me! I hope that overall it serves a pleasant experience, but if anything is annoying, please let me know..!"}
+                description={"This site was coded & designed entirely by me. I hope that overall it serves a pleasant experience, but if anything is annoying, please let me know..!"}
                 techStack={"React.js (JavaScript), Spotify API, Styled Components, GitHub Pages, lots and lots of luv"}
                 image1={"mysite"}
             />

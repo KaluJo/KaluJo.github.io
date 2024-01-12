@@ -1,5 +1,302 @@
 export const musicData = [
     {
+        "cover_image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb9765cc3262a200187a6d5e2a",
+        "name": "so what we were degraded",
+        "description": "jan - when has it ever not felt this way",
+        "tracks": [
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2734d08fc99eff4ed52dfce91fa",
+                "song_title": "Elaine",
+                "artist": "ABBA",
+                "album": "Super Trouper",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2738f522042e27a66221a38756a",
+                "song_title": "Melos",
+                "artist": "WEDNESDAY CAMPANELLA",
+                "album": "Melos",
+                "song_clip": "https://p.scdn.co/mp3-preview/e0769cf3eda87be50588ed11c871b9199e1b58e7?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273906468ce4b2c743c4ae76dcd",
+                "song_title": "Mr. Sandman",
+                "artist": "The Chordettes",
+                "album": "Lollipop",
+                "song_clip": "https://p.scdn.co/mp3-preview/0b426959aa0183c0767300f0342e1f73fe70353b?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273cce6bab1f59b165133175d88",
+                "song_title": "Chained To The Rhythm",
+                "artist": "Katy Perry, Skip Marley",
+                "album": "Witness (Deluxe)",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2730f0e63e38a0ea92314ab9d7f",
+                "song_title": "Marea (we\u2019ve lost dancing)",
+                "artist": "Fred again.., The Blessed Madonna",
+                "album": "Actual Life (April 14 - December 17 2020)",
+                "song_clip": "https://p.scdn.co/mp3-preview/abbd7cd7eef9f92b09e9a9f2d30f0b2990f536e5?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2737622b889949b07f15c6b57e2",
+                "song_title": "Delilah (pull me out of this) ⭐",
+                "artist": "Fred again.., Delilah Montagu",
+                "album": "Actual Life 3 (January 1 - September 9 2022)",
+                "song_clip": "https://p.scdn.co/mp3-preview/46daffb983df603a433183d664ffca99680a5be1?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2733bffc3038f2ace41272d9952",
+                "song_title": "\u65b0\u5b9d\u5cf6 ⭐",
+                "artist": "sakanaction",
+                "album": "834.194",
+                "song_clip": "https://p.scdn.co/mp3-preview/42312bf4ed0e73b4ea19dd7dda0173e858cb8da6?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273e3e3b64cea45265469d4cafa",
+                "song_title": "Yesterday - Remastered 2009 ⭐",
+                "artist": "The Beatles",
+                "album": "Help! (Remastered)",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27387be2cd7396e138e74cb347c",
+                "song_title": "I Cry ⭐",
+                "artist": "Flo Rida",
+                "album": "Wild Ones",
+                "song_clip": "https://p.scdn.co/mp3-preview/677818325ecfeb591d3e91779d54c7974c0d3d39?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273a30bc7a275cc3e72011d9891",
+                "song_title": "Cola",
+                "artist": "CamelPhat, Elderbrook",
+                "album": "Cola",
+                "song_clip": "https://p.scdn.co/mp3-preview/1884aa6448d86ec08609334fa38d6d16a45d62b5?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273ffb343926530168be4724dd4",
+                "song_title": "Levels - Radio Edit",
+                "artist": "Avicii",
+                "album": "Levels",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273cb8b730e1ee1f92121480cf5",
+                "song_title": "Gypsy Woman (She's Homeless) (La Da Dee La Da Da) - Radio Edit",
+                "artist": "Crystal Waters",
+                "album": "Surprise",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273af72d0856c5527dc97f3ea08",
+                "song_title": "This Girl (Kungs Vs. Cookin' On 3 Burners)",
+                "artist": "Kungs, Cookin' On 3 Burners",
+                "album": "Layers",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2731385f5151617aa5e0e9977f0",
+                "song_title": "Move Your Feet",
+                "artist": "Junior Senior",
+                "album": "d-d-don't don't stop the beat (Explicit Content U.S. Version)",
+                "song_clip": "https://p.scdn.co/mp3-preview/aeed1fa95879bd8c2f9b0eeba0e646e976123327?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2738d897b8994ce008298200408",
+                "song_title": "Better Off Alone",
+                "artist": "Alice Deejay",
+                "album": "Who Needs Guitars Anyway?",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273e6082141bd7c86ae9f11ea26",
+                "song_title": "Scream & Shout",
+                "artist": "will.i.am, Britney Spears",
+                "album": "#willpower",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2738b32b139981e79f2ebe005eb",
+                "song_title": "Kids",
+                "artist": "MGMT",
+                "album": "Oracular Spectacular",
+                "song_clip": "https://p.scdn.co/mp3-preview/efb065069d22384206b0fc703c6f99734d33411d?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273b15e5bdd320d37a69835238f",
+                "song_title": "Momotaro ⭐",
+                "artist": "WEDNESDAY CAMPANELLA",
+                "album": "Watashi Wo Onigashima Ni Tsuretette",
+                "song_clip": "https://p.scdn.co/mp3-preview/221eb6ae31ad5b49e7a2c29012f521ac04526bc4?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273e8b8ed20061d02eb30c190ba",
+                "song_title": "The Bamboo Princess",
+                "artist": "WEDNESDAY CAMPANELLA",
+                "album": "Galapagos",
+                "song_clip": "https://p.scdn.co/mp3-preview/025e298bfe4dc91a4865020058c624afd6b10820?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273d71fd77b89d08bc1bda219c7",
+                "song_title": "Eve, Psyche & The Bluebeard\u2019s wife ⭐",
+                "artist": "LE SSERAFIM",
+                "album": "UNFORGIVEN",
+                "song_clip": "https://p.scdn.co/mp3-preview/c4b879e0473f33fc4e755747661e982af591d800?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2737c34c0c518ea868297cf598c",
+                "song_title": "Porcelain",
+                "artist": "Moby",
+                "album": "Play & Play: B Sides",
+                "song_clip": "https://p.scdn.co/mp3-preview/d5dd3b798da4537afedaee89c23f43c9e02500f3?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27388d71aadd009fe1a83df88f2",
+                "song_title": "(It Goes Like) Nanana - Edit",
+                "artist": "Peggy Gou",
+                "album": "(It Goes Like) Nanana [Edit]",
+                "song_clip": "https://p.scdn.co/mp3-preview/e36e0bd4714844f1f9d992398b41a3e333f15cc9?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2739e2f95ae77cf436017ada9cb",
+                "song_title": "Counting Stars",
+                "artist": "OneRepublic",
+                "album": "Native",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273e19c63f62581ab73a6589382",
+                "song_title": "Royals",
+                "artist": "Lorde",
+                "album": "Pure Heroine",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273b89cf022db28fa31376e0ed8",
+                "song_title": "Pompeii",
+                "artist": "Bastille",
+                "album": "Bad Blood",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273286903a9b4f8bce214f1dffa",
+                "song_title": "Run Devil Run",
+                "artist": "Girls' Generation",
+                "album": "Run Devil Run - The 2nd Album Repackage",
+                "song_clip": "https://p.scdn.co/mp3-preview/a65101c454d29c6aa56d330d151c4fc976d36ac8?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273eaab6058b67ea07bd1a1a98d",
+                "song_title": "Da Doo Ron Ron",
+                "artist": "Shaun Cassidy",
+                "album": "Shaun Cassidy",
+                "song_clip": "https://p.scdn.co/mp3-preview/fa347acc4803d33addabb1b6a25066b8be6717fa?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2738d7af4bb11a16acd8c0d3e50",
+                "song_title": "\u3055\u3088\u306a\u3089\u30a8\u30ec\u30b8\u30fc",
+                "artist": "SUDA MASAKI",
+                "album": "PLAY(Special Edition)",
+                "song_clip": "https://p.scdn.co/mp3-preview/15d7e325224356c295ffcdeac502e8bb665bf28e?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273fc4a78b166dd7b9c48a3a200",
+                "song_title": "Three Drums",
+                "artist": "Four Tet",
+                "album": "Three Drums",
+                "song_clip": "https://p.scdn.co/mp3-preview/9878124e77b4e76f952e3481411c6969c4956f28?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            }
+        ]
+    },
+    {
         "cover_image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbcdc87fb719ab8c08c410d30c",
         "name": "nonverbal bee go buzzzz",
         "description": "dec - ontology, the study of beeing",
