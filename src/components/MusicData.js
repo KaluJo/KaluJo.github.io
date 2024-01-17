@@ -246,7 +246,7 @@ export const musicData = [
             },
             {
                 "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273b89cf022db28fa31376e0ed8",
-                "song_title": "Pompeii",
+                "song_title": "Pompeii ⭐",
                 "artist": "Bastille",
                 "album": "Bad Blood",
                 "song_clip": null,
@@ -290,6 +290,36 @@ export const musicData = [
                 "artist": "Four Tet",
                 "album": "Three Drums",
                 "song_clip": "https://p.scdn.co/mp3-preview/9878124e77b4e76f952e3481411c6969c4956f28?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2733bc8c5a65f225815fa3844e1",
+                "song_title": "Marigold",
+                "artist": "Aimyon",
+                "album": "Momentary Sixth Sense",
+                "song_clip": "https://p.scdn.co/mp3-preview/e1804f06ef729d85bc30e9d7b93f840045b256d5?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273d0bd51668da5629aa0cc77d8",
+                "song_title": "\u30d9\u30c6\u30eb\u30ae\u30a6\u30b9 ⭐",
+                "artist": "Yuuri",
+                "album": "\u58f1",
+                "song_clip": "https://p.scdn.co/mp3-preview/38eba23ec8120c13df9382ca2a11ff7a2789f483?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27326573d555999566291e3b7a8",
+                "song_title": "Comedy",
+                "artist": "Gen Hoshino",
+                "album": "Comedy",
+                "song_clip": "https://p.scdn.co/mp3-preview/3ff56360de277b2cc32d713e0798d1ff63b8e8a8?cid=d96ba8f25e0a4ab3be3717316dfacba1",
                 "impressions": "",
                 "discovery": "",
                 "notes": ""
