@@ -186,7 +186,7 @@ export const musicData = [
             },
             {
                 "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273e8b8ed20061d02eb30c190ba",
-                "song_title": "The Bamboo Princess",
+                "song_title": "The Bamboo Princess ⭐",
                 "artist": "WEDNESDAY CAMPANELLA",
                 "album": "Galapagos",
                 "song_clip": "https://p.scdn.co/mp3-preview/025e298bfe4dc91a4865020058c624afd6b10820?cid=d96ba8f25e0a4ab3be3717316dfacba1",
@@ -216,7 +216,7 @@ export const musicData = [
             },
             {
                 "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27388d71aadd009fe1a83df88f2",
-                "song_title": "(It Goes Like) Nanana - Edit",
+                "song_title": "(It Goes Like) Nanana - Edit ⭐",
                 "artist": "Peggy Gou",
                 "album": "(It Goes Like) Nanana [Edit]",
                 "song_clip": "https://p.scdn.co/mp3-preview/e36e0bd4714844f1f9d992398b41a3e333f15cc9?cid=d96ba8f25e0a4ab3be3717316dfacba1",
@@ -296,7 +296,7 @@ export const musicData = [
             },
             {
                 "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2733bc8c5a65f225815fa3844e1",
-                "song_title": "Marigold",
+                "song_title": "Marigold ⭐",
                 "artist": "Aimyon",
                 "album": "Momentary Sixth Sense",
                 "song_clip": "https://p.scdn.co/mp3-preview/e1804f06ef729d85bc30e9d7b93f840045b256d5?cid=d96ba8f25e0a4ab3be3717316dfacba1",
@@ -320,6 +320,16 @@ export const musicData = [
                 "artist": "Gen Hoshino",
                 "album": "Comedy",
                 "song_clip": "https://p.scdn.co/mp3-preview/3ff56360de277b2cc32d713e0798d1ff63b8e8a8?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2739b3a2a4af5953df71fbb7506",
+                "song_title": "I Want You (Forever) - Josh Butler Remix - Radio Edit",
+                "artist": "Carl Cox, Josh Butler",
+                "album": "I Want You (Forever) [Josh Butler Remix]",
+                "song_clip": "https://p.scdn.co/mp3-preview/04099504346301312d599a5000d62e022495a631?cid=d96ba8f25e0a4ab3be3717316dfacba1",
                 "impressions": "",
                 "discovery": "",
                 "notes": ""
