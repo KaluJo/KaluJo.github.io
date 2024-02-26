@@ -1,5 +1,412 @@
 export const musicData = [
     {
+        "cover_image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb44b0c3ef394d2b861ed7aa49",
+        "name": "dyreplageri",
+        "description": "feb - the people that you meet are by design",
+        "tracks": [
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273b02b049406af4707d70f0107",
+                "song_title": "Idyll ⭐",
+                "artist": "Postgirobygget",
+                "album": "Melis",
+                "song_clip": "https://p.scdn.co/mp3-preview/84cc0380a7f6cad9e65c6760b2c1e2af0e61d107?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273cebdf1f7660ace8c2a80585c",
+                "song_title": "I'm Gonna Be (500 Miles)",
+                "artist": "The Proclaimers",
+                "album": "Sunshine on Leith",
+                "song_clip": "https://p.scdn.co/mp3-preview/42b4d0af211d3a2ad254c010254a1957297f3f24?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27339140b04426a6ae1c7842e38",
+                "song_title": "Kerosene ⭐",
+                "artist": "Crystal Castles",
+                "album": "(III)",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2739416ed64daf84936d89e671c",
+                "song_title": "One Dance ⭐",
+                "artist": "Drake, Wizkid, Kyla",
+                "album": "Views",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273db4e506605774d3d90ebb7bb",
+                "song_title": "Vanished ⭐",
+                "artist": "Crystal Castles",
+                "album": "Crystal Castles",
+                "song_clip": "https://p.scdn.co/mp3-preview/130b7ef865d7e6fee1b56ee7d9ddfd719c9438aa?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27339140b04426a6ae1c7842e38",
+                "song_title": "Transgender",
+                "artist": "Crystal Castles",
+                "album": "(III)",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2732acf8c820a360269715b2d6e",
+                "song_title": "Empathy",
+                "artist": "Crystal Castles",
+                "album": "Crystal Castles (II)",
+                "song_clip": "https://p.scdn.co/mp3-preview/e1e5aa2504042cfe98a3aabbf5131373d51c07c5?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2732acf8c820a360269715b2d6e",
+                "song_title": "Suffocation",
+                "artist": "Crystal Castles",
+                "album": "Crystal Castles (II)",
+                "song_clip": "https://p.scdn.co/mp3-preview/1fbe9f7159bf38c51d50eff1248ef27d4e4c84d5?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273d6cddb90ea739c5c20b9edb4",
+                "song_title": "ten",
+                "artist": "Fred again.., Jozzy, Jim Legxacy",
+                "album": "ten",
+                "song_clip": "https://p.scdn.co/mp3-preview/99fc4c0f25e64d30af9e619ea820bed60aa2b1c6?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27375bbceefa1ce802c55b5a236",
+                "song_title": "Kun For Mig",
+                "artist": "Medina",
+                "album": "Velkommen Til Medina",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27356cce49ff286b417e1a355d3",
+                "song_title": "Licht En Donker",
+                "artist": "Froukje",
+                "album": "Licht En Donker",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27389f807e334abf89392517032",
+                "song_title": "Nooit Meer Spijt",
+                "artist": "S10, Froukje",
+                "album": "Ik Besta Voor Altijd Zolang Jij Aan Mij Denkt",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27334f35d9980b19882a2d42d52",
+                "song_title": "Naar Het Licht ⭐",
+                "artist": "Froukje",
+                "album": "Noodzakelijk Verdriet",
+                "song_clip": "https://p.scdn.co/mp3-preview/edcbc19a18dbf6e019ca4ee1527eb1b65f09add7?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27364ecc15165777bf89748b0d4",
+                "song_title": "Halleluhwah - 2011 Remastered ⭐",
+                "artist": "CAN",
+                "album": "Tago Mago (40th Anniversary Edition)",
+                "song_clip": "https://p.scdn.co/mp3-preview/ec9dbb4a70fa5315b05cd43149e9eee6bfa6ee7c?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27390b4e1905b1fc48c537ec053",
+                "song_title": "Dead To Me",
+                "artist": "Kali Uchis",
+                "album": "Isolation",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2737da22ba88dfc26a18122ee2d",
+                "song_title": "Fast Forward ⭐",
+                "artist": "JEON SOMI",
+                "album": "GAME PLAN",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273d71fd77b89d08bc1bda219c7",
+                "song_title": "UNFORGIVEN (feat. Nile Rodgers)",
+                "artist": "LE SSERAFIM, Nile Rodgers",
+                "album": "UNFORGIVEN",
+                "song_clip": "https://p.scdn.co/mp3-preview/ba72474a4c4c3a63f8c6d00c561ad40be6e1e7c7?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273cccf5d223349faaca1c9a1b9",
+                "song_title": "Haru wo Tsugeru",
+                "artist": "yama",
+                "album": "Haru wo Tsugeru",
+                "song_clip": "https://p.scdn.co/mp3-preview/57964157990fb882579c15d6c4303aa10d982cd9?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273da79fd254f4099c84f034a3f",
+                "song_title": "Turn off the Lights",
+                "artist": "Chris Lake, Alexis Roberts",
+                "album": "Turn off the Lights",
+                "song_clip": "https://p.scdn.co/mp3-preview/c52e16859027ca5557108f609d0a30f0d0012d3d?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273de342b284f5dc7e0257fe38c",
+                "song_title": "You Were Right",
+                "artist": "R\u00dcF\u00dcS DU SOL",
+                "album": "Bloom",
+                "song_clip": "https://p.scdn.co/mp3-preview/345302a05bee2c1e83ce328a365e130e74666a31?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273dbd83e179619408e5d05cc99",
+                "song_title": "Hard Times ⭐",
+                "artist": "Paramore",
+                "album": "After Laughter",
+                "song_clip": "https://p.scdn.co/mp3-preview/eb046d4ef05b36f6509b1e764ff2919b22c2baed?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2733862d62a50dc6b928651bdeb",
+                "song_title": "Lovers on the Sun (feat. Sam Martin) ⭐",
+                "artist": "David Guetta, Sam Martin",
+                "album": "Listen",
+                "song_clip": "https://p.scdn.co/mp3-preview/4d78613e3219340ce955aeb4182b4b04a823412e?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273fe3951b474a76b0f25e3c760",
+                "song_title": "Five More Hours",
+                "artist": "Deorro, Chris Brown",
+                "album": "Good Evening",
+                "song_clip": "https://p.scdn.co/mp3-preview/39cb89399b05a99dd14a7cc0ddf13fd426db97df?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273403a87b6da943bd1abfea129",
+                "song_title": "Aleph",
+                "artist": "Gesaffelstein",
+                "album": "Aleph",
+                "song_clip": "https://p.scdn.co/mp3-preview/9a53ebe94aff4508756c284b611a0723832729d1?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2731dc7483a9fcfce54822a2f19",
+                "song_title": "Give Me Everything (feat. Nayer)",
+                "artist": "Pitbull, AFROJACK, Ne-Yo, Nayer",
+                "album": "Planet Pit (Deluxe Version)",
+                "song_clip": "https://p.scdn.co/mp3-preview/6eafa4293d2b35b2e75ffab5ec1bba8ec00d5082?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2733119f490f02fcee6514e8604",
+                "song_title": "Payphone",
+                "artist": "Maroon 5, Wiz Khalifa",
+                "album": "Overexposed",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273add7088b90038ceadcd09b78",
+                "song_title": "Black Sheep",
+                "artist": "Metric",
+                "album": "Black Sheep",
+                "song_clip": "https://p.scdn.co/mp3-preview/bcba6490d932adfe3b7fd600b76dbe65100741ba?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2731023b2ada2a08dc63f5106e5",
+                "song_title": "Drank & Drugs",
+                "artist": "Lil Kleine, Ronnie Flex",
+                "album": "New Wave",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27322aa3408a990edf3bdabd676",
+                "song_title": "TUTA GOLD",
+                "artist": "Mahmood",
+                "album": "TUTA GOLD",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273a871bc3a84418ad1240a5d4e",
+                "song_title": "Billie (loving arms) ⭐",
+                "artist": "Fred again..",
+                "album": "Actual Life 2 (February 2 - October 15 2021)",
+                "song_clip": "https://p.scdn.co/mp3-preview/4dfd86839bfd70fd352a1efe6c0d376747574516?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273e0d58a44e0e28782e79884e1",
+                "song_title": "Pit-A-Pat (Original Ver)",
+                "artist": "Sunny Hill",
+                "album": "My Last Love OST",
+                "song_clip": "https://p.scdn.co/mp3-preview/5ff8f53af96ea943af63dd85bc023c54b128e145?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2731c76d6c5585900c7ab3da764",
+                "song_title": "Dance with DOC",
+                "artist": "DJ DOC",
+                "album": "DJ. DOC 4th Album",
+                "song_clip": "https://p.scdn.co/mp3-preview/7836f1274c113044b46714c72a7e3edbb6fa1f5e?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27353172aaf6f532e9e45cbb841",
+                "song_title": "\u7b2c\u516d\u611f ⭐",
+                "artist": "Reol",
+                "album": "\u7b2c\u516d\u611f",
+                "song_clip": "https://p.scdn.co/mp3-preview/574c9cd2e432e816987d7dd918baf62600548609?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273af5e185b80d374b0c6beb10f",
+                "song_title": "Body",
+                "artist": "Loud Luxury, Brando",
+                "album": "Body",
+                "song_clip": "https://p.scdn.co/mp3-preview/500f32c94358533f3736af033498350a9636e701?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2735393c5d3cac806092a9bc468",
+                "song_title": "Waiting For Love ⭐",
+                "artist": "Avicii",
+                "album": "Stories",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27342b08c3ee667cbba84372739",
+                "song_title": "Re:Re: ⭐",
+                "artist": "ASIAN KUNG-FU GENERATION",
+                "album": "\u30bd\u30eb\u30d5\u30a1",
+                "song_clip": "https://p.scdn.co/mp3-preview/3a1e80bd749e4b65600c24b687d4f6f90ac4e8fa?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273684d81c9356531f2a456b1c1",
+                "song_title": "\u7fa4\u9752 ⭐",
+                "artist": "YOASOBI",
+                "album": "THE BOOK",
+                "song_clip": "https://p.scdn.co/mp3-preview/f67cf85e03cb398406ba18b41e7263b044ce6e86?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273fbf1cc20744dc138f1bfb9bc",
+                "song_title": "Honky Tonk Women",
+                "artist": "The Rolling Stones",
+                "album": "Forty Licks",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273e87ff33b18fb6fe39f9a7530",
+                "song_title": "Black Sheep - Brie Larson Vocal Version ⭐",
+                "artist": "Metric, Brie Larson",
+                "album": "Black Sheep (Brie Larson Vocal Version)",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2730920dda3769771de5ffd4578",
+                "song_title": "Admit It (u don't want 2)",
+                "artist": "Fred again.., I. JORDAN",
+                "album": "USB",
+                "song_clip": "https://p.scdn.co/mp3-preview/4e7423deeeb9a43dc28a866d74a665dfca0dec31?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            }
+        ]
+    },
+    {
         "cover_image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb9765cc3262a200187a6d5e2a",
         "name": "so what we were degraded",
         "description": "jan - when has it ever not felt this way",

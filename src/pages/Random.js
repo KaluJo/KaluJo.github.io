@@ -78,7 +78,11 @@ const Random = () => {
                         "CS 188 (Introduction to Artificial Intelligence): \“What can I do with these probabilities?\”",
                         "CS 194-196 (Responsible GenAI and Decentralized Intelligence): \“Let\'s make probabilities relatable\”",
                         "LING C142 (Language & Thought): \“What came first, the language or the thought?\”",
-                        "UGBA 198 (SkyDeck Decal): \“You don't know anything about anyone you haven't talked to before\”"
+                        "UGBA 198 (SkyDeck Decal): \“You don't know anything about anyone you haven't talked to before\”",
+                        "ANTHRO 123A (Old World Prehistory): \“We are same in all the ways but time and place\”",
+                        "INFO 159 (Natural Language Processing): \“multi-headed attention? what about beheaded attention ????\”",
+                        "INFO 217A (Human-Computer Interaction Research): \“But it was novel to me!\”",
+                        "LING 120 (Syntax): \“The only class where three lecture slides are an in-depth analysis of \'banana who ate?\'\”"
                     ]}
                     size={160}
             />
