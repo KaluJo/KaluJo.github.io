@@ -30,7 +30,7 @@ const Random = () => {
                         "中文/普通话 (Unsure): I was pretty good in high school, but haven't used it much since. Given little speaking practice, I have trouble remembering tones for proper speaking, but can read and understand various contexts. I definitely will be picking this back up in the future.",
                         "日本語 (Beginntermediate): Actively learning it right now. I treat learning Kanji like catching Pokémon. Gotta catch 'em all!",
                         "Deutsch (Beginner): I'm trying out a new learning tactic with this one. We'll see how it goes! Viel Glück.",
-                        "Norsk (Beginner): Me when I procrastinate learning German by learning Norwegian instead..."
+                        "Norsk (Beginner): Me when I procrastinate learning German by learning Norwegian instead...",
                         "What should I add next?"
                     ]}
             />
