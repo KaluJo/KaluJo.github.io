@@ -81,7 +81,7 @@ const Random = () => {
                         "LING C142 (Language & Thought): \“What came first, the language or the thought?\”",
                         "UGBA 198 (SkyDeck Decal): \“You don't know anything about anyone you haven't talked to before\”",
                         "ANTHRO 123A (Old World Prehistory): \“We are same in all the ways but time and place\”",
-                        "INFO 159 (Natural Language Processing): \“multi-headed attention? what about beheaded attention ????\”",
+                        "INFO 159 (Natural Language Processing): \“Pay attention!\”",
                         "INFO 217A (Human-Computer Interaction Research): \“But it was novel to me!\”",
                         "LING 120 (Syntax): \“The only class where three lecture slides are an in-depth analysis of \'banana who ate?\'\”"
                     ]}

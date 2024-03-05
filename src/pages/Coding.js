@@ -30,7 +30,15 @@ const Coding = () => {
             />
 
             <ProjectSpotlight
-                name={"ivee (hackathon version)"}
+                name={"Bap: Food & Restaurant Journal"}
+                link={"https://apps.apple.com/us/app/bap-food-restaurant-journal/id6450421562"}
+                description={"Over the summer of 2023, I wanted to work on a full-stack solo project, so I created a modern food journaling app.\n\nThroughout this experience, I used React Native, JavaScript, Firebase, and a myriad of other APIs and tools for the first time.\n\nIt was a tough learning process, especially the logistical aspects of uploading to the App Store, adding monetization, and connecting advertisements, but by the end, I was proud of what I could achieve and am excited to work on more applications on a larger scale."}
+                techStack={"React Native, Figma, Firebase, Styled Components, OpenAI API, Google Places API, Google Cloud Functions, RevenueCat"}
+                image1={"bapimage"}
+            />
+
+            <ProjectSpotlight
+                name={"ivee (hackathon)"}
                 link={"https://devpost.com/software/ivee"}
                 description={"Won my first hackathon at CalHacks 10.0 with Ivee.ai. This was a full-stack team effort with Sania, Lema, and Tianyun, we tackled the challenge of making AI approachable & accessible by creating a voice assistant that helps any person, regardless of technical background, to speak their life stories into a lasting leaves of memories on a tree.\n\nWe are currently expanding upon this idea as a team, and we are very excited to see where this project goes."}
                 techStack={"React Native, Figma, Firebase, Styled Components, OpenAI API, Intel Developer Cloud, Hume.ai, Milvus Vector Database, Flask, Deepgram, ElevenLabs, Expo, Dall-E, Hugging Face"}
@@ -38,11 +46,11 @@ const Coding = () => {
             />
 
             <ProjectSpotlight
-                name={"Bap: Food & Restaurant Journal"}
-                link={"https://apps.apple.com/us/app/bap-food-restaurant-journal/id6450421562"}
-                description={"Over the summer of 2023, I wanted to work on a full-stack solo project, so I created a modern food journaling app.\n\nThroughout this experience, I used React Native, JavaScript, Firebase, and a myriad of other APIs and tools for the first time.\n\nIt was a tough learning process, especially the logistical aspects of uploading to the App Store, adding monetization, and connecting advertisements, but by the end, I was proud of what I could achieve and am excited to work on more applications on a larger scale."}
-                techStack={"React Native, Figma, Firebase, Styled Components, OpenAI API, Google Places API, Google Cloud Functions, RevenueCat"}
-                image1={"bapimage"}
+                name={"discourse (hackathon)"}
+                link={"https://github.com/KaluJo/discourse"}
+                description={"Won my second hackathon at AGI House with Discourse. This was a full-stack team effort with Sophia (she's the one on the left in the video, the one on the right is HeyGen's CEO), Reagan, and Vihan. The hackathon's challenge was to incorporate multimodal generative AI + social use cases. Discourse helps people learn about a topic of contention through back and forth clips of arguing AI avatars. I was in charge of all the backend/API work, AI model integration, and frontend for the videos."}
+                techStack={"React.js, Figma, HeyGen, Gemini 1.0 Pro, Gemini 1.5 Pro, Chakra UI"}
+                videoLink={"https://www.youtube.com/watch?v=d7pgKWvUepQ"}
             />
 
             <ProjectSpotlight
