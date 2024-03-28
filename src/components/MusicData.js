@@ -1,5 +1,462 @@
 export const musicData = [
     {
+        "cover_image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbbfb359fb984e2133b81b4817",
+        "name": "moi et mes",
+        "description": "mar - try to train the arrogance out of me",
+        "tracks": [
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27360de86e634f2bd4d1364797e",
+                "song_title": "Hold On ⭐",
+                "artist": "The Internet",
+                "album": "Hive Mind",
+                "song_clip": "https://p.scdn.co/mp3-preview/c01bb7e77b63fcff40c659db3e1257e72a95f0c5?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27355018696782c175bdbaa3b5d",
+                "song_title": "Archangel",
+                "artist": "Burial",
+                "album": "Untrue",
+                "song_clip": "https://p.scdn.co/mp3-preview/c4c62d8f8009cd387042daa721bc6630ab0a2258?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2730ecbdac77e72dc16719a3e89",
+                "song_title": "Domino",
+                "artist": "Magdalena Bay",
+                "album": "Mercurial World",
+                "song_clip": "https://p.scdn.co/mp3-preview/7d8d5ee72a88510c4490c3fe2c9d5fd393df0fba?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273b7504d3f9ef7d1cef58d00e7",
+                "song_title": "HYPNOTIC DATA",
+                "artist": "Odetari",
+                "album": "HYPNOTIC DATA 2.0",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2735d2f39265b6ffeebcae4bfaf",
+                "song_title": "Fine ⭐",
+                "artist": "Lemon Demon",
+                "album": "Dinosaurchestra",
+                "song_clip": "https://p.scdn.co/mp3-preview/09a807deb74d34980092c131788d1a3450b3f87d?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273bf77ec4fe60aa3163d91e767",
+                "song_title": "Hayloft",
+                "artist": "Mother Mother",
+                "album": "O My Heart",
+                "song_clip": "https://p.scdn.co/mp3-preview/afbf44ea3310ea539e08c635093ba6fc0347418b?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273f6f1c64567af6a4515c6d4b1",
+                "song_title": "\u30d0\u30f3\u30b6\u30a4 ~\u597d\u304d\u3067\u3088\u304b\u3063\u305f~",
+                "artist": "Ulfuls",
+                "album": "\u30d0\u30f3\u30b6\u30a4",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2735e93a6b1654331861c17a838",
+                "song_title": "\u307c\u304f\u304c\u5730\u7403\u3092\u6551\u3046\u301cSounds Of Spirit\u301c",
+                "artist": "Skoop On Somebody",
+                "album": "Singles 2002-2006",
+                "song_clip": "https://p.scdn.co/mp3-preview/ca64628ea707b276b1d0b7b0925a387ebf326205?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2731f995bf0052673398dceb506",
+                "song_title": "\u611b\u306b\u3067\u304d\u308b\u3053\u3068\u306f\u307e\u3060\u3042\u308b\u304b\u3044",
+                "artist": "RADWIMPS",
+                "album": "\u5929\u6c17\u306e\u5b50 (complete version)",
+                "song_clip": "https://p.scdn.co/mp3-preview/df5580b150c98dc30af02f0cfabe14c2dd18c967?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27373d50b9ec2d2a127a06d21d3",
+                "song_title": "Cold Reactor",
+                "artist": "Everything Everything",
+                "album": "Mountainhead",
+                "song_clip": "https://p.scdn.co/mp3-preview/d5b8d1bf259c516dd8be7e07713ecb454b513105?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27334187a779bbc1bab42cc4f12",
+                "song_title": "Sweat - SOPHIE Remix ⭐",
+                "artist": "SONIKKU, LIZ, SOPHIE",
+                "album": "Sweat (SOPHIE Remix)",
+                "song_clip": "https://p.scdn.co/mp3-preview/4a17bed7e973809d1a2485dd3c1e2e784c490ef3?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2737b37786156d9ac542268e2ee",
+                "song_title": "When I Rule the World",
+                "artist": "LIZ",
+                "album": "When I Rule the World",
+                "song_clip": "https://p.scdn.co/mp3-preview/8c58dc9d92c308be3ee3b399f0adf9a808b791ed?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273d81f52da138cd6aa2ba54f44",
+                "song_title": "4eva",
+                "artist": "Shygirl, Empress Of, Kingdom",
+                "album": "Club Shy (extended)",
+                "song_clip": "https://p.scdn.co/mp3-preview/4d2b22ab1e937c633bce3ce3e594a6cf7f749a94?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273de114203356c1f7b136960b6",
+                "song_title": "Song 2 - 2012 Remaster ⭐",
+                "artist": "Blur",
+                "album": "Blur (Special Edition)",
+                "song_clip": "https://p.scdn.co/mp3-preview/2c2b4ad08b6ef072182e9b38c386f54623aef4fc?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273de1af2785a83cc660155a0c4",
+                "song_title": "Can't Stop",
+                "artist": "Red Hot Chili Peppers",
+                "album": "By the Way (Deluxe Edition)",
+                "song_clip": "https://p.scdn.co/mp3-preview/1b3bc0aca1746a99cbb8dd07b2325f6499b58a2e?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2734016d72958f2aa2b00df37bf",
+                "song_title": "Bridges",
+                "artist": "BROODS",
+                "album": "Evergreen",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273245812a395ea6eee58f01ffd",
+                "song_title": "Off With Her Tits",
+                "artist": "Allie X",
+                "album": "Girl With No Face",
+                "song_clip": "https://p.scdn.co/mp3-preview/c6c88b3432c473d8a154eec47a00d41cfc65b1af?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273292ec8115884b7533905dd1a",
+                "song_title": "\u602a\u7363\u306e\u82b1\u5504 ⭐",
+                "artist": "Vaundy",
+                "album": "strobo",
+                "song_clip": "https://p.scdn.co/mp3-preview/ab946774c8f2e6c04aef35060bfbdb53d573f1cd?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27386339e6cd71cc2a167451ee5",
+                "song_title": "People Are Strange",
+                "artist": "The Doors",
+                "album": "Strange Days",
+                "song_clip": "https://p.scdn.co/mp3-preview/76f1624dd8ad1c3741cacbc8864746d734f92109?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27332f5fec7a879ed6ef28f0dfd",
+                "song_title": "Not Allowed",
+                "artist": "TV Girl",
+                "album": "Who Really Cares",
+                "song_clip": "https://p.scdn.co/mp3-preview/b1f61776e5425927fac6f4e79733d9fb8baf20dc?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273bc4f6f31f2b95cd980b34f22",
+                "song_title": "Supersoaker",
+                "artist": "Eartheater",
+                "album": "Trinity",
+                "song_clip": "https://p.scdn.co/mp3-preview/76d9b883782ad9e2b673be27fa399e5044a00e29?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2730cd58f458526b51d08c4dda4",
+                "song_title": "if god didnt want us to snort worms he wouldn't have made them cylindrical!",
+                "artist": "MIMIDEATH",
+                "album": "effective. Power",
+                "song_clip": "https://p.scdn.co/mp3-preview/e9945cf64f320fa116e944705b1110bbae47e3ea?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273eecd1d634a7a122d37f2538e",
+                "song_title": "Vampire Empire",
+                "artist": "Big Thief",
+                "album": "Vampire Empire",
+                "song_clip": "https://p.scdn.co/mp3-preview/8fc598038caa44efe9b06857efbc5d277dcb1ab4?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273bfa99afb5ef0d26d5064b23b",
+                "song_title": "The Adults Are Talking ⭐",
+                "artist": "The Strokes",
+                "album": "The New Abnormal",
+                "song_clip": "https://p.scdn.co/mp3-preview/213afafcea2fa6b5c7e5fd71c1fd8f4adc3ffba0?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2738b58d20f1b77295730db15b4",
+                "song_title": "yes, and?",
+                "artist": "Ariana Grande",
+                "album": "eternal sunshine",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273134517ca65459de3517c4e98",
+                "song_title": "Colorblind",
+                "artist": "Pasha, Soul Gem",
+                "album": "Bodega",
+                "song_clip": "https://p.scdn.co/mp3-preview/20c056eab4173f438c18780c91821d9f244a9977?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2731622b92a310a2e33e679f6bf",
+                "song_title": "Er dette alt ⭐",
+                "artist": "Cezinando, Chirag",
+                "album": "Noen ganger og andre",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273c1fcf7dbd3f2063e265dca99",
+                "song_title": "Inspector Norse",
+                "artist": "Todd Terje",
+                "album": "It's the Arps",
+                "song_clip": "https://p.scdn.co/mp3-preview/ecc5f6cd3f74021f6ddb3c03a82e20b5cd81021a?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273f3527c2e1ffc2e99bb6a072e",
+                "song_title": "\u795d\u798f",
+                "artist": "YOASOBI",
+                "album": "THE BOOK 3",
+                "song_clip": "https://p.scdn.co/mp3-preview/577252923fe79f34017b0515bb840d16317fc88b?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273fc24d1ba493032a046ffd68a",
+                "song_title": "The Narcissist",
+                "artist": "Blur",
+                "album": "The Ballad of Darren",
+                "song_clip": "https://p.scdn.co/mp3-preview/5adb4e89f3789ad5784350b471037cac95c37be3?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27372d481a5999197ef5f42f796",
+                "song_title": "Zombie",
+                "artist": "The Cranberries",
+                "album": "No Need To Argue (The Complete Sessions 1994-1995)",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27394983882a5effd77742a9f52",
+                "song_title": "Coffee & TV",
+                "artist": "Blur",
+                "album": "13",
+                "song_clip": "https://p.scdn.co/mp3-preview/ee9014df72f64be9d707045a6469a07a58c1c1cf?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273750022d1083342d40dea51a3",
+                "song_title": "night at work",
+                "artist": "kurtains",
+                "album": "night at work",
+                "song_clip": "https://p.scdn.co/mp3-preview/23841f1f8510a99d6dbcd8c51a90756a0001cc58?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273e897f4915425f0a48484e3f9",
+                "song_title": "\u602a\u7269",
+                "artist": "YOASOBI",
+                "album": "THE BOOK 2",
+                "song_clip": "https://p.scdn.co/mp3-preview/b568677cdd3a4ad568250642c2b69ec64af6c362?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273900eadaf9ce2d7a4b0b78d5a",
+                "song_title": "Little Fluffy Clouds",
+                "artist": "The Orb",
+                "album": "Adventures Beyond The Ultraworld",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2732a353a4c40131c1e0535496a",
+                "song_title": "Dirge",
+                "artist": "Death In Vegas",
+                "album": "The Contino Sessions",
+                "song_clip": "https://p.scdn.co/mp3-preview/f18177012f774e9fe0f8c0fad1b27694bed35f40?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273905f9d89a648476f4d20ac00",
+                "song_title": "Shadows",
+                "artist": "Wagon Christ",
+                "album": "Sorry I Make You Lush",
+                "song_clip": "https://p.scdn.co/mp3-preview/baedbc49ab9bfc6e09eb7c0ab46f78e320820bb3?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2736e415c25972cc9c91dd1034c",
+                "song_title": "FUNKED UP - SLOWED",
+                "artist": "xxanteria, isq",
+                "album": "FUNKED UP",
+                "song_clip": "https://p.scdn.co/mp3-preview/fb40769001c14348963be8fe09522a4312636375?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2735eef4a5a0481a08f2cf993c3",
+                "song_title": "Limerence ⭐",
+                "artist": "Yves Tumor",
+                "album": "Mono No Aware",
+                "song_clip": "https://p.scdn.co/mp3-preview/105e2895fc877fc8e89f34b964d77785a6dc9317?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27389c51b4d8c513e2e813e2f16",
+                "song_title": "Hana ⭐",
+                "artist": "Fujii Kaze",
+                "album": "Hana",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273681dedf478b2dde1a5b5ae4e",
+                "song_title": "\u4e00\u9014",
+                "artist": "King Gnu",
+                "album": "\u4e00\u9014",
+                "song_clip": "https://p.scdn.co/mp3-preview/0f8da0c37bf9fa93295d2d95e8a4d9f570c058bb?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27333c05e1d08fec494a30bd240",
+                "song_title": "\u611b\u3092\u4f1d\u3048\u305f\u3044\u3060\u3068\u304b ⭐",
+                "artist": "Aimyon",
+                "album": "\u9752\u6625\u306e\u30a8\u30ad\u30b5\u30a4\u30c8\u30e1\u30f3\u30c8",
+                "song_clip": "https://p.scdn.co/mp3-preview/bbf9924eaa1f852a0ca39884eb8b8a065304be30?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2738d88fae79a837318aadcc056",
+                "song_title": "\u8e0a\u308a\u5b50 ⭐",
+                "artist": "Vaundy",
+                "album": "replica",
+                "song_clip": "https://p.scdn.co/mp3-preview/4daae1b81fbec587b59d420d5e073c03787c740d?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273431ac6e6f393acf475730ec6",
+                "song_title": "Tonight, Tonight - Remastered 2012",
+                "artist": "The Smashing Pumpkins",
+                "album": "Mellon Collie And The Infinite Sadness (Deluxe Edition)",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27322805a1b17e41ae357bd98bc",
+                "song_title": "Shinunoga E-Wa",
+                "artist": "Fujii Kaze",
+                "album": "HELP EVER HURT NEVER",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            }
+        ]
+    },
+    {
         "cover_image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb44b0c3ef394d2b861ed7aa49",
         "name": "dyreplageri",
         "description": "feb - the people that you meet are by design",
