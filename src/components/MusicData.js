@@ -1,5 +1,232 @@
 export const musicData = [
     {
+        "cover_image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b7c01badea10a567f3998791",
+        "name": "avarnara",
+        "description": "apr - my home is far into the future",
+        "tracks": [
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27362cb830057be386b52b05a9c",
+                "song_title": "Hjemlengsel ⭐",
+                "artist": "Jon Ranes",
+                "album": "Loverboy & The Heartbreakers",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27332f5fec7a879ed6ef28f0dfd",
+                "song_title": "Taking What's Not Yours",
+                "artist": "TV Girl",
+                "album": "Who Really Cares",
+                "song_clip": "https://p.scdn.co/mp3-preview/60a33f3f1d5e4efeabe41ca02ef22d3f16a7a2d9?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273a8bfbe9641a7a7753022b1f8",
+                "song_title": "Tokyo Flash",
+                "artist": "Vaundy",
+                "album": "strobo",
+                "song_clip": "https://p.scdn.co/mp3-preview/cecdb2c5f9cfbdafbf7b16a332791c89c1fd4f4b?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273e85259a1cae29a8d91f2093d",
+                "song_title": "vampire",
+                "artist": "Olivia Rodrigo",
+                "album": "GUTS",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2735c4eb801a965a5665c941d1c",
+                "song_title": "\u60b2\u3057\u307f\u306b\u3055\u3088\u306a\u3089",
+                "artist": "Anzen Chitai",
+                "album": "\u5b89\u5168\u5730\u5e2f\u2163",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27333c05e1d08fec494a30bd240",
+                "song_title": "\u541b\u306f\u30ed\u30c3\u30af\u3092\u8074\u304b\u306a\u3044 ⭐",
+                "artist": "Aimyon",
+                "album": "\u9752\u6625\u306e\u30a8\u30ad\u30b5\u30a4\u30c8\u30e1\u30f3\u30c8",
+                "song_clip": "https://p.scdn.co/mp3-preview/f70da253cc8def74a1f56e70bcbe70d09d497b9b?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273fa1323bb50728c7489980672",
+                "song_title": "Heart To Heart",
+                "artist": "Mac DeMarco",
+                "album": "Here Comes The Cowboy",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273f037c5fb9de6c78726cb8e2c",
+                "song_title": "Magnetic ⭐",
+                "artist": "ILLIT",
+                "album": "SUPER REAL ME",
+                "song_clip": "https://p.scdn.co/mp3-preview/b3e85d7434b5fb072c7110197b3b896d04aa90e7?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273d06c36953d960e241f1522f8",
+                "song_title": "Hit Sale ⭐",
+                "artist": "Therapie TAXI, Rom\u00e9o Elvis",
+                "album": "Hit Sale",
+                "song_clip": "https://p.scdn.co/mp3-preview/598c241cb7972dd01d4fafc2884449a6ff762805?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273a63745282e4fea8542af977d",
+                "song_title": "Inner Light ⭐",
+                "artist": "Elderbrook, Bob Moses",
+                "album": "Inner Light",
+                "song_clip": "https://p.scdn.co/mp3-preview/9ee79cf3adb17ecef3c3626beb33b6b187c750f2?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2733bc8c5a65f225815fa3844e1",
+                "song_title": "What If...",
+                "artist": "Aimyon",
+                "album": "Momentary Sixth Sense",
+                "song_clip": "https://p.scdn.co/mp3-preview/7d5232c8922f06489f949be5828a1384c461ff50?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2733556ff5e46e50eb27be71ebe",
+                "song_title": "We R Who We R",
+                "artist": "Kesha",
+                "album": "Cannibal (Expanded Edition)",
+                "song_clip": "https://p.scdn.co/mp3-preview/87e275c268cbc6f76b509f4dd237bcea41d92059?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2733f58c8ae420f64a314d54781",
+                "song_title": "Tip Toe",
+                "artist": "HYBS",
+                "album": "Tip Toe",
+                "song_clip": "https://p.scdn.co/mp3-preview/369c6b29d984de426062f0bc03aa0d432220add8?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2733f203b8d0d8e54fab416a825",
+                "song_title": "seasons",
+                "artist": "wave to earth",
+                "album": "summer flows 0.02",
+                "song_clip": "https://p.scdn.co/mp3-preview/b5d6dfb2e95e11c6654d275cb8c252b99e8f7c2f?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2730fdfb62956211c999c39a5a3",
+                "song_title": "Want Want ⭐",
+                "artist": "Maggie Rogers",
+                "album": "Surrender",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27392a9d95df51a8d84f90166a6",
+                "song_title": "Pass The Dutchie",
+                "artist": "Musical Youth",
+                "album": "Anthology",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273517c947f0f581bb61054dec2",
+                "song_title": "Lose My Cool ⭐",
+                "artist": "Amber Mark",
+                "album": "3:33am",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273c7ea04a9b455e3f68ef82550",
+                "song_title": "Headlines ⭐",
+                "artist": "Drake",
+                "album": "Take Care (Deluxe)",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273b6b4c2c96ecdaa27efb61946",
+                "song_title": "U-Go-Girl (Feat. Nassun)",
+                "artist": "Lee Hyori, Nassun",
+                "album": "It\u2032s Hyorish",
+                "song_clip": "https://p.scdn.co/mp3-preview/02bfb1e46b6819f9859d3ede8b6dd7fe5553243a?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2738c5adb1edcec48ef080c5060",
+                "song_title": "Ugly ⭐",
+                "artist": "2NE1",
+                "album": "2NE1 2nd Mini Album",
+                "song_clip": "https://p.scdn.co/mp3-preview/98f781a3a3df0a223aa30d29965c95abf4519eaf?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2736f2d10189a41c7345a5a0337",
+                "song_title": "Go Away",
+                "artist": "2NE1",
+                "album": "To Anyone",
+                "song_clip": "https://p.scdn.co/mp3-preview/fd9dc5c826e4437dbdb7aef846f39525f0b45b99?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273c7ea04a9b455e3f68ef82550",
+                "song_title": "Take Care",
+                "artist": "Drake, Rihanna",
+                "album": "Take Care (Deluxe)",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            }
+        ]
+    },
+    {
         "cover_image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbbfb359fb984e2133b81b4817",
         "name": "moi et mes",
         "description": "mar - try to train the arrogance out of me",

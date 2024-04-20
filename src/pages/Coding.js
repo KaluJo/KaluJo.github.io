@@ -26,7 +26,7 @@ const Coding = () => {
             <ProjectSpotlight
                 name={"ivee.ai (startup)"}
                 link={"https://ivee.ai/"}
-                description={"wip 🌱"}
+                description={"this is very important 🌱"}
             />
 
             <ProjectSpotlight
