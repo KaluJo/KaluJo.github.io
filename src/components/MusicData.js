@@ -1,5 +1,462 @@
 export const musicData = [
     {
+        "cover_image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da846e9a889925303715b4dd2039",
+        "name": "a phenominologist's dream",
+        "description": "may - \u00e0 propos det g\u00e5r godt",
+        "tracks": [
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2733d586274d4c9c7e1ed97f972",
+                "song_title": "TL;DR",
+                "artist": "Bladee, Ecco2k, Thaiboy Digital",
+                "album": "TL;DR",
+                "song_clip": "https://p.scdn.co/mp3-preview/8fc321138f2481d9433a539de55bbbc6f8bb2be7?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27355facf9b703ce3b860bbc990",
+                "song_title": "Bimbo Doll",
+                "artist": "Tila Tsoli, BJ Lips",
+                "album": "Bimbo Doll",
+                "song_clip": "https://p.scdn.co/mp3-preview/7d56e1361de88fc8da2d48ef8b244fd3bd7b8dde?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273d73966976fd29781c3a8dde0",
+                "song_title": "Talking Body",
+                "artist": "Tove Lo",
+                "album": "Queen Of The Clouds",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27334a91a2fad5a628c55811518",
+                "song_title": "Metamodernity",
+                "artist": "Vansire",
+                "album": "Metamodernity",
+                "song_clip": "https://p.scdn.co/mp3-preview/ab0bf0682e578cb1adf371a52569b4deb618cd8c?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273fe24dcd263c08c6dd84b6e8c",
+                "song_title": "Baba O'Riley",
+                "artist": "The Who",
+                "album": "Who's Next (Deluxe Edition)",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273f42b6e52662a4dd0fdea3931",
+                "song_title": "Like a Sea",
+                "artist": "Dasutt",
+                "album": "YOUTH",
+                "song_clip": "https://p.scdn.co/mp3-preview/f4210000596055ddfa2c252c7d9684050cf6a9f8?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273281dcb774a4a3f8a5338c9ee",
+                "song_title": "Lover\u2019s Ocean",
+                "artist": "Lee Yerin",
+                "album": "Lover\u2019s Ocean",
+                "song_clip": "https://p.scdn.co/mp3-preview/6bec1c61a6c5c34b96e2d733537a73f763aa4366?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273dd01eb0624f8f86ea0bf5737",
+                "song_title": "No Eyes - Radio Edit",
+                "artist": "Claptone, JAW",
+                "album": "No Eyes",
+                "song_clip": "https://p.scdn.co/mp3-preview/536f9ce6fc0f9bad40b633c526d223197986823b?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273b736151ed1c04f2d41d5f69e",
+                "song_title": "Murder On The Dancefloor ⭐",
+                "artist": "Sophie Ellis-Bextor",
+                "album": "Read My Lips",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273cf8c47967e5c6bbc7dca5abb",
+                "song_title": "The Business",
+                "artist": "Ti\u00ebsto",
+                "album": "DRIVE",
+                "song_clip": "https://p.scdn.co/mp3-preview/e516723e41dab08c241fc981aeed21407f322d72?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27391b4bc7c88d91a42e0f3a8b7",
+                "song_title": "Good Luck, Babe! ⭐",
+                "artist": "Chappell Roan",
+                "album": "Good Luck, Babe!",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2738f4b5df3a6ee2abb733080a9",
+                "song_title": "Neverender",
+                "artist": "Justice, Tame Impala",
+                "album": "Hyperdrama",
+                "song_clip": "https://p.scdn.co/mp3-preview/8314f126a5acedf146ff74f745b15859e6bb847f?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2732186eb1b0b5436f858c0508c",
+                "song_title": "Tom's Diner",
+                "artist": "AnnenMayKantereit, Giant Rooks",
+                "album": "Tom's Diner",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273b0174ba2af15be29044f4e42",
+                "song_title": "Oft gefragt",
+                "artist": "AnnenMayKantereit",
+                "album": "Wird schon irgendwie gehen",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273c5c50008db1a6cbe3c9de4ea",
+                "song_title": "Ozean",
+                "artist": "AnnenMayKantereit",
+                "album": "Ozean",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27325bf396e04dcf54d0836046e",
+                "song_title": "Zorn & Liebe",
+                "artist": "Provinz, Nina Chuba",
+                "album": "Zorn & Liebe",
+                "song_clip": "https://p.scdn.co/mp3-preview/4d0894ad6a3f4b6e7913c1567b29d2e40a4eea64?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273114ea48cb30492275da6ae72",
+                "song_title": "Was uns high macht",
+                "artist": "Provinz",
+                "album": "Reicht dir das",
+                "song_clip": "https://p.scdn.co/mp3-preview/8718be1ce9c05567a9906e24be340959527828b1?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273aebf6df8009f3f7f5550d7b2",
+                "song_title": "leichter//k\u00e4lter ⭐",
+                "artist": "Edwin Rosen",
+                "album": "leichter//k\u00e4lter",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273a29e05c318d1b30d9e19119d",
+                "song_title": "Vertigo",
+                "artist": "Edwin Rosen",
+                "album": "Vertigo",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2737587213b1be294ac4000f648",
+                "song_title": "euphoria",
+                "artist": "Kendrick Lamar",
+                "album": "euphoria",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2735c899e98db3f4c5859972cb6",
+                "song_title": "Mann vom Fach",
+                "artist": "Levin Liam, Miksu / Macloud",
+                "album": "Mann vom Fach",
+                "song_clip": "https://p.scdn.co/mp3-preview/480cc2997992c0ea1d63c7610c35e30a1fb38494?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273397f6e2314f8c7e2e94896a6",
+                "song_title": "Sitar Hi-Tech",
+                "artist": "Henrique Camacho",
+                "album": "Sitar Hi-Tech",
+                "song_clip": "https://p.scdn.co/mp3-preview/0bc152812a47b5ab453a9886b5b0a36049624c65?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273bc12db3758aeb3b198fb362d",
+                "song_title": "STARSTRUKK (feat. Katy Perry)",
+                "artist": "3OH!3, Katy Perry, Matt Squire",
+                "album": "WANT (Deluxe)",
+                "song_clip": "https://p.scdn.co/mp3-preview/60964448b81777ff5e2938d42abd0750a5bb6ed6?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273aaa9d84415623c1e790cd07b",
+                "song_title": "Hung Up",
+                "artist": "Madonna",
+                "album": "Confessions on a Dance Floor",
+                "song_clip": "https://p.scdn.co/mp3-preview/dffaf6d378f42c2ec6311d17fadc5fc26eb84bf8?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273f6b55ca93bd33211227b502b",
+                "song_title": "Runaway Baby",
+                "artist": "Bruno Mars",
+                "album": "Doo-Wops & Hooligans",
+                "song_clip": "https://p.scdn.co/mp3-preview/ee0eec5edbb1a2894069637e049bc8403f3f8f9a?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273f342e70aacda9d78cfb6ce7a",
+                "song_title": "Las de la Intuici\u00f3n ⭐",
+                "artist": "Shakira",
+                "album": "Fijaci\u00f3n Oral, Vol. 1",
+                "song_clip": "https://p.scdn.co/mp3-preview/443291792c82f7c15280e741d9ac12387d40c616?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273e9cfbebbdfc182c1adc73da6",
+                "song_title": "My Demons",
+                "artist": "STARSET",
+                "album": "Transmissions",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273fddfffec51b4580acae727c1",
+                "song_title": "End of Beginning ⭐",
+                "artist": "Djo",
+                "album": "DECIDE",
+                "song_clip": "https://p.scdn.co/mp3-preview/2f6f0965be46144eca9212258c7a2988376727a1?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27391d5af63d5acc752950d5927",
+                "song_title": "Agitations tropicales",
+                "artist": "L'Imp\u00e9ratrice",
+                "album": "Odyss\u00e9e - EP",
+                "song_clip": "https://p.scdn.co/mp3-preview/9d0a71ead892fd943e9c0430f441bba88159b983?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273164f8eec0d728605748bc4b2",
+                "song_title": "The Sun",
+                "artist": "Myd",
+                "album": "Born a Loser",
+                "song_clip": "https://p.scdn.co/mp3-preview/cd8a0b9bc822edeeaf2b78f719eab53204ff8927?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273355c1ef4d4638829c39bcfd8",
+                "song_title": "Gamesofluck",
+                "artist": "Parcels",
+                "album": "Gamesofluck",
+                "song_clip": "https://p.scdn.co/mp3-preview/f612484a131940bebe18c77780e821006ae5ad9c?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273fd363d834b815375814ae78e",
+                "song_title": "\u6c34\u5e73\u7dda",
+                "artist": "back number",
+                "album": "\u30e6\u30fc\u30e2\u30a2",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273bbb79c03ac997672a46122a2",
+                "song_title": "TRUMAN",
+                "artist": "\u793c\u8cdb",
+                "album": "WHOOPEE",
+                "song_clip": "https://p.scdn.co/mp3-preview/2d9ab58e3893c4727a9b968d0a7c5e8b94c08af8?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273b4f4348caa31224b51b95dfe",
+                "song_title": "L\u2019AMOUR DE MA VIE [OVER NOW EXTENDED EDIT] ⭐",
+                "artist": "Billie Eilish",
+                "album": "L\u2019AMOUR DE MA VIE [OVER NOW EXTENDED EDIT]",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273156304f138758cae702abb5b",
+                "song_title": "\u041d\u04ae\u0425\u0422",
+                "artist": "The Tourists",
+                "album": "The Tourists",
+                "song_clip": "https://p.scdn.co/mp3-preview/eed5236ab68d9bc3037bbcb07244c904e0473991?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2732c699be430ff5dee945f32b8",
+                "song_title": "Forever",
+                "artist": "A-Sound",
+                "album": "Release",
+                "song_clip": "https://p.scdn.co/mp3-preview/0673934bfc21b7f4471a7da2b9c307f3fb5cdc40?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27325eb343e664ce94ca551b076",
+                "song_title": "Year of the Cat",
+                "artist": "Al Stewart",
+                "album": "Year of the Cat",
+                "song_clip": "https://p.scdn.co/mp3-preview/ec6108a82c3977434558541193759d54e97b5a27?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2730940e6b24f977f68b5fc35d1",
+                "song_title": "Heart of Gold",
+                "artist": "Neil Young",
+                "album": "Harvest (50th Anniversary Edition)",
+                "song_clip": "https://p.scdn.co/mp3-preview/672dc466d653cd519ea7e9e3dca26d7793a03c9f?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273e5faf7b6a8b7e1b20185c660",
+                "song_title": "La plus jolie",
+                "artist": "P.L.L, DJ SEBB",
+                "album": "45\u00b0",
+                "song_clip": "https://p.scdn.co/mp3-preview/5a3ca8d0ae4b63cabe67b5b4b1b04ddb41be5c5e?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273b81ac6ed8e806247bc121293",
+                "song_title": "Deep sea dive",
+                "artist": "Shin In Ryu",
+                "album": "bright #12",
+                "song_clip": "https://p.scdn.co/mp3-preview/b2efd8b8ab1f6067cf71954dcaf3df02f9358a30?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27371d62ea7ea8a5be92d3c1f62",
+                "song_title": "CHIHIRO ⭐",
+                "artist": "Billie Eilish",
+                "album": "HIT ME HARD AND SOFT",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27338198004ae6d8e6e2120f446",
+                "song_title": "911",
+                "artist": "Damso",
+                "album": "QALF infinity",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27376807ce97f2c0a4010ba91a6",
+                "song_title": "No Fun ⭐",
+                "artist": "Lane 8, Rae Morris",
+                "album": "No Fun",
+                "song_clip": "https://p.scdn.co/mp3-preview/1c63e65fdddbd9ebd94d3548817445ba8e0b35e3?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273a69f71a8794e2d867a52f98f",
+                "song_title": "Seven Nation Army",
+                "artist": "The White Stripes",
+                "album": "Elephant",
+                "song_clip": "https://p.scdn.co/mp3-preview/eca519f0a85862d9510d57d59df557081d375e3a?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273e50378ba73fb513daf8d6c95",
+                "song_title": "Sonate Pacifique",
+                "artist": "L'Imp\u00e9ratrice, Isaac Delusion",
+                "album": "Sonate Pacifique",
+                "song_clip": "https://p.scdn.co/mp3-preview/95a5cf3d271ba4ad49aea942ddbb3c04d5ccc6df?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            }
+        ]
+    },
+    {
         "cover_image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b7c01badea10a567f3998791",
         "name": "avarnara",
         "description": "apr - my home is far into the future",
