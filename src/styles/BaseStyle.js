@@ -51,19 +51,22 @@ export const Navbar = styled.div`
     position: relative; 
 `;
 
-export const NavbarBackground = styled.div`
-    position: absolute; 
+export const NavbarBackground = styled.div.attrs(props => ({
+    style: {
+        filter: `brightness(${props.bgColor.brightness})`,
+    },
+}))`
+    position: absolute;
     width: 100%;
     height: 50vmin;
     z-index: 1;
     background-image: url(${footerImage});
-    filter: brightness(${({ bgColor }) => bgColor.brightness});
     background-size: contain;
     background-repeat: repeat-z;
     background-position: bottom;
     justify-content: center;
     cursor: pointer;
-`;
+  `;
 
 export const NavbarButtons = styled.div`
     position: absolute; 
@@ -250,19 +253,21 @@ export const Footer = styled.footer`
     margin-top: 50vmin;
 `;
 
-
-export const FooterBackground = styled.div`
+export const FooterBackground = styled.div.attrs(props => ({
+    style: {
+        filter: `brightness(${props.bgColor.brightness})`,
+    },
+}))`
     width: 100%;
     height: 50vmin;
     z-index: 1;
     background-image: url(${footerImage2});
-    filter: brightness(${({ bgColor }) => bgColor.brightness});
     background-size: contain;
     background-repeat: repeat-z;
     background-position: bottom;
     justify-content: center;
     cursor: pointer;
-`;
+  `;
 
 export const Copyright = styled.div`
     justify-self: flex-end;
