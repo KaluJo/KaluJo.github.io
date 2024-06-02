@@ -102,7 +102,7 @@ const App = () => {
             window.removeEventListener('touchmove', handleTouchMove);
             window.removeEventListener('touchstart', handleTouchStart);
         };
-    }, []);
+    }, [handleWheel, handleTouchMove, touchStart]);
 
     useEffect(() => {
         updateColor(percentageScrolled);
