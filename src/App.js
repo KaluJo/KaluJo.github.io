@@ -31,8 +31,6 @@ const GlobalStyle = createGlobalStyle`
 const App = () => {
     const location = useLocation();
 
-    const ref = useRef();
-
     useLayoutEffect(() => {
         document.getElementById("top").scrollIntoView()
     }, [location]);
@@ -60,11 +58,13 @@ const App = () => {
         window.addEventListener('wheel', handleScroll);
         window.addEventListener('touchmove', handleScroll);
         window.addEventListener('touchstart', handleScroll);
+        window.addEventListener('scroll', handleScroll);
 
         return () => {
             window.removeEventListener('wheel', handleScroll);
             window.removeEventListener('touchmove', handleScroll);
             window.removeEventListener('touchstart', handleScroll);
+            window.removeEventListener('scroll', handleScroll);
         };
     }, []);
 
