@@ -59,10 +59,12 @@ const App = () => {
 
         window.addEventListener('wheel', handleScroll);
         window.addEventListener('touchmove', handleScroll);
+        window.addEventListener('touchstart', handleScroll);
 
         return () => {
             window.removeEventListener('wheel', handleScroll);
             window.removeEventListener('touchmove', handleScroll);
+            window.removeEventListener('touchstart', handleScroll);
         };
     }, []);
 
