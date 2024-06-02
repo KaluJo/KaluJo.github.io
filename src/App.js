@@ -42,31 +42,35 @@ const App = () => {
         rotation: 180
     });
 
-    // const [percentageScrolled, setPercentageScrolled] = useState(0);
+    const [percentageScrolled, setPercentageScrolled] = useState(0);
 
     const [touchStart, setTouchStart] = useState(0);
 
-    useEffect(() => {
-        const handleScroll = () => {
-            let clientHeight = document.getElementById("screen-height").clientHeight - window.innerHeight;
-            const coordinates = document.getElementById('top').getBoundingClientRect();
+    const handleTouchMove = useCallback((e) => {
+        const touchMove = e.touches[0].clientY;
+        const difference = touchStart - touchMove;
 
-            // setPercentageScrolled(Math.min(1.0, -coordinates.top / clientHeight) * 100);
-            updateColor(Math.min(1.0, -coordinates.top / clientHeight));
-        };
+        const factor = 0.001;
 
-        window.addEventListener('wheel', handleScroll);
-        window.addEventListener('touchmove', handleScroll);
-        window.addEventListener('touchstart', handleScroll);
-        window.addEventListener('scroll', handleScroll);
+        let newPercentage = percentageScrolled + difference * factor;
+        newPercentage = Math.max(0, Math.min(1, newPercentage));
+        setPercentageScrolled(newPercentage);
 
-        return () => {
-            window.removeEventListener('wheel', handleScroll);
-            window.removeEventListener('touchmove', handleScroll);
-            window.removeEventListener('touchstart', handleScroll);
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
+        updateColor(newPercentage);
+    }, [percentageScrolled, touchStart]);
+
+    const handleTouchStart = (e) => {
+        setTouchStart(e.touches[0].clientY);
+    };
+
+    const handleScroll = () => {
+        let clientHeight = document.getElementById("screen-height").clientHeight - window.innerHeight;
+        const coordinates = document.getElementById('top').getBoundingClientRect();
+
+        let newPercentage = Math.min(1.0, -coordinates.top / clientHeight);
+        setPercentageScrolled(newPercentage);
+        console.log(newPercentage);
+    };
 
     const updateColor = (percentage) => {
         let r = 30 + (10 - 30) * percentage;
@@ -87,6 +91,22 @@ const App = () => {
             rotation: deg
         });
     };
+
+    useEffect(() => {
+        window.addEventListener('wheel', handleScroll);
+        window.addEventListener('touchmove', handleTouchMove);
+        window.addEventListener('touchstart', handleTouchStart);
+
+        return () => {
+            window.removeEventListener('wheel', handleScroll);
+            window.removeEventListener('touchmove', handleTouchMove);
+            window.removeEventListener('touchstart', handleTouchStart);
+        };
+    }, []);
+
+    useEffect(() => {
+        updateColor(percentageScrolled);
+    }, [percentageScrolled]);
 
     return (
         <>
@@ -125,7 +145,6 @@ const App = () => {
                         </Copyright>
 
                         <div id="bottom" />
-                        {/* <div id="percent" style={{ position: 'absolute', bottom: 0, zIndex: 1000 }}>{percentageScrolled}%</div> */}
                     </SpotlightContent>
 
                 </Content>
