@@ -1,5 +1,472 @@
 export const musicData = [
     {
+        "cover_image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da841799591238f09f17930437be",
+        "name": "Cannazoo-E",
+        "description": "jun - winded by the winding wind",
+        "tracks": [
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273210733c8f23a7172e6ef5705",
+                "song_title": "MILLION DOLLAR BABY",
+                "artist": "Tommy Richman",
+                "album": "MILLION DOLLAR BABY",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2739061a4e47413aff8f58a3c9c",
+                "song_title": "Alles neu ⭐",
+                "artist": "Peter Fox",
+                "album": "Stadtaffe",
+                "song_clip": "https://p.scdn.co/mp3-preview/3d709a7f2277673e735e576700be832ccea49d3c?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27386f8b7ae69137fea4479cbf3",
+                "song_title": "Griechischer Wein",
+                "artist": "Udo J\u00fcrgens",
+                "album": "Meine Lieder",
+                "song_clip": "https://p.scdn.co/mp3-preview/83c99c0fa028bb3dd6b3c494bddc2a1bd2cb17ff?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273c765239edae5cbe4fb761b15",
+                "song_title": "Cabrioli",
+                "artist": "Moussa",
+                "album": "Cabrioli",
+                "song_clip": "https://p.scdn.co/mp3-preview/d7122559377dc627b383c7ef6011b0a7087cc7c3?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273d26bc8655d6132c9e243f82e",
+                "song_title": "Withorwithout ⭐",
+                "artist": "Parcels",
+                "album": "Parcels",
+                "song_clip": "https://p.scdn.co/mp3-preview/663e22e4faffb41d8b71b1663e87c3478511d7d9?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27359adce6a6a17f4004f24fd7e",
+                "song_title": "These Days",
+                "artist": "NEIL FRANCES",
+                "album": "These Days",
+                "song_clip": "https://p.scdn.co/mp3-preview/05398057c6508d11bbc2424b80817b19a1b5145b?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2738e62ab7239cd10dfc2404d2f",
+                "song_title": "The Rope (feat. POLI\u00c7A)",
+                "artist": "Lane 8",
+                "album": "Brightest Lights",
+                "song_clip": "https://p.scdn.co/mp3-preview/dfc59bbf5d6db09f5d2ae571ad9d22d01a33285e?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273d26bc8655d6132c9e243f82e",
+                "song_title": "Comedown",
+                "artist": "Parcels",
+                "album": "Parcels",
+                "song_clip": "https://p.scdn.co/mp3-preview/be8ce360131d53deef07e7a23e7781298276f105?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27371d62ea7ea8a5be92d3c1f62",
+                "song_title": "BIRDS OF A FEATHER ⭐",
+                "artist": "Billie Eilish",
+                "album": "HIT ME HARD AND SOFT",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2733ebc5b9d8942069d3b920550",
+                "song_title": "Rich Girl",
+                "artist": "Daryl Hall & John Oates",
+                "album": "Bigger Than Both Of Us",
+                "song_clip": "https://p.scdn.co/mp3-preview/246e1cdfbc760791fa34b2ac697259b6c3598009?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273ce63864a608e9dec28caca1b",
+                "song_title": "Dazed (feat. Gabrielle & Geoffroy)",
+                "artist": "Men I Trust, Geoffroy, Gabrielle",
+                "album": "Men I Trust",
+                "song_clip": "https://p.scdn.co/mp3-preview/7c11dfa1714e57a70c9739368d7ad17f825ae057?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2731df0199c822cbd856ef092b4",
+                "song_title": "Stumble",
+                "artist": "Kraak & Smaak, Parcels",
+                "album": "La playlist de Daphn\u00e9",
+                "song_clip": "https://p.scdn.co/mp3-preview/e96f016e05d8998a2a0f4c42c7b9203d264b2f99?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2735076e4160d018e378f488c33",
+                "song_title": "Fortnight (feat. Post Malone)",
+                "artist": "Taylor Swift, Post Malone",
+                "album": "THE TORTURED POETS DEPARTMENT",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273941dd3b3343d9cb9329d37bf",
+                "song_title": "Clarity",
+                "artist": "Zedd, Foxes",
+                "album": "Clarity",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27396fa88fb1789be437d5cb4b6",
+                "song_title": "HOT TO GO!",
+                "artist": "Chappell Roan",
+                "album": "The Rise and Fall of a Midwest Princess",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27324315a6e1b97f81a43d76954",
+                "song_title": "Hearthome City (Night)",
+                "artist": "The Zame",
+                "album": "Sinnoh: A Tale of Time and Space (Vol.3)",
+                "song_clip": "https://p.scdn.co/mp3-preview/428cacabbcbe2aa4e250103f6321f189b42bc9b4?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2732e8b4358d044b75807e30bf0",
+                "song_title": "Too Sweet",
+                "artist": "Hozier",
+                "album": "Unreal Unearth: Unheard",
+                "song_clip": "https://p.scdn.co/mp3-preview/e526daac5ec6c4594ab3760cc48cee835379802d?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27388e3822cccfb8f2832c70c2e",
+                "song_title": "Club classics",
+                "artist": "Charli xcx",
+                "album": "BRAT",
+                "song_clip": "https://p.scdn.co/mp3-preview/a6cf2eac7569e8c890121f3fbe40364013b0107b?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27352b3b1829d550ece26677087",
+                "song_title": "360 ⭐",
+                "artist": "Charli xcx",
+                "album": "360",
+                "song_clip": "https://p.scdn.co/mp3-preview/34231118fa980913824d4ccf78be931e999f69f1?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27388e3822cccfb8f2832c70c2e",
+                "song_title": "B2b ⭐",
+                "artist": "Charli xcx",
+                "album": "BRAT",
+                "song_clip": "https://p.scdn.co/mp3-preview/5dc202f078d5351424ca63c2d0751031f1106ba8?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27371d62ea7ea8a5be92d3c1f62",
+                "song_title": "L\u2019AMOUR DE MA VIE ⭐",
+                "artist": "Billie Eilish",
+                "album": "HIT ME HARD AND SOFT",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2731f51ec0adeeff5a6095b13cc",
+                "song_title": "places to be",
+                "artist": "Fred again.., Anderson .Paak, CHIKA",
+                "album": "places to be",
+                "song_clip": "https://p.scdn.co/mp3-preview/0485c508a17969139aed4c19c22c24abe08c04b9?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273d0f19de33459c832e50d6ecd",
+                "song_title": "Pretty Vacant",
+                "artist": "Sex Pistols",
+                "album": "Never Mind The Bollocks, Here's The Sex Pistols",
+                "song_clip": "https://p.scdn.co/mp3-preview/9d11b93bc45ec3f67d4c01ed0a532b28816aae76?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2737de2b9727e4016ab9ddbe4d5",
+                "song_title": "Desire ⭐",
+                "artist": "Tove Lo, SG Lewis",
+                "album": "HEAT",
+                "song_clip": "https://p.scdn.co/mp3-preview/b1389422102a45c019a3ffb4165c27e0e251342b?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273a3e94aa06432d0fa06e54f76",
+                "song_title": "Baltimore",
+                "artist": "Nina Simone",
+                "album": "Baltimore",
+                "song_clip": "https://p.scdn.co/mp3-preview/fa8474c1fe46461fc542a872b3e1875f438baa2c?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273e2b1de6eadee18a2022e1dd0",
+                "song_title": "World In My Eyes",
+                "artist": "Depeche Mode",
+                "album": "Violator",
+                "song_clip": "https://p.scdn.co/mp3-preview/16e71e670f90a29fe87bc507ee044b8f71cc688a?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273e2b1de6eadee18a2022e1dd0",
+                "song_title": "Personal Jesus",
+                "artist": "Depeche Mode",
+                "album": "Violator",
+                "song_clip": "https://p.scdn.co/mp3-preview/699efc154b81d66b3abafbc1c319dd007b3853fd?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273cd72f1be1dbc7eb1e04b28c4",
+                "song_title": "A Goodbye",
+                "artist": "Peter Zimmermann",
+                "album": "Between The Sheets",
+                "song_clip": "https://p.scdn.co/mp3-preview/64a91bccc859f7b51cb73f31a7d90f30020ae1c5?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273cb0697945af18f523fa11217",
+                "song_title": "Overnight",
+                "artist": "Parcels",
+                "album": "Overnight",
+                "song_clip": "https://p.scdn.co/mp3-preview/623790911cb9b38bb8e64cb74456fd9cf8bf56b3?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
+                "song_title": "Let It Happen ⭐",
+                "artist": "Tame Impala",
+                "album": "Currents",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2739cf4ac84b224a02f34d2e4f6",
+                "song_title": "Young Folks",
+                "artist": "Peter Bjorn and John",
+                "album": "Writer's Block",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273ed1506834f09438351cf1dc5",
+                "song_title": "Precious ⭐",
+                "artist": "Depeche Mode",
+                "album": "Playing the Angel (Deluxe)",
+                "song_clip": "https://p.scdn.co/mp3-preview/a05069bbe64d244dbb51b9c42fd8fe9beb8eae47?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273ab009ce861613653b14451b9",
+                "song_title": "anything",
+                "artist": "Adrianne Lenker",
+                "album": "songs",
+                "song_clip": "https://p.scdn.co/mp3-preview/e2d939054c9d00c2d5a63619daa6f787c05cef2a?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27313ccc3e363f27a4a3d06d1b1",
+                "song_title": "Never Let Me Down Again ⭐",
+                "artist": "Depeche Mode",
+                "album": "Music for the Masses (Deluxe)",
+                "song_clip": "https://p.scdn.co/mp3-preview/51e48d94643f8c3c85c95f809a562cbeab7b0fc4?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27371d62ea7ea8a5be92d3c1f62",
+                "song_title": "LUNCH",
+                "artist": "Billie Eilish",
+                "album": "HIT ME HARD AND SOFT",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2731a2c9ac2d39bc5c2e22b9555",
+                "song_title": "Pink Skies",
+                "artist": "Zach Bryan",
+                "album": "Pink Skies",
+                "song_clip": "https://p.scdn.co/mp3-preview/21b3562e4483a8b6204f99a0614206b819378ef8?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273b03b9403d0422a575ad4a872",
+                "song_title": "The girl, so confusing version with lorde ⭐",
+                "artist": "Charli xcx, Lorde",
+                "album": "The girl, so confusing version with lorde",
+                "song_clip": "https://p.scdn.co/mp3-preview/54ec4362168dc7dd6219281f55307f86c6aa98cc?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27328f137f2d8bda3ddd5d045cf",
+                "song_title": "Navajo",
+                "artist": "Masego",
+                "album": "Navajo",
+                "song_clip": "https://p.scdn.co/mp3-preview/48a496df1ffceedb530b8744587b2369eb9a963d?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273956043cfb058f0be93022267",
+                "song_title": "Alone",
+                "artist": "Marshmello",
+                "album": "Alone",
+                "song_clip": "https://p.scdn.co/mp3-preview/9f235497d1eb2a7e9368397ef4a22c6c13d40ef4?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273864f946221840eced94a2243",
+                "song_title": "Hell N Back (feat. Summer Walker)",
+                "artist": "Bakar, Summer Walker",
+                "album": "Halo",
+                "song_clip": "https://p.scdn.co/mp3-preview/b202ae3947c01843ace46ae0f8898649f2523b9e?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2730b6d4c43fe3e8485148e4872",
+                "song_title": "She\u2019s Gone, Dance On ⭐",
+                "artist": "Disclosure",
+                "album": "She\u2019s Gone, Dance On",
+                "song_clip": "https://p.scdn.co/mp3-preview/3bfc7f59c9107ad87fd8521e40c3a461ad921574?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273ba30859a1ca79c5a372d177a",
+                "song_title": "Sun to Me",
+                "artist": "Zach Bryan",
+                "album": "American Heartbreak",
+                "song_clip": "https://p.scdn.co/mp3-preview/e002b15b8d7d1d3c8953abd8f451536c2621bbf4?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27335b8ee1c2eddc573e5148db4",
+                "song_title": "Traum",
+                "artist": "CRO",
+                "album": "Melodie",
+                "song_clip": "https://p.scdn.co/mp3-preview/44d30e7420903a680adc5eeb2c22763fec751f4b?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273a9da992c2ef398245027d654",
+                "song_title": "Feel It - From The Original Series \u201cInvincible\u201d",
+                "artist": "d4vd",
+                "album": "Feel It (From The Original Series \u201cInvincible\u201d)",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273a6f054b8f272f52044219438",
+                "song_title": "Einmal um die Welt",
+                "artist": "CRO",
+                "album": "Einmal um die Welt",
+                "song_clip": "https://p.scdn.co/mp3-preview/c805e6d8a761d5e2f5ca58766b9cc6fb85f6fd37?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2731cc17bae5ee17cce117e198a",
+                "song_title": "Evergreen",
+                "artist": "Richy Mitch & The Coal Miners",
+                "album": "RMCM",
+                "song_clip": "https://p.scdn.co/mp3-preview/fca7555fba8261b7ccc0aac1854a86033a12823b?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            }
+        ]
+    },
+    {
         "cover_image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da846e9a889925303715b4dd2039",
         "name": "a phenominologist's dream",
         "description": "may - \u00e0 propos det g\u00e5r godt",

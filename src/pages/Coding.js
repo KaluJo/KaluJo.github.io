@@ -54,6 +54,14 @@ const Coding = () => {
             />
 
             <ProjectSpotlight
+                name={"btwn.ai (hackathon)"}
+                link={"https://www.btwn.ai/"}
+                description={"For the UC Berkeley's AI Hackathon, I teamed up with some friends to create btwn.ai, an AI-powered platform that helps aspiring entrepreneurs discover and validate high-potential startup ideas. While our project did not win any of the prizes, we were proud of what we were able to accomplish in such a short amount of time and we plan to use this tool the next time we are brainstorming hackathon ideas. I was in charge of all the frontend work, the design, and copy."}
+                techStack={"Next.js, Supabase, Youtube Data API v3, Python, Flask, Heroku, OpenAI API, Claude Sonnet 3.5, you.com API, Mantine"}
+                videoLink={"https://www.youtube.com/watch?v=j6kQoe3m2M0&ab_channel=BhadaYun"}
+            />
+
+            <ProjectSpotlight
                 name={"Timeless Treasures"}
                 link={"https://timelesstreasures.app/"}
                 description={"I worked with a team on a full-stack design & development project.\n\nWe brought to life Timeless Treasures, a safe and personalized platform to share life stories with loved ones.\n\nThis project involved storyboarding, various brainstorming techniques, contextual inquiry, application of HCI principles, usability evaluation, accessibility heuristics, and task & competitive analysis in regards to building and maintaining a product."}
