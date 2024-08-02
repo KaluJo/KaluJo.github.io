@@ -1,5 +1,212 @@
 export const musicData = [
     {
+        "cover_image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da842dcd83089a86acba7e3053a6",
+        "name": "yulbilieve",
+        "description": "jul - went across the atlantic",
+        "tracks": [
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2733d1996a2dc962e53e12cb7cb",
+                "song_title": "Snap My Finger (feat. PinkPantheress)",
+                "artist": "KAYTRANADA, PinkPantheress",
+                "album": "TIMELESS",
+                "song_clip": "https://p.scdn.co/mp3-preview/29764e27e50a18ae334fd373e74ef1996138ac2c?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273389ffd99d51037a6f0a256f5",
+                "song_title": "Voodoo?",
+                "artist": "L'Imp\u00e9ratrice",
+                "album": "Tako Tsubo",
+                "song_clip": "https://p.scdn.co/mp3-preview/1b86f1e4bec2ca98302c14503dfc76df05f520ff?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27313ccc3e363f27a4a3d06d1b1",
+                "song_title": "Behind the Wheel",
+                "artist": "Depeche Mode",
+                "album": "Music for the Masses (Deluxe)",
+                "song_clip": "https://p.scdn.co/mp3-preview/a1934f58c291d96774c7087a95d5ff142255d50a?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27355df7db2e7cf29b3eeedca46",
+                "song_title": "Tailwhip ⭐",
+                "artist": "Men I Trust",
+                "album": "Tailwhip",
+                "song_clip": "https://p.scdn.co/mp3-preview/ed166485a7d37294d6f6d7bf6c9dc36c8240a84d?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273c5649add07ed3720be9d5526",
+                "song_title": "White Ferrari",
+                "artist": "Frank Ocean",
+                "album": "Blonde",
+                "song_clip": "https://p.scdn.co/mp3-preview/bff77236970b7f90cdfc274b18b55ce7bf584bcc?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2739385cab000124c1c28004e1d",
+                "song_title": "\u98a8\u306b\u306a\u308b ⭐",
+                "artist": "Tsuji Ayano",
+                "album": "\u604b\u604b\u98a8\u6b4c",
+                "song_clip": "https://p.scdn.co/mp3-preview/2e609d9cb9aa2d641cb9fb4ad439c7cd91a992ca?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273958377490974d7b86162c57f",
+                "song_title": "Image ⭐",
+                "artist": "Magdalena Bay",
+                "album": "Image",
+                "song_clip": "https://p.scdn.co/mp3-preview/5053754b05879efaa7c99babc4b088ab6b40cbc3?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273c4195cf621357e42926a4a3e",
+                "song_title": "Internal Optimist",
+                "artist": "Housenick",
+                "album": "Internal Optimist",
+                "song_clip": "https://p.scdn.co/mp3-preview/3a1f3905e856320f13973c57f37d833f7c28f2d1?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2738651e1b7588779aa3b758662",
+                "song_title": "Forever, Now",
+                "artist": "Sultan + Shepard",
+                "album": "Forever, Now",
+                "song_clip": "https://p.scdn.co/mp3-preview/f1e489af249caf1df16676e410a3d86dfd91c930?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27372c5875a8e4b49075978cd04",
+                "song_title": "Bongo Bong",
+                "artist": "Manu Chao",
+                "album": "Clandestino",
+                "song_clip": "https://p.scdn.co/mp3-preview/c7cd38b77467b4dfa40a7c2d83773a97ce6a6f8a?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273d26bc8655d6132c9e243f82e",
+                "song_title": "Closetowhy",
+                "artist": "Parcels",
+                "album": "Parcels",
+                "song_clip": "https://p.scdn.co/mp3-preview/aa3634ef13116e4d6fe6e92bf9835d1dcdb86451?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27351d8df7a57a0af8a4b6ee585",
+                "song_title": "Spring breakers ⭐",
+                "artist": "Charli xcx",
+                "album": "Brat and it\u2019s the same but there\u2019s three more songs so it\u2019s not",
+                "song_clip": "https://p.scdn.co/mp3-preview/6f132caa5ea73a03a960c401847169c4a3b80142?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27391465431a3458be9f164af81",
+                "song_title": "Make You Mine",
+                "artist": "Madison Beer",
+                "album": "Make You Mine",
+                "song_clip": "https://p.scdn.co/mp3-preview/5486fc87047fef6a69a8f459de5d3048c1118206?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27388e3822cccfb8f2832c70c2e",
+                "song_title": "Everything is romantic",
+                "artist": "Charli xcx",
+                "album": "BRAT",
+                "song_clip": "https://p.scdn.co/mp3-preview/5be757b41702e580d4f9a6af7bc46a7b9d3545da?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2731a5eb771120e2ee3f6a44ed7",
+                "song_title": "Shelter",
+                "artist": "Porter Robinson, Madeon",
+                "album": "Shelter",
+                "song_clip": "https://p.scdn.co/mp3-preview/50c7dbdb7d3e86153d7cc2b2ba28fad29fa0ce6e?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273dc62d955a52189e19ada8d4f",
+                "song_title": "Cheerleader ⭐",
+                "artist": "Porter Robinson",
+                "album": "Cheerleader",
+                "song_clip": "https://p.scdn.co/mp3-preview/883e7571164e86d3725a46a05a679eea28a1b585?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273c0b1524d9584e1e50d6ce63b",
+                "song_title": "Spiritual but Not Religious ⭐",
+                "artist": "Oliver Koletzki",
+                "album": "The Arc of Tension",
+                "song_clip": "https://p.scdn.co/mp3-preview/1a74d11ec8a16a1b61565a860410a47eef539eed?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27388e3822cccfb8f2832c70c2e",
+                "song_title": "Apple",
+                "artist": "Charli xcx",
+                "album": "BRAT",
+                "song_clip": "https://p.scdn.co/mp3-preview/907d06abc995f4c427feb5f9e94dccb731903a0d?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2730c5d03daf39f254bb546cf3a",
+                "song_title": "Fall In Love",
+                "artist": "Bailey Zimmerman",
+                "album": "Religiously. The Album.",
+                "song_clip": "https://p.scdn.co/mp3-preview/176eb80c187a0d2a8b784b4eb6f945deef83a574?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2730fb08616c78d44ceb4c8d061",
+                "song_title": "Mama's Boy",
+                "artist": "Dominic Fike",
+                "album": "Sunburn",
+                "song_clip": "https://p.scdn.co/mp3-preview/9032e498034808b9a49d881dd23ca431a20954a5?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            }
+        ]
+    },
+    {
         "cover_image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da841799591238f09f17930437be",
         "name": "Cannazoo-E",
         "description": "jun - winded by the winding wind",
