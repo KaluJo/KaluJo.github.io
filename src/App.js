@@ -14,6 +14,7 @@ import First from './pages/First';
 import { createGlobalStyle } from 'styled-components';
 import { Base, Content, Copyright, Footer, FooterBackground, MainContent, Navbar, NavbarBackground, NavbarContent } from './styles/BaseStyle';
 import { SpotlightContent } from './styles/SpotlightStyle';
+import Photos from './pages/Photos';
 
 const GlobalStyle = createGlobalStyle`
     body {
@@ -129,6 +130,7 @@ const App = () => {
                             <Route path="/" element={<Home />} />
                             <Route path="/art" element={<Art />} />
                             <Route path="/music" element={<Music />} />
+                            <Route path="/photos" element={<Photos />} />
                             <Route path="/coding" element={<Coding />} />
                             <Route path="/random" element={<Random />} />
                             <Route path="/last" element={<Last />} />
