@@ -10,6 +10,7 @@ import Art from './pages/Art';
 import Random from './pages/Random';
 import Last from './pages/Last';
 import First from './pages/First';
+import Conlangs from './pages/Conlangs';
 
 import { createGlobalStyle } from 'styled-components';
 import { Base, Content, Copyright, Footer, FooterBackground, MainContent, Navbar, NavbarBackground, NavbarContent } from './styles/BaseStyle';
@@ -32,9 +33,24 @@ const GlobalStyle = createGlobalStyle`
 const App = () => {
     const location = useLocation();
 
+    
     useLayoutEffect(() => {
         document.getElementById("top").scrollIntoView()
+        setPercentageScrolled(0);
+        updateColor(0);
     }, [location]);
+
+    const goToTop = () => {
+        document.getElementById("top").scrollIntoView({ behavior: "smooth" })
+        setPercentageScrolled(0);
+        updateColor(0);
+    };
+
+    const goToEnd = () => {
+        document.getElementById("bottom").scrollIntoView({ behavior: "smooth" })
+        setPercentageScrolled(1);
+        updateColor(1);
+    };
 
     const [bgColor, setBgColor] = useState({
         color: 'rgb(30, 180, 300)',
@@ -119,12 +135,11 @@ const App = () => {
 
                         <MainContent>
                             <NavbarContent>
-                                <Navbar onClick={() => document.getElementById("bottom").scrollIntoView({ behavior: "smooth" })}>
+                                <Navbar onClick={() => goToEnd()}>
                                     <NavbarBackground bgColor={bgColor} />
                                 </Navbar>
                             </NavbarContent>
                         </MainContent>
-
 
                         <Routes>
                             <Route path="/" element={<Home />} />
@@ -135,10 +150,11 @@ const App = () => {
                             <Route path="/random" element={<Random />} />
                             <Route path="/last" element={<Last />} />
                             <Route path="/first" element={<First />} />
+                            <Route path="/conlangs" element={<Conlangs />} />
                             <Route path="*" element={<Navigate to="/" replace />} />
                         </Routes>
 
-                        <Footer onClick={() => document.getElementById("top").scrollIntoView({ behavior: "smooth" })}>
+                        <Footer onClick={() => goToTop()}>
                             <FooterBackground bgColor={bgColor} />
                         </Footer>
 

@@ -30,6 +30,9 @@ const NavSection = () => {
                 <MainLink onClick={() => navigate("/music")}>
                     playlists
                 </MainLink>
+                <MainLink onClick={() => navigate("/conlangs")}>
+                    conlangs
+                </MainLink>
                 <MainLink onClick={() => navigate("/random")}>
                     literally anything else
                 </MainLink>
