@@ -24,11 +24,12 @@ const Coding = () => {
             </MainContent>
 
             <ProjectSpotlight
-                name={"ivee.ai (startup)"}
+                name={"Ivee.ai"}
                 link={"https://ivee.ai/"}
-                description={"this is very important 🌱"}
+                description={"Ivee is a family history preservation service using AI. Users upload voice recordings of stories, and our \"memoir-izer\" algorithm extracts details to create a digital family forest. Each person's life is represented by a tree, with experiences as leaves. The platform is end-to-end encrypted, ensuring privacy for family members."}
+                videoLink={"https://www.youtube.com/watch?v=GmL6yrt2Fi0"}
             />
-
+        
             <ProjectSpotlight
                 name={"Bap: Food & Restaurant Journal"}
                 link={"https://apps.apple.com/us/app/bap-food-restaurant-journal/id6450421562"}

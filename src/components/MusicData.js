@@ -1,5 +1,292 @@
 export const musicData = [
     {
+        "cover_image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da846506443da1f94aacac83042c",
+        "name": "S\u00e5 s\u00e5 s\u00e5",
+        "description": "aug - it has not always been this way and will not be forever but for now this is how it is",
+        "tracks": [
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2735a6e13613320fef368a79b5d",
+                "song_title": "Montagne verdi",
+                "artist": "Marcella Bella",
+                "album": "Tutto Marcella & Gianni Bella",
+                "song_clip": "https://p.scdn.co/mp3-preview/ddc4447dea96a58b43b6b0b49cf84e4dd284e314?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273ad783ef03c9c5447fe736208",
+                "song_title": "a little more time",
+                "artist": "ROLE MODEL",
+                "album": "a little more time",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2730fe90b195bf790b60f26ab21",
+                "song_title": "Hollow",
+                "artist": "Emmit Fenn, Shallou",
+                "album": "Hollow",
+                "song_clip": "https://p.scdn.co/mp3-preview/ba8ea2cbcb30b200ee8af664fc3659c9d33cae27?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273bc7b4458188016423b7bef8d",
+                "song_title": "sv\u00e6rt at v\u00e6re fantastisk (feat. Emma Sehested H\u00f8eg) ⭐",
+                "artist": "andreas odbjerg, Emma Sehested H\u00f8eg",
+                "album": "un hommage",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27382700d7a43a3d43f2c25e33b",
+                "song_title": "Hardest Thing",
+                "artist": "Coco O.",
+                "album": "Eternal, Pt. I",
+                "song_clip": "https://p.scdn.co/mp3-preview/78bc4a77c85a8fc5da14c79d72e99bdd04bd82a4?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273b103a69ed742a7735a2ba7e8",
+                "song_title": "Slide Tackle",
+                "artist": "Japanese Breakfast",
+                "album": "Jubilee",
+                "song_clip": "https://p.scdn.co/mp3-preview/7c0942e1ed6c5820c6f76ef2d0cd76173a672494?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27304e86aa52cf087896593ecc4",
+                "song_title": "Wildfires",
+                "artist": "SAULT",
+                "album": "Untitled (Black Is)",
+                "song_clip": "https://p.scdn.co/mp3-preview/76a3aeea0c50ed56fb99c1784c3bb8ba164a5985?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27302161bf2d5a07daec8ad9987",
+                "song_title": "Domen 2019",
+                "artist": "Soppgirobygget",
+                "album": "Domen 2019",
+                "song_clip": "https://p.scdn.co/mp3-preview/cbae44e935123434259b88348137a1b91d33d63e?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2738799fd12b988bb58c8ea3d8e",
+                "song_title": "Piya Piya Calling (feat. The Quick Style)",
+                "artist": "Karpe, Kaifi Khalil, Delara, The Quick Style",
+                "album": "Piya Piya Calling (feat. The Quick Style)",
+                "song_clip": "https://p.scdn.co/mp3-preview/ad45c3ab9aacbc65f47670833654254486c38c0e?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273206fdebc66bd04d9913f035d",
+                "song_title": "All Falls Down (feat. Juliander)",
+                "artist": "Alan Walker, Noah Cyrus, Digital Farm Animals, Juliander",
+                "album": "All Falls Down (feat. Juliander)",
+                "song_clip": "https://p.scdn.co/mp3-preview/66574523adc388fbc6394b2c374a87e19a373429?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27337f6fcbee30fd4020bce5633",
+                "song_title": "Strangers",
+                "artist": "Sigrid",
+                "album": "Sucker Punch",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273026e88f624dfb96f2e1ef10b",
+                "song_title": "Irreplaceable",
+                "artist": "Beyonc\u00e9",
+                "album": "B'Day Deluxe Edition",
+                "song_clip": "https://p.scdn.co/mp3-preview/766b3a0edabe112d2e7453431234ba9f61a8d44d?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2734650ca0a8f88129d4667acc5",
+                "song_title": "I'm So Excited",
+                "artist": "The Pointer Sisters",
+                "album": "So Excited! (Expanded Edition)",
+                "song_clip": "https://p.scdn.co/mp3-preview/233c66ecad027c7a483ea286bf892afef40f0a02?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2737e3398f4a50f6e9534f2fbd6",
+                "song_title": "Me Da Igual",
+                "artist": "L'Imp\u00e9ratrice",
+                "album": "Pulsar",
+                "song_clip": "https://p.scdn.co/mp3-preview/4dbc065b69117273d97d6c081d6f4125085bf9e3?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27318f191e813ee4e797f711ffd",
+                "song_title": "Ihana \u00e4\u00e4ni",
+                "artist": "Joska Josafat",
+                "album": "Ihana \u00e4\u00e4ni",
+                "song_clip": "https://p.scdn.co/mp3-preview/a6bce9e39e02187f5a297dc74abd172a08267681?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273bb6ef7f3dd215d49aa39186d",
+                "song_title": "Moving On",
+                "artist": "Roosevelt",
+                "album": "Roosevelt",
+                "song_clip": "https://p.scdn.co/mp3-preview/9ad727a2156fc2ea6d2bea0608537fe6e0e9f9a4?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273a0fab1c9bdfc54357ddb89a6",
+                "song_title": "Black Friday (pretty like the sun)",
+                "artist": "Lost Frequencies, Tom Odell",
+                "album": "Black Friday (pretty like the sun)",
+                "song_clip": "https://p.scdn.co/mp3-preview/dc3f5560d882d3f9c20d9a3a75ca54cd8d0a559f?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273fc00c18c8fd5c0ef5f18a272",
+                "song_title": "Kippe",
+                "artist": "ENNIO",
+                "album": "Nirvana",
+                "song_clip": "https://p.scdn.co/mp3-preview/c25eb4cecd79112e810038a77750b73461a7aa5b?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27348faddb10f8f94b1b0190271",
+                "song_title": "Moment",
+                "artist": "PaulWetz, Dillistone",
+                "album": "Moment",
+                "song_clip": "https://p.scdn.co/mp3-preview/0323a497fea3471adad2ba1c038c8dd5202ce3dc?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273c026df4196939fd87a2dc6d8",
+                "song_title": "Archie, Marry Me",
+                "artist": "Alvvays",
+                "album": "Alvvays",
+                "song_clip": "https://p.scdn.co/mp3-preview/8466f2841ad3200b8705a0824a9df56a5dae713e?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27304d0546a0354f782b5b7962d",
+                "song_title": "Lou's Tune",
+                "artist": "DARGZ, Moses Boyd",
+                "album": "Lou's Tune",
+                "song_clip": "https://p.scdn.co/mp3-preview/f0ec23dca7a918cddae049cf868b594e12daf087?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2732b9aca3204e667980ce6a939",
+                "song_title": "What You Need (feat. Charlotte Day Wilson)",
+                "artist": "KAYTRANADA, Charlotte Day Wilson",
+                "album": "BUBBA",
+                "song_clip": "https://p.scdn.co/mp3-preview/13ac765ae86e4bab7991ecb3d534e1b9f1de4cae?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2735a2ff617de4e51a9a214b56a",
+                "song_title": "That's My Floor ⭐",
+                "artist": "Magdalena Bay",
+                "album": "Imaginal Disk",
+                "song_clip": "https://p.scdn.co/mp3-preview/30922592ac307fae25c328beba07ab239e980f76?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b2735a2ff617de4e51a9a214b56a",
+                "song_title": "Cry for Me",
+                "artist": "Magdalena Bay",
+                "album": "Imaginal Disk",
+                "song_clip": "https://p.scdn.co/mp3-preview/01f58f75e473ed7e6919f1df3a6f33fb0f3baca6?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b27328933b808bfb4cbbd0385400",
+                "song_title": "Supermassive Black Hole",
+                "artist": "Muse",
+                "album": "Black Holes and Revelations",
+                "song_clip": "https://p.scdn.co/mp3-preview/f4fe399267e6093182d576a6c84c0e081c81ff90?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273a6f439c8957170652f9410e2",
+                "song_title": "Say It Right ⭐",
+                "artist": "Nelly Furtado",
+                "album": "Loose",
+                "song_clip": null,
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273355c1ef4d4638829c39bcfd8",
+                "song_title": "Gamesofluck",
+                "artist": "Parcels",
+                "album": "Gamesofluck",
+                "song_clip": "https://p.scdn.co/mp3-preview/f612484a131940bebe18c77780e821006ae5ad9c?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            },
+            {
+                "song_cover_image": "https://i.scdn.co/image/ab67616d0000b273e280ed04a8e7cf1ad8acf4ad",
+                "song_title": "Diving Woman ⭐",
+                "artist": "Japanese Breakfast",
+                "album": "Soft Sounds from Another Planet",
+                "song_clip": "https://p.scdn.co/mp3-preview/7b3f8251875a3034d9ce9a2e4441a09e8394f81a?cid=d96ba8f25e0a4ab3be3717316dfacba1",
+                "impressions": "",
+                "discovery": "",
+                "notes": ""
+            }
+        ]
+    },
+    {
         "cover_image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da842dcd83089a86acba7e3053a6",
         "name": "yulbilieve",
         "description": "jul - went across the atlantic",
